@@ -1,0 +1,150 @@
+{
+  "id" : "brollyGoodShow",
+  "name" : "Brolly Good Show",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/cho1",
+    "name" : "cho1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/cho2",
+    "name" : "cho2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/cho3",
+    "name" : "cho3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/cho4",
+    "name" : "cho4",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pa1",
+    "name" : "pa1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pa2",
+    "name" : "pa2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pa3",
+    "name" : "pa3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pa4",
+    "name" : "pa4",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/open",
+    "name" : "umbrella - open",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/close",
+    "name" : "umbrella - close",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "equidistant",
+    "id" : "*_pa",
+    "name" : "pa",
+    "deprecatedIDs" : [ ],
+    "distance" : 1.0,
+    "stretchable" : true,
+    "cues" : [ {
+      "id" : "*/pa1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/open",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/pa2",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/open",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/pa3",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/open",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/pa4",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/open",
+      "beat" : 1.4E-45,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "equidistant",
+    "id" : "*_cho",
+    "name" : "cho",
+    "deprecatedIDs" : [ ],
+    "distance" : 1.0,
+    "stretchable" : true,
+    "cues" : [ {
+      "id" : "*/cho1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/close",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/cho2",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/close",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/cho3",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/close",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/cho4",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/close",
+      "beat" : 1.4E-45,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  } ]
+}

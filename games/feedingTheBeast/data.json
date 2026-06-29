@@ -1,0 +1,33 @@
+{
+  "id" : "feedingTheBeast",
+  "name" : "Feeding the Beast",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/pinkHeartShoot",
+    "name" : "yellow flower - shoot",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/munch1",
+    "name" : "yellow flower - munch",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "pattern",
+    "id" : "*_yellowFlower",
+    "name" : "[YELLOW]yellow[] flower",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/pinkHeartShoot",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/munch1",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  } ]
+}
