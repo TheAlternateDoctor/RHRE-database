@@ -11,8 +11,22 @@
     "duration" : 1.0
   }, {
     "type" : "cue",
+    "id" : "*/greenHeartShoot",
+    "name" : "purple flower - shoot",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
     "id" : "*/munch1",
     "name" : "yellow flower - munch",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/munch2",
+    "name" : "purple flower - munch",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
@@ -27,6 +41,19 @@
     }, {
       "id" : "*/munch1",
       "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_purpleFlower",
+    "name" : "[PURPLE]purple[] flower",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/greenHeartShoot",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/munch1",
+      "beat" : 4.0
     } ],
     "subtext" : ""
   } ]

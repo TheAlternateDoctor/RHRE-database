@@ -1,0 +1,112 @@
+{
+  "id" : "hopNSlide",
+  "name" : "Hop N Slide",
+  "series" : "other",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/hop",
+    "name" : "hop",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/hop1",
+    "name" : "hop1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.75
+  }, {
+    "type" : "cue",
+    "id" : "*/hop2",
+    "name" : "hop2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/hop3",
+    "name" : "hop3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/hop4",
+    "name" : "hop4",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/slide",
+    "name" : "slide",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/slide1",
+    "name" : "slide1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/slide2",
+    "name" : "slide2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/slide3",
+    "name" : "slide3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "pattern",
+    "id" : "*_hop",
+    "name" : "hop",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hop1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hop2",
+      "beat" : 0.75
+    }, {
+      "id" : "*/hop3",
+      "beat" : 1.0
+    }, {
+      "id" : "*/hop4",
+      "beat" : 2.0
+    }, {
+      "id" : "*/hop",
+      "beat" : 2.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_slide",
+    "name" : "slide",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/slide1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/slide2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/slide3",
+      "beat" : 1.5
+    }, {
+      "id" : "*/slide",
+      "beat" : 1.5,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  } ]
+}

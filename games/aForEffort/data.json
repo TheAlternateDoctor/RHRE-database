@@ -1,0 +1,421 @@
+{
+  "id" : "aForEffort",
+  "name" : "A for Effort",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/a1",
+    "name" : "a1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/ahit",
+    "name" : "ahit",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/ahit2",
+    "name" : "ahit2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/aspawn",
+    "name" : "aspawn",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/hit",
+    "name" : "hit",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/letterspawn",
+    "name" : "letterspawn",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/move",
+    "name" : "move",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "pattern",
+    "id" : "*_tea",
+    "name" : "tea",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/letterspawn",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/letterspawn",
+      "beat" : 0.5
+    }, {
+      "id" : "*/aspawn",
+      "beat" : 1.0
+    }, {
+      "id" : "*/a1",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/move",
+      "beat" : 2.0
+    }, {
+      "id" : "*/move",
+      "beat" : 2.75
+    }, {
+      "id" : "*/move",
+      "beat" : 3.5
+    }, {
+      "id" : "*/ahit",
+      "beat" : 3.5,
+      "track" : 1
+    }, {
+      "id" : "*/hit",
+      "beat" : 3.5,
+      "track" : 2
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_soda",
+    "name" : "soda",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/letterspawn",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/letterspawn",
+      "beat" : 0.333
+    }, {
+      "id" : "*/letterspawn",
+      "beat" : 0.667
+    }, {
+      "id" : "*/aspawn",
+      "beat" : 1.0
+    }, {
+      "id" : "*/a1",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/move",
+      "beat" : 2.0
+    }, {
+      "id" : "*/move",
+      "beat" : 2.333
+    }, {
+      "id" : "*/move",
+      "beat" : 2.667
+    }, {
+      "id" : "*/move",
+      "beat" : 3.0
+    }, {
+      "id" : "*/ahit",
+      "beat" : 3.0,
+      "track" : 1
+    }, {
+      "id" : "*/hit",
+      "beat" : 3.0,
+      "track" : 2
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_cocoa",
+    "name" : "cocoa",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/letterspawn",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/letterspawn",
+      "beat" : 0.25
+    }, {
+      "id" : "*/letterspawn",
+      "beat" : 0.5
+    }, {
+      "id" : "*/letterspawn",
+      "beat" : 0.75
+    }, {
+      "id" : "*/aspawn",
+      "beat" : 1.0
+    }, {
+      "id" : "*/a1",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/move",
+      "beat" : 1.5
+    }, {
+      "id" : "*/move",
+      "beat" : 2.0
+    }, {
+      "id" : "*/move",
+      "beat" : 2.5
+    }, {
+      "id" : "*/move",
+      "beat" : 3.0
+    }, {
+      "id" : "*/move",
+      "beat" : 3.5
+    }, {
+      "id" : "*/ahit2",
+      "beat" : 3.5,
+      "track" : 1
+    }, {
+      "id" : "*/hit",
+      "beat" : 3.5,
+      "track" : 2
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_aaa",
+    "name" : "aaa",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/aspawn",
+      "beat" : 0.0
+    }, {
+      "id" : "*/a1",
+      "beat" : 0.0,
+      "track" : 1
+    }, {
+      "id" : "*/aspawn",
+      "beat" : 0.5
+    }, {
+      "id" : "*/a1",
+      "beat" : 0.5,
+      "track" : 1
+    }, {
+      "id" : "*/aspawn",
+      "beat" : 1.0
+    }, {
+      "id" : "*/a1",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/move",
+      "beat" : 2.0
+    }, {
+      "id" : "*/ahit",
+      "beat" : 2.0,
+      "track" : 1
+    }, {
+      "id" : "*/hit",
+      "beat" : 2.0,
+      "track" : 2
+    }, {
+      "id" : "*/move",
+      "beat" : 2.75
+    }, {
+      "id" : "*/ahit",
+      "beat" : 2.75,
+      "track" : 1
+    }, {
+      "id" : "*/hit",
+      "beat" : 2.75,
+      "track" : 2
+    }, {
+      "id" : "*/move",
+      "beat" : 3.5
+    }, {
+      "id" : "*/ahit",
+      "beat" : 3.5,
+      "track" : 1
+    }, {
+      "id" : "*/hit",
+      "beat" : 3.5,
+      "track" : 2
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_aaaa",
+    "name" : "aaaa",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/aspawn",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/a1",
+      "beat" : 0.0,
+      "track" : 1
+    }, {
+      "id" : "*/aspawn",
+      "beat" : 0.333
+    }, {
+      "id" : "*/a1",
+      "beat" : 0.333,
+      "track" : 1
+    }, {
+      "id" : "*/aspawn",
+      "beat" : 0.667
+    }, {
+      "id" : "*/a1",
+      "beat" : 0.667,
+      "track" : 1
+    }, {
+      "id" : "*/aspawn",
+      "beat" : 1.0
+    }, {
+      "id" : "*/a1",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/move",
+      "beat" : 2.0
+    }, {
+      "id" : "*/ahit",
+      "beat" : 2.0,
+      "track" : 1
+    }, {
+      "id" : "*/hit",
+      "beat" : 2.0,
+      "track" : 2
+    }, {
+      "id" : "*/move",
+      "beat" : 2.333
+    }, {
+      "id" : "*/ahit",
+      "beat" : 2.333,
+      "track" : 1
+    }, {
+      "id" : "*/hit",
+      "beat" : 2.333,
+      "track" : 2
+    }, {
+      "id" : "*/move",
+      "beat" : 2.667
+    }, {
+      "id" : "*/ahit",
+      "beat" : 2.667,
+      "track" : 1
+    }, {
+      "id" : "*/hit",
+      "beat" : 2.667,
+      "track" : 2
+    }, {
+      "id" : "*/move",
+      "beat" : 3.0
+    }, {
+      "id" : "*/ahit",
+      "beat" : 3.0,
+      "track" : 1
+    }, {
+      "id" : "*/hit",
+      "beat" : 3.0,
+      "track" : 2
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_aaaaa",
+    "name" : "aaaaa",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/aspawn",
+      "beat" : 0.0
+    }, {
+      "id" : "*/a1",
+      "beat" : 0.0,
+      "track" : 1
+    }, {
+      "id" : "*/aspawn",
+      "beat" : 0.25
+    }, {
+      "id" : "*/a1",
+      "beat" : 0.25,
+      "track" : 1
+    }, {
+      "id" : "*/aspawn",
+      "beat" : 0.5
+    }, {
+      "id" : "*/a1",
+      "beat" : 0.5,
+      "track" : 1
+    }, {
+      "id" : "*/aspawn",
+      "beat" : 0.75
+    }, {
+      "id" : "*/a1",
+      "beat" : 0.75,
+      "track" : 1
+    }, {
+      "id" : "*/aspawn",
+      "beat" : 1.0
+    }, {
+      "id" : "*/a1",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/move",
+      "beat" : 1.5
+    }, {
+      "id" : "*/ahit",
+      "beat" : 1.5,
+      "track" : 1
+    }, {
+      "id" : "*/hit",
+      "beat" : 1.5,
+      "track" : 2
+    }, {
+      "id" : "*/move",
+      "beat" : 2.0
+    }, {
+      "id" : "*/ahit",
+      "beat" : 2.0,
+      "track" : 1
+    }, {
+      "id" : "*/hit",
+      "beat" : 2.0,
+      "track" : 2
+    }, {
+      "id" : "*/move",
+      "beat" : 2.5
+    }, {
+      "id" : "*/ahit",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*/hit",
+      "beat" : 2.5,
+      "track" : 2
+    }, {
+      "id" : "*/move",
+      "beat" : 3.0
+    }, {
+      "id" : "*/ahit",
+      "beat" : 3.0,
+      "track" : 1
+    }, {
+      "id" : "*/hit",
+      "beat" : 3.0,
+      "track" : 2
+    }, {
+      "id" : "*/move",
+      "beat" : 3.5
+    }, {
+      "id" : "*/ahit2",
+      "beat" : 3.5,
+      "track" : 1
+    }, {
+      "id" : "*/hit",
+      "beat" : 3.5,
+      "track" : 2
+    } ],
+    "subtext" : ""
+  } ]
+}

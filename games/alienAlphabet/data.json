@@ -1,0 +1,289 @@
+{
+  "id" : "alienAlphabet",
+  "name" : "Alien Alphabet",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/alienbom",
+    "name" : "alienbom",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/aliencha1",
+    "name" : "aliencha1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/aliencha2",
+    "name" : "aliencha2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/boybom",
+    "name" : "boybom",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/boycha",
+    "name" : "boycha",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.035
+  }, {
+    "type" : "cue",
+    "id" : "*/boygrownbom",
+    "name" : "boygrownbom",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/boygrowncha",
+    "name" : "boygrowncha",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/girlbom",
+    "name" : "girlbom",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/girlcha",
+    "name" : "girlcha",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/girlgrownbom",
+    "name" : "girlgrownbom",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/girlgrowncha",
+    "name" : "girlgrowncha",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/success1",
+    "name" : "success1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/success2",
+    "name" : "success2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.75
+  }, {
+    "type" : "pattern",
+    "id" : "*_success",
+    "name" : "success",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/success1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/success2",
+      "beat" : 0.25
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_cha",
+    "name" : "cha cha cha - bom bom",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/aliencha1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/aliencha2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/aliencha2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/aliencha2",
+      "beat" : 1.75
+    }, {
+      "id" : "*/boybom",
+      "beat" : 2.5
+    }, {
+      "id" : "*/boybom",
+      "beat" : 3.0
+    }, {
+      "id" : "*/girlbom",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*/girlbom",
+      "beat" : 3.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_bom",
+    "name" : "bom bom bom bom - cha",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/alienbom",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/alienbom",
+      "beat" : 0.75
+    }, {
+      "id" : "*/alienbom",
+      "beat" : 1.5
+    }, {
+      "id" : "*/alienbom",
+      "beat" : 2.0
+    }, {
+      "id" : "*/boycha",
+      "beat" : 3.0
+    }, {
+      "id" : "*/girlcha",
+      "beat" : 3.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_bomcha",
+    "name" : "bom bom cha - bom cha",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/alienbom",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/alienbom",
+      "beat" : 0.5
+    }, {
+      "id" : "*/aliencha2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/boybom",
+      "beat" : 2.5
+    }, {
+      "id" : "*/boycha",
+      "beat" : 3.0
+    }, {
+      "id" : "*/girlbom",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*/girlcha",
+      "beat" : 3.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_chaGrown",
+    "name" : "cha cha cha - bom bom (grown)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/aliencha1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/aliencha2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/aliencha2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/aliencha2",
+      "beat" : 1.75
+    }, {
+      "id" : "*/boygrownbom",
+      "beat" : 2.5
+    }, {
+      "id" : "*/boygrownbom",
+      "beat" : 3.0
+    }, {
+      "id" : "*/girlgrownbom",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*/girlgrownbom",
+      "beat" : 3.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_bomGrown",
+    "name" : "bom bom bom bom - cha (grown)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/alienbom",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/alienbom",
+      "beat" : 0.75
+    }, {
+      "id" : "*/alienbom",
+      "beat" : 1.5
+    }, {
+      "id" : "*/alienbom",
+      "beat" : 2.0
+    }, {
+      "id" : "*/boygrowncha",
+      "beat" : 3.0
+    }, {
+      "id" : "*/girlgrowncha",
+      "beat" : 3.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_bomchaGrown",
+    "name" : "bom bom cha - bom cha (grown)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/alienbom",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/alienbom",
+      "beat" : 0.5
+    }, {
+      "id" : "*/aliencha2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/boygrownbom",
+      "beat" : 2.5
+    }, {
+      "id" : "*/boygrowncha",
+      "beat" : 3.0
+    }, {
+      "id" : "*/girlgrownbom",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*/girlgrowncha",
+      "beat" : 3.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  } ]
+}
