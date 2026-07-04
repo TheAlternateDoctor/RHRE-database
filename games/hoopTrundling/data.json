@@ -1,7 +1,7 @@
 {
   "id" : "hoopTrundling",
   "name" : "Hoop Trundling",
-  "series" : "switch",
+  "series" : "groove",
   "objects" : [ {
     "type" : "cue",
     "id" : "*/pa",

@@ -1,7 +1,7 @@
 {
   "id" : "sweeperStar",
   "name" : "Sweeper Star",
-  "series" : "switch",
+  "series" : "groove",
   "group" : "Sweeper Star",
   "groupDefault" : true,
   "objects" : [ {

@@ -1,7 +1,7 @@
 {
   "id" : "fruitFlex",
   "name" : "Fruit Flex",
-  "series" : "switch",
+  "series" : "groove",
   "objects" : [ {
     "type" : "cue",
     "id" : "*/apple1",
