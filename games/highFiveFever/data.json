@@ -1,0 +1,218 @@
+{
+  "id" : "highFiveFever",
+  "name" : "High-Five Fever",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/clapping",
+    "name" : "clapping",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/doubleclap1",
+    "name" : "double clap - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/doubleclap2",
+    "name" : "double clap - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/doublevoice1",
+    "name" : "double clap voice - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/doublevoice2",
+    "name" : "double clap voice - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/doublevoice3",
+    "name" : "double clap voice - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.03
+  }, {
+    "type" : "cue",
+    "id" : "*/one",
+    "name" : "one",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/stop",
+    "name" : "stop",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/three",
+    "name" : "three",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.042
+  }, {
+    "type" : "cue",
+    "id" : "*/tripleclap1",
+    "name" : "triple clap - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/tripleclap2",
+    "name" : "triple clap - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/tripleclap3",
+    "name" : "triple clap - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/triplevoice1",
+    "name" : "triple clap voice - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.05
+  }, {
+    "type" : "cue",
+    "id" : "*/triplevoice2",
+    "name" : "triple clap voice - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/triplevoice3",
+    "name" : "triple clap voice - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/two",
+    "name" : "two",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.023
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_clapping",
+    "name" : "clapping",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/clapping",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/clapping",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_doubleClap",
+    "name" : "double clap",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/doublevoice1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/doublevoice2",
+      "beat" : 0.25
+    }, {
+      "id" : "*/doublevoice3",
+      "beat" : 0.5
+    }, {
+      "id" : "*/doubleclap1",
+      "beat" : 1.5
+    }, {
+      "id" : "*/doubleclap2",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_tripleClap",
+    "name" : "triple clap",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/triplevoice1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/triplevoice2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/triplevoice3",
+      "beat" : 1.0
+    }, {
+      "id" : "*/tripleclap1",
+      "beat" : 2.5
+    }, {
+      "id" : "*/tripleclap2",
+      "beat" : 2.75
+    }, {
+      "id" : "*/tripleclap3",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_countIn",
+    "name" : "count in",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/one",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/two",
+      "beat" : 1.0
+    }, {
+      "id" : "*/three",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_stop",
+    "name" : "stop",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/three",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/two",
+      "beat" : 1.0
+    }, {
+      "id" : "*/one",
+      "beat" : 2.0
+    }, {
+      "id" : "*/stop",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  } ]
+}

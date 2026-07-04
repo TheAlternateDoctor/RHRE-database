@@ -1,0 +1,82 @@
+{
+  "id" : "deepEnd",
+  "name" : "Deep End",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/flap",
+    "name" : "flap",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/single1",
+    "name" : "single1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/single2",
+    "name" : "single2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/triple1",
+    "name" : "triple1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/triple2",
+    "name" : "triple2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "pattern",
+    "id" : "*_single",
+    "name" : "single",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/single1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/single2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/flap",
+      "beat" : 1.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_triple",
+    "name" : "triple",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/triple1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/triple1",
+      "beat" : 0.25
+    }, {
+      "id" : "*/triple2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/flap",
+      "beat" : 1.5
+    }, {
+      "id" : "*/flap",
+      "beat" : 2.5
+    }, {
+      "id" : "*/flap",
+      "beat" : 3.5
+    } ],
+    "subtext" : ""
+  } ]
+}
