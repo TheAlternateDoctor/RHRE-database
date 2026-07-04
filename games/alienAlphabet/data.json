@@ -1,7 +1,7 @@
 {
   "id" : "alienAlphabet",
   "name" : "Alien Alphabet",
-  "series" : "groove",
+  "series" : "switch",
   "objects" : [ {
     "type" : "cue",
     "id" : "*/alienbom",
@@ -138,6 +138,10 @@
       "id" : "*/girlbom",
       "beat" : 3.0,
       "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 2
     } ],
     "subtext" : ""
   }, {
@@ -164,6 +168,10 @@
       "id" : "*/girlcha",
       "beat" : 3.0,
       "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 2
     } ],
     "subtext" : ""
   }, {
@@ -194,6 +202,10 @@
       "id" : "*/girlcha",
       "beat" : 3.0,
       "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 2
     } ],
     "subtext" : ""
   }, {
@@ -227,6 +239,10 @@
       "id" : "*/girlgrownbom",
       "beat" : 3.0,
       "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 2
     } ],
     "subtext" : ""
   }, {
@@ -253,6 +269,10 @@
       "id" : "*/girlgrowncha",
       "beat" : 3.0,
       "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 2
     } ],
     "subtext" : ""
   }, {
@@ -283,6 +303,10 @@
       "id" : "*/girlgrowncha",
       "beat" : 3.0,
       "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 2
     } ],
     "subtext" : ""
   } ]

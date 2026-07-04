@@ -1,7 +1,7 @@
 {
   "id" : "sneezyMoon",
   "name" : "Sneezy Moon",
-  "series" : "groove",
+  "series" : "switch",
   "objects" : [ {
     "type" : "cue",
     "id" : "*/dash",

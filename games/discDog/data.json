@@ -1,7 +1,7 @@
 {
   "id" : "discDog",
   "name" : "Disc Dog",
-  "series" : "groove",
+  "series" : "switch",
   "objects" : [ {
     "type" : "cue",
     "id" : "*/alright1",

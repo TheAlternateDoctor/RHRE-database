@@ -1,7 +1,7 @@
 {
   "id" : "brollyGoodShow",
   "name" : "Brolly Good Show",
-  "series" : "groove",
+  "series" : "switch",
   "objects" : [ {
     "type" : "cue",
     "id" : "*/cho1",
