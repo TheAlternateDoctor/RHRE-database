@@ -1,7 +1,7 @@
 {
   "id" : "feedingTheBeast",
   "name" : "Feeding the Beast",
-  "series" : "switch",
+  "series" : "groove",
   "objects" : [ {
     "type" : "cue",
     "id" : "*/pinkHeartShoot",

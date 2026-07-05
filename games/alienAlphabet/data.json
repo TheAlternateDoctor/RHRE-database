@@ -1,7 +1,7 @@
 {
   "id" : "alienAlphabet",
   "name" : "Alien Alphabet",
-  "series" : "switch",
+  "series" : "groove",
   "objects" : [ {
     "type" : "cue",
     "id" : "*/alienbom",

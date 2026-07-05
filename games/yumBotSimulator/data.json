@@ -1,7 +1,7 @@
 {
   "id" : "yumBotSimulator",
   "name" : "Yum Bot Simulator",
-  "series" : "switch",
+  "series" : "groove",
   "objects" : [ {
     "type" : "cue",
     "id" : "*/down",

@@ -1,7 +1,7 @@
 {
   "id" : "flutterSpeed2",
   "name" : "Flutter Speed 2",
-  "series" : "switch",
+  "series" : "groove",
   "group" : "Flutter Speed",
   "objects" : [ {
     "type" : "cue",

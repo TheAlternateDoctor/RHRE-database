@@ -1,7 +1,7 @@
 {
   "id" : "highFiveFever",
   "name" : "High-Five Fever",
-  "series" : "switch",
+  "series" : "groove",
   "objects" : [ {
     "type" : "cue",
     "id" : "*/clapping",
