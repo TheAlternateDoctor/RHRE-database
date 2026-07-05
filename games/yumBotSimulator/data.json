@@ -19,35 +19,35 @@
   }, {
     "type" : "cue",
     "id" : "*/handturn",
-    "name" : "handturn",
+    "name" : "hand turn",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.25
   }, {
     "type" : "cue",
     "id" : "*/pudding1",
-    "name" : "pudding1",
+    "name" : "pudding - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/pudding2",
-    "name" : "pudding2",
+    "name" : "pudding - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/pudding3",
-    "name" : "pudding3",
+    "name" : "pudding - 3",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/puddingland",
-    "name" : "puddingland",
+    "name" : "pudding - land",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
@@ -61,28 +61,28 @@
   }, {
     "type" : "cue",
     "id" : "*/defect",
-    "name" : "defect",
+    "name" : "defect - voice",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/defect1",
-    "name" : "defect1",
+    "name" : "defect - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/defect2",
-    "name" : "defect2",
+    "name" : "defect - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/defect3",
-    "name" : "defect3",
+    "name" : "defect - 3",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5

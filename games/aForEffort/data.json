@@ -4,29 +4,29 @@
   "series" : "groove",
   "objects" : [ {
     "type" : "cue",
-    "id" : "*/a1",
-    "name" : "a1",
+    "id" : "*/a",
+    "name" : "a",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.25
   }, {
     "type" : "cue",
-    "id" : "*/ahit",
-    "name" : "ahit",
+    "id" : "*/letterspawn",
+    "name" : "letter spawn",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/ahit2",
-    "name" : "ahit2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/aspawn",
-    "name" : "aspawn",
+    "name" : "a spawn",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/move",
+    "name" : "move",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.25
@@ -39,18 +39,18 @@
     "duration" : 0.25
   }, {
     "type" : "cue",
-    "id" : "*/letterspawn",
-    "name" : "letterspawn",
+    "id" : "*/ahit",
+    "name" : "a hit",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.25
   }, {
     "type" : "cue",
-    "id" : "*/move",
-    "name" : "move",
+    "id" : "*/ahit2",
+    "name" : "a hit - long",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.25
+    "duration" : 1.0
   }, {
     "type" : "pattern",
     "id" : "*_tea",
@@ -66,7 +66,7 @@
       "id" : "*/aspawn",
       "beat" : 1.0
     }, {
-      "id" : "*/a1",
+      "id" : "*/a",
       "beat" : 1.0,
       "track" : 1
     }, {
@@ -106,7 +106,7 @@
       "id" : "*/aspawn",
       "beat" : 1.0
     }, {
-      "id" : "*/a1",
+      "id" : "*/a",
       "beat" : 1.0,
       "track" : 1
     }, {
@@ -152,7 +152,7 @@
       "id" : "*/aspawn",
       "beat" : 1.0
     }, {
-      "id" : "*/a1",
+      "id" : "*/a",
       "beat" : 1.0,
       "track" : 1
     }, {
@@ -189,21 +189,21 @@
       "id" : "*/aspawn",
       "beat" : 0.0
     }, {
-      "id" : "*/a1",
+      "id" : "*/a",
       "beat" : 0.0,
       "track" : 1
     }, {
       "id" : "*/aspawn",
       "beat" : 0.5
     }, {
-      "id" : "*/a1",
+      "id" : "*/a",
       "beat" : 0.5,
       "track" : 1
     }, {
       "id" : "*/aspawn",
       "beat" : 1.0
     }, {
-      "id" : "*/a1",
+      "id" : "*/a",
       "beat" : 1.0,
       "track" : 1
     }, {
@@ -248,30 +248,30 @@
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/aspawn",
-      "beat" : 1.4E-45
+      "beat" : 0.0
     }, {
-      "id" : "*/a1",
+      "id" : "*/a",
       "beat" : 0.0,
       "track" : 1
     }, {
       "id" : "*/aspawn",
       "beat" : 0.333
     }, {
-      "id" : "*/a1",
+      "id" : "*/a",
       "beat" : 0.333,
       "track" : 1
     }, {
       "id" : "*/aspawn",
       "beat" : 0.667
     }, {
-      "id" : "*/a1",
+      "id" : "*/a",
       "beat" : 0.667,
       "track" : 1
     }, {
       "id" : "*/aspawn",
       "beat" : 1.0
     }, {
-      "id" : "*/a1",
+      "id" : "*/a",
       "beat" : 1.0,
       "track" : 1
     }, {
@@ -329,35 +329,35 @@
       "id" : "*/aspawn",
       "beat" : 0.0
     }, {
-      "id" : "*/a1",
+      "id" : "*/a",
       "beat" : 0.0,
       "track" : 1
     }, {
       "id" : "*/aspawn",
       "beat" : 0.25
     }, {
-      "id" : "*/a1",
+      "id" : "*/a",
       "beat" : 0.25,
       "track" : 1
     }, {
       "id" : "*/aspawn",
       "beat" : 0.5
     }, {
-      "id" : "*/a1",
+      "id" : "*/a",
       "beat" : 0.5,
       "track" : 1
     }, {
       "id" : "*/aspawn",
       "beat" : 0.75
     }, {
-      "id" : "*/a1",
+      "id" : "*/a",
       "beat" : 0.75,
       "track" : 1
     }, {
       "id" : "*/aspawn",
       "beat" : 1.0
     }, {
-      "id" : "*/a1",
+      "id" : "*/a",
       "beat" : 1.0,
       "track" : 1
     }, {

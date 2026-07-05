@@ -5,28 +5,28 @@
   "objects" : [ {
     "type" : "cue",
     "id" : "*/pinkHeartShoot",
-    "name" : "yellow flower - shoot",
+    "name" : "[YELLOW]yellow[] flower - shoot",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/greenHeartShoot",
-    "name" : "purple flower - shoot",
+    "name" : "[PURPLE]purple[] flower - shoot",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/munch1",
-    "name" : "yellow flower - munch",
+    "name" : "[YELLOW]yellow[] flower - munch",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/munch2",
-    "name" : "purple flower - munch",
+    "name" : "[PURPLE]purple[] flower - munch",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0

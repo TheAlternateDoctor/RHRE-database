@@ -5,35 +5,35 @@
   "objects" : [ {
     "type" : "cue",
     "id" : "*/alienbom",
-    "name" : "alienbom",
+    "name" : "alien - bom",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/aliencha1",
-    "name" : "aliencha1",
+    "name" : "alien - cha - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/aliencha2",
-    "name" : "aliencha2",
+    "name" : "alien - cha - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/boybom",
-    "name" : "boybom",
+    "name" : "boy - bom",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/boycha",
-    "name" : "boycha",
+    "name" : "boy - cha",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
@@ -41,56 +41,56 @@
   }, {
     "type" : "cue",
     "id" : "*/boygrownbom",
-    "name" : "boygrownbom",
+    "name" : "boy - bom (grown)",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/boygrowncha",
-    "name" : "boygrowncha",
+    "name" : "boy - cha (grown)",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/girlbom",
-    "name" : "girlbom",
+    "name" : "girl - bom",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/girlcha",
-    "name" : "girlcha",
+    "name" : "girl - cha",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/girlgrownbom",
-    "name" : "girlgrownbom",
+    "name" : "girl - bom (grown)",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/girlgrowncha",
-    "name" : "girlgrowncha",
+    "name" : "girl - cha (grown)",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/success1",
-    "name" : "success1",
+    "name" : "success - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.25
   }, {
     "type" : "cue",
     "id" : "*/success2",
-    "name" : "success2",
+    "name" : "success - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.75

@@ -13,25 +13,34 @@
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/brush",
-    "name" : "brush",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
     "id" : "*/go1",
-    "name" : "go1",
+    "name" : "go - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/go2",
-    "name" : "go2",
+    "name" : "go - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/spin1",
+    "name" : "spin - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.13
+  }, {
+    "type" : "cue",
+    "id" : "*/spin2",
+    "name" : "spin - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.15
   }, {
     "type" : "cue",
     "id" : "*/one",
@@ -41,27 +50,41 @@
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/pose",
-    "name" : "pose",
+    "id" : "*/two",
+    "name" : "two",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/spin1",
-    "name" : "spin1",
+    "id" : "*/three",
+    "name" : "three",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
-    "earliness" : 0.13
+    "earliness" : 0.04
   }, {
     "type" : "cue",
-    "id" : "*/spin2",
-    "name" : "spin2",
+    "id" : "*/voice1",
+    "name" : "sweeper voice - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/voice2",
+    "name" : "sweeper voice - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
-    "earliness" : 0.15
+    "earliness" : 0.08
+  }, {
+    "type" : "cue",
+    "id" : "*/brush",
+    "name" : "brush",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/spinning",
@@ -73,34 +96,11 @@
     "baseBpm" : 130.0
   }, {
     "type" : "cue",
-    "id" : "*/three",
-    "name" : "three",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0,
-    "earliness" : 0.04
-  }, {
-    "type" : "cue",
-    "id" : "*/two",
-    "name" : "two",
+    "id" : "*/pose",
+    "name" : "pose",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/voice1",
-    "name" : "voice1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/voice2",
-    "name" : "voice2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0,
-    "earliness" : 0.08
   }, {
     "type" : "pattern",
     "id" : "*_sweepThree",

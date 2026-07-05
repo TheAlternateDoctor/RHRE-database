@@ -4,12 +4,11 @@
   "series" : "groove",
   "objects" : [ {
     "type" : "cue",
-    "id" : "*/ay",
-    "name" : "ay",
+    "id" : "*/canthrow",
+    "name" : "can - throw",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0,
-    "earliness" : 0.009
+    "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/beep",
@@ -19,18 +18,27 @@
     "duration" : 0.5
   }, {
     "type" : "cue",
+    "id" : "*/ay",
+    "name" : "ay",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.009
+  }, {
+    "type" : "cue",
+    "id" : "*/ya",
+    "name" : "ya",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.023
+  }, {
+    "type" : "cue",
     "id" : "*/cancrush",
-    "name" : "cancrush",
+    "name" : "can - crush",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/canthrow",
-    "name" : "canthrow",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/frog",
@@ -41,28 +49,28 @@
   }, {
     "type" : "cue",
     "id" : "*/frogay",
-    "name" : "frogay",
+    "name" : "frog - ay",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/frogya",
-    "name" : "frogya",
+    "name" : "frog - ya",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/frogayshort",
-    "name" : "frogayshort",
+    "name" : "frog - ay (count)",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/liftup",
-    "name" : "liftup",
+    "name" : "lift up",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
@@ -73,14 +81,6 @@
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/ya",
-    "name" : "ya",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0,
-    "earliness" : 0.023
   }, {
     "type" : "pattern",
     "id" : "*_redcan",

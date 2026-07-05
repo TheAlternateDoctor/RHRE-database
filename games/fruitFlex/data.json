@@ -5,56 +5,56 @@
   "objects" : [ {
     "type" : "cue",
     "id" : "*/apple1",
-    "name" : "apple1",
+    "name" : "apple - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.25
   }, {
     "type" : "cue",
     "id" : "*/apple2",
-    "name" : "apple2",
+    "name" : "apple - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.75
   }, {
     "type" : "cue",
     "id" : "*/applepump1",
-    "name" : "applepump1",
+    "name" : "apple pump - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/applepump2",
-    "name" : "applepump2",
+    "name" : "apple pump - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/lemon1",
-    "name" : "lemon1",
+    "name" : "lemon - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/lemon2",
-    "name" : "lemon2",
+    "name" : "lemon - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/lemonpump1",
-    "name" : "lemonpump1",
+    "name" : "lemon pump - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/lemonpump2",
-    "name" : "lemonpump2",
+    "name" : "lemon pump - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5

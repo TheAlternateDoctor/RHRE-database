@@ -11,53 +11,8 @@
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/fast1",
-    "name" : "fast1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0,
-    "earliness" : 0.04
-  }, {
-    "type" : "cue",
-    "id" : "*/fast2a",
-    "name" : "fast2a",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/fast2b",
-    "name" : "fast2b",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0,
-    "earliness" : 0.033
-  }, {
-    "type" : "cue",
-    "id" : "*/fast3a",
-    "name" : "fast3a",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5,
-    "earliness" : 0.033
-  }, {
-    "type" : "cue",
-    "id" : "*/fastchua",
-    "name" : "fastchua",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/fastchub",
-    "name" : "fastchub",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
     "id" : "*/slow1a",
-    "name" : "slow1a",
+    "name" : "slow - 1 (low BPM)",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
@@ -65,7 +20,7 @@
   }, {
     "type" : "cue",
     "id" : "*/slow1b",
-    "name" : "slow1b",
+    "name" : "slow - 1 (high BPM)",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
@@ -73,7 +28,7 @@
   }, {
     "type" : "cue",
     "id" : "*/slow2a",
-    "name" : "slow2a",
+    "name" : "slow - 2 (low BPM)",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
@@ -81,7 +36,7 @@
   }, {
     "type" : "cue",
     "id" : "*/slow2b",
-    "name" : "slow2b",
+    "name" : "slow - 2 (high BPM)",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
@@ -89,7 +44,7 @@
   }, {
     "type" : "cue",
     "id" : "*/slow3a",
-    "name" : "slow3a",
+    "name" : "slow - 3 (low BPM)",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
@@ -97,7 +52,7 @@
   }, {
     "type" : "cue",
     "id" : "*/slow3b",
-    "name" : "slow3b",
+    "name" : "slow - 3 (high BPM)",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
@@ -105,15 +60,60 @@
   }, {
     "type" : "cue",
     "id" : "*/slowchu",
-    "name" : "slowchu",
+    "name" : "sneeze - slow",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
     "earliness" : 0.022
   }, {
+    "type" : "cue",
+    "id" : "*/fast1",
+    "name" : "fast - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.04
+  }, {
+    "type" : "cue",
+    "id" : "*/fast2a",
+    "name" : "fast - 2 (low BPM)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/fast2b",
+    "name" : "fast - 2 (high BPM)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.033
+  }, {
+    "type" : "cue",
+    "id" : "*/fast3a",
+    "name" : "fast - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.033
+  }, {
+    "type" : "cue",
+    "id" : "*/fastchua",
+    "name" : "sneeze - fast (low BPM)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/fastchub",
+    "name" : "sneeze - fast (high BPM)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
     "type" : "pattern",
     "id" : "*_slow",
-    "name" : "slow - low BPM",
+    "name" : "slow sneeze - low BPM",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/slow1a",
@@ -136,7 +136,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_slowhigh",
-    "name" : "slow - high BPM",
+    "name" : "slow sneeze - high BPM",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/slow1b",
@@ -159,7 +159,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_slowprep",
-    "name" : "slow - low BPM prep",
+    "name" : "slow sneeze - low BPM prepare",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/slow1a",
@@ -172,7 +172,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_slowprephigh",
-    "name" : "slow - high BPM prep",
+    "name" : "slow sneeze - high BPM prepare",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/slow1b",
@@ -185,7 +185,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_slowquick",
-    "name" : "slow - quick low BPM",
+    "name" : "slow sneeze - quick low BPM",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/slow3a",
@@ -202,7 +202,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_slowquickhigh",
-    "name" : "slow - quick high BPM",
+    "name" : "slow sneeze - quick high BPM",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/slow3b",
@@ -219,7 +219,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_fast",
-    "name" : "fast - low BPM",
+    "name" : "fast sneeze - low BPM",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/fast1",
@@ -242,7 +242,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_fasthigh",
-    "name" : "fast - high BPM",
+    "name" : "fast sneeze - high BPM",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/fast1",
@@ -265,7 +265,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_fastprep",
-    "name" : "fast - low BPM prep",
+    "name" : "fast sneeze - low BPM prepare",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/fast1",
@@ -278,7 +278,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_fastprephigh",
-    "name" : "fast - high BPM prep",
+    "name" : "fast sneeze - high BPM prepare",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/fast1",
@@ -291,7 +291,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_fastquick",
-    "name" : "fast - quick low BPM",
+    "name" : "fast sneeze - quick low BPM",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/fast3a",
@@ -308,7 +308,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_fastquickhigh",
-    "name" : "fast - quick high BPM",
+    "name" : "fast sneeze - quick high BPM",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/fast3a",

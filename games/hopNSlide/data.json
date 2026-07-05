@@ -5,49 +5,49 @@
   "objects" : [ {
     "type" : "cue",
     "id" : "*/hop",
-    "name" : "hop",
+    "name" : "hopping",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/hop1",
-    "name" : "hop1",
+    "name" : "hop - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.75
   }, {
     "type" : "cue",
     "id" : "*/hop2",
-    "name" : "hop2",
+    "name" : "hop - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.25
   }, {
     "type" : "cue",
     "id" : "*/hop3",
-    "name" : "hop3",
+    "name" : "hop - 3",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/hop4",
-    "name" : "hop4",
+    "name" : "hop - 4",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/slide",
-    "name" : "slide",
+    "name" : "sliding",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/slide1",
-    "name" : "slide1",
+    "name" : "slide - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
@@ -55,14 +55,14 @@
   }, {
     "type" : "cue",
     "id" : "*/slide2",
-    "name" : "slide2",
+    "name" : "slide - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/slide3",
-    "name" : "slide3",
+    "name" : "slide - 3",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0

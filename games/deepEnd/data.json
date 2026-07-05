@@ -12,28 +12,28 @@
   }, {
     "type" : "cue",
     "id" : "*/single1",
-    "name" : "single1",
+    "name" : "single - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/single2",
-    "name" : "single2",
+    "name" : "single - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/triple1",
-    "name" : "triple1",
+    "name" : "triple - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.25
   }, {
     "type" : "cue",
     "id" : "*/triple2",
-    "name" : "triple2",
+    "name" : "triple - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0

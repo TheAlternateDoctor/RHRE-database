@@ -4,68 +4,19 @@
   "series" : "groove",
   "objects" : [ {
     "type" : "cue",
-    "id" : "*/alright1",
-    "name" : "alright1",
+    "id" : "*/whistle1",
+    "name" : "whistle - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "baseBpm" : 119.0
+  }, {
+    "type" : "cue",
+    "id" : "*/whistle2",
+    "name" : "whistle - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/alright2",
-    "name" : "alright2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.5,
-    "earliness" : 0.08
-  }, {
-    "type" : "cue",
-    "id" : "*/catch1",
-    "name" : "catch1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/catch2",
-    "name" : "catch2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/catch3",
-    "name" : "catch3",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/discDrop",
-    "name" : "discDrop",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/growl",
-    "name" : "growl",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/jump1",
-    "name" : "jump1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/jump2",
-    "name" : "jump2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/toss",
@@ -76,16 +27,65 @@
     "baseBpm" : 119.0
   }, {
     "type" : "cue",
-    "id" : "*/whistle1",
-    "name" : "whistle1",
+    "id" : "*/jump1",
+    "name" : "jump - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0,
-    "baseBpm" : 119.0
+    "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/whistle2",
-    "name" : "whistle2",
+    "id" : "*/jump2",
+    "name" : "jump - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/growl",
+    "name" : "growl",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/catch1",
+    "name" : "catch - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/catch2",
+    "name" : "catch - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/catch3",
+    "name" : "catch - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/alright1",
+    "name" : "alright - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/alright2",
+    "name" : "alright - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.5,
+    "earliness" : 0.08
+  }, {
+    "type" : "cue",
+    "id" : "*/discDrop",
+    "name" : "disc drop",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
