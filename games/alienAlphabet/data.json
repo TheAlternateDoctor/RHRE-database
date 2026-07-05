@@ -96,19 +96,6 @@
     "duration" : 0.75
   }, {
     "type" : "pattern",
-    "id" : "*_success",
-    "name" : "success",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/success1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/success2",
-      "beat" : 0.25
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
     "id" : "*_cha",
     "name" : "cha cha cha - bom bom",
     "deprecatedIDs" : [ ],
@@ -138,6 +125,10 @@
       "id" : "*/girlbom",
       "beat" : 3.0,
       "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 2
     } ],
     "subtext" : ""
   }, {
@@ -164,6 +155,10 @@
       "id" : "*/girlcha",
       "beat" : 3.0,
       "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 2
     } ],
     "subtext" : ""
   }, {
@@ -194,6 +189,10 @@
       "id" : "*/girlcha",
       "beat" : 3.0,
       "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 2
     } ],
     "subtext" : ""
   }, {
@@ -227,6 +226,10 @@
       "id" : "*/girlgrownbom",
       "beat" : 3.0,
       "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 2
     } ],
     "subtext" : ""
   }, {
@@ -253,6 +256,10 @@
       "id" : "*/girlgrowncha",
       "beat" : 3.0,
       "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 2
     } ],
     "subtext" : ""
   }, {
@@ -283,6 +290,23 @@
       "id" : "*/girlgrowncha",
       "beat" : 3.0,
       "track" : 1
+    }, {
+      "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 2
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_success",
+    "name" : "success",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/success1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/success2",
+      "beat" : 0.25
     } ],
     "subtext" : ""
   } ]
