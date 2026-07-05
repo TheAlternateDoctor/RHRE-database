@@ -1,0 +1,207 @@
+{
+  "id" : "yumBotSimulator",
+  "name" : "Yum Bot Simulator",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/down",
+    "name" : "down",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/catch",
+    "name" : "catch",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/handturn",
+    "name" : "handturn",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/pudding1",
+    "name" : "pudding1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pudding2",
+    "name" : "pudding2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pudding3",
+    "name" : "pudding3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/puddingland",
+    "name" : "puddingland",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/success",
+    "name" : "success",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/defect",
+    "name" : "defect",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/defect1",
+    "name" : "defect1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/defect2",
+    "name" : "defect2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/defect3",
+    "name" : "defect3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/laser",
+    "name" : "laser",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "pattern",
+    "id" : "*_pudding",
+    "name" : "pudding",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/pudding1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pudding2",
+      "beat" : 0.667
+    }, {
+      "id" : "*/pudding3",
+      "beat" : 1.333
+    }, {
+      "id" : "*/catch",
+      "beat" : 2.0
+    }, {
+      "id" : "*/success",
+      "beat" : 2.333,
+      "track" : 1
+    }, {
+      "id" : "*/handturn",
+      "beat" : 2.667
+    }, {
+      "id" : "*/puddingland",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_puddingLong",
+    "name" : "pudding - long",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/pudding1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pudding2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/pudding3",
+      "beat" : 2.0
+    }, {
+      "id" : "*/catch",
+      "beat" : 3.0
+    }, {
+      "id" : "*/success",
+      "beat" : 3.333,
+      "track" : 1
+    }, {
+      "id" : "*/handturn",
+      "beat" : 3.667
+    }, {
+      "id" : "*/puddingland",
+      "beat" : 4.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_defect",
+    "name" : "defected pudding",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/defect",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/defect1",
+      "beat" : 1.0
+    }, {
+      "id" : "*/defect2",
+      "beat" : 1.667
+    }, {
+      "id" : "*/defect3",
+      "beat" : 2.333
+    }, {
+      "id" : "*/laser",
+      "beat" : 3.0
+    }, {
+      "id" : "*/success",
+      "beat" : 3.333,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_defectLong",
+    "name" : "defected pudding - long",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/defect",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/defect1",
+      "beat" : 1.0
+    }, {
+      "id" : "*/defect2",
+      "beat" : 2.0
+    }, {
+      "id" : "*/defect3",
+      "beat" : 3.0
+    }, {
+      "id" : "*/laser",
+      "beat" : 4.0
+    }, {
+      "id" : "*/success",
+      "beat" : 4.333,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  } ]
+}
