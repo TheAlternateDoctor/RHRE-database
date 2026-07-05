@@ -5,14 +5,14 @@
   "objects" : [ {
     "type" : "cue",
     "id" : "*/apple1",
-    "name" : "apple - 1",
+    "name" : "apple - voice 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.25
   }, {
     "type" : "cue",
     "id" : "*/apple2",
-    "name" : "apple - 2",
+    "name" : "apple - voice 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.75
@@ -33,14 +33,14 @@
   }, {
     "type" : "cue",
     "id" : "*/lemon1",
-    "name" : "lemon - 1",
+    "name" : "lemon - voice 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/lemon2",
-    "name" : "lemon - 2",
+    "name" : "lemon - voice 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
@@ -97,6 +97,14 @@
     }, {
       "id" : "*/applepump2",
       "beat" : 2.25
+    }, {
+      "id" : "*/applesound",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/applesound",
+      "beat" : 0.25,
+      "track" : 1
     } ],
     "subtext" : ""
   }, {
@@ -116,7 +124,29 @@
     }, {
       "id" : "*/lemonpump2",
       "beat" : 2.25
+    }, {
+      "id" : "*/lemonsound",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/lemonsound",
+      "beat" : 0.5,
+      "track" : 1
     } ],
     "subtext" : ""
+  }, {
+    "type" : "cue",
+    "id" : "*/applesound",
+    "name" : "apple",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/lemonsound",
+    "name" : "lemon",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
   } ]
 }

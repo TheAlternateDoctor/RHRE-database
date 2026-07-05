@@ -11,6 +11,13 @@
     "duration" : 0.5
   }, {
     "type" : "cue",
+    "id" : "*/bomblink",
+    "name" : "alien - bom blink",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
     "id" : "*/aliencha1",
     "name" : "alien - cha - 1",
     "deprecatedIDs" : [ ],
@@ -20,6 +27,27 @@
     "type" : "cue",
     "id" : "*/aliencha2",
     "name" : "alien - cha - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/chablink",
+    "name" : "alien - cha blink",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/bomhit",
+    "name" : "bom - hit",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/chahit",
+    "name" : "cha - hit",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
@@ -101,7 +129,7 @@
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/aliencha1",
-      "beat" : 1.4E-45
+      "beat" : 0.0
     }, {
       "id" : "*/aliencha2",
       "beat" : 0.5
@@ -115,18 +143,38 @@
       "id" : "*/boybom",
       "beat" : 2.5
     }, {
-      "id" : "*/boybom",
-      "beat" : 3.0
-    }, {
       "id" : "*/girlbom",
       "beat" : 2.5,
       "track" : 1
+    }, {
+      "id" : "*/boybom",
+      "beat" : 3.0
     }, {
       "id" : "*/girlbom",
       "beat" : 3.0,
       "track" : 1
     }, {
       "id" : "*_success",
+      "beat" : 3.0,
+      "track" : 3
+    }, {
+      "id" : "*/chablink",
+      "beat" : 0.5,
+      "track" : 1
+    }, {
+      "id" : "*/chablink",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/chablink",
+      "beat" : 1.75,
+      "track" : 1
+    }, {
+      "id" : "*/bomhit",
+      "beat" : 2.5,
+      "track" : 2
+    }, {
+      "id" : "*/bomhit",
       "beat" : 3.0,
       "track" : 2
     } ],
@@ -138,7 +186,7 @@
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/alienbom",
-      "beat" : 1.4E-45
+      "beat" : 0.0
     }, {
       "id" : "*/alienbom",
       "beat" : 0.75
@@ -158,6 +206,26 @@
     }, {
       "id" : "*_success",
       "beat" : 3.0,
+      "track" : 3
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 0.0,
+      "track" : 1
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 0.75,
+      "track" : 1
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 1.5,
+      "track" : 1
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 2.0,
+      "track" : 1
+    }, {
+      "id" : "*/chahit",
+      "beat" : 3.0,
       "track" : 2
     } ],
     "subtext" : ""
@@ -168,7 +236,7 @@
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/alienbom",
-      "beat" : 1.4E-45
+      "beat" : 0.0
     }, {
       "id" : "*/alienbom",
       "beat" : 0.5
@@ -192,6 +260,26 @@
     }, {
       "id" : "*_success",
       "beat" : 3.0,
+      "track" : 3
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 0.5,
+      "track" : 1
+    }, {
+      "id" : "*/chablink",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/bomhit",
+      "beat" : 2.5,
+      "track" : 2
+    }, {
+      "id" : "*/chahit",
+      "beat" : 3.0,
       "track" : 2
     } ],
     "subtext" : ""
@@ -202,7 +290,7 @@
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/aliencha1",
-      "beat" : 1.4E-45
+      "beat" : 0.0
     }, {
       "id" : "*/aliencha2",
       "beat" : 0.5
@@ -229,6 +317,26 @@
     }, {
       "id" : "*_success",
       "beat" : 3.0,
+      "track" : 3
+    }, {
+      "id" : "*/chablink",
+      "beat" : 0.5,
+      "track" : 1
+    }, {
+      "id" : "*/chablink",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/chablink",
+      "beat" : 1.75,
+      "track" : 1
+    }, {
+      "id" : "*/bomhit",
+      "beat" : 2.5,
+      "track" : 2
+    }, {
+      "id" : "*/bomhit",
+      "beat" : 3.0,
       "track" : 2
     } ],
     "subtext" : ""
@@ -239,7 +347,7 @@
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/alienbom",
-      "beat" : 1.4E-45
+      "beat" : 0.0
     }, {
       "id" : "*/alienbom",
       "beat" : 0.75
@@ -259,6 +367,26 @@
     }, {
       "id" : "*_success",
       "beat" : 3.0,
+      "track" : 3
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 0.0,
+      "track" : 1
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 0.75,
+      "track" : 1
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 1.5,
+      "track" : 1
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 2.0,
+      "track" : 1
+    }, {
+      "id" : "*/chahit",
+      "beat" : 3.0,
       "track" : 2
     } ],
     "subtext" : ""
@@ -269,7 +397,7 @@
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/alienbom",
-      "beat" : 1.4E-45
+      "beat" : 0.0
     }, {
       "id" : "*/alienbom",
       "beat" : 0.5
@@ -293,6 +421,26 @@
     }, {
       "id" : "*_success",
       "beat" : 3.0,
+      "track" : 3
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/bomblink",
+      "beat" : 0.5,
+      "track" : 1
+    }, {
+      "id" : "*/chablink",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/bomhit",
+      "beat" : 2.5,
+      "track" : 2
+    }, {
+      "id" : "*/chahit",
+      "beat" : 3.0,
       "track" : 2
     } ],
     "subtext" : ""
@@ -303,7 +451,7 @@
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/success1",
-      "beat" : 1.4E-45
+      "beat" : 0.0
     }, {
       "id" : "*/success2",
       "beat" : 0.25
