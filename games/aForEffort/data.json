@@ -1,7 +1,7 @@
 {
   "id" : "aForEffort",
   "name" : "A for Effort",
-  "series" : "groove",
+  "series" : "switch",
   "objects" : [ {
     "type" : "cue",
     "id" : "*/a",

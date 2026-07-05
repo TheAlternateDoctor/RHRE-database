@@ -1,7 +1,7 @@
 {
   "id" : "canDo",
   "name" : "Can Do",
-  "series" : "groove",
+  "series" : "switch",
   "objects" : [ {
     "type" : "cue",
     "id" : "*/canthrow",
