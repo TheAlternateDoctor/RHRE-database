@@ -1,0 +1,226 @@
+{
+  "id" : "quickHands",
+  "name" : "Quick Hands",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/toss",
+    "name" : "toss",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/stick",
+    "name" : "stick",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/shovel",
+    "name" : "shovel",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/pickaxe",
+    "name" : "pickaxe",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/lollipop",
+    "name" : "lollipop",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/hammer",
+    "name" : "toy hammer",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/quick",
+    "name" : "quick",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/voicea1",
+    "name" : "voice a - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/voicea2",
+    "name" : "voice a - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/voicea3",
+    "name" : "voice a - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/voicea4",
+    "name" : "voice a - 4",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/voiceb1",
+    "name" : "voice b - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/voiceb2",
+    "name" : "voice b - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/voiceb3",
+    "name" : "voice b - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/voiceb4",
+    "name" : "voice b - 5",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "pattern",
+    "id" : "*_stick",
+    "name" : "stick",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/toss",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/stick",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_shovel",
+    "name" : "shovel",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/toss",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/shovel",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_pickaxe",
+    "name" : "pickaxe",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/toss",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pickaxe",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_lollipop",
+    "name" : "lollipop",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/toss",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/lollipop",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_hammer",
+    "name" : "toy hammer",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/toss",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hammer",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_quicka",
+    "name" : "quick grabs - a",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/voicea1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/voicea2",
+      "beat" : 0.25
+    }, {
+      "id" : "*/voicea3",
+      "beat" : 0.5
+    }, {
+      "id" : "*/voicea4",
+      "beat" : 0.75
+    }, {
+      "id" : "*/quick",
+      "beat" : 1.5
+    }, {
+      "id" : "*/quick",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_quickb",
+    "name" : "quick grabs - b",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/voiceb1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/voiceb2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/voiceb3",
+      "beat" : 0.75
+    }, {
+      "id" : "*/voiceb4",
+      "beat" : 1.0
+    }, {
+      "id" : "*/quick",
+      "beat" : 1.75
+    }, {
+      "id" : "*/quick",
+      "beat" : 2.25
+    } ],
+    "subtext" : ""
+  } ]
+}

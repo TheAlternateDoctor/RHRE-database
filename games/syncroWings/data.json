@@ -1,0 +1,61 @@
+{
+  "id" : "syncroWings",
+  "name" : "Syncro Wings",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/wingdownleader",
+    "name" : "wingdownleader",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "stretchable" : true,
+    "endingSound" : "*/wingupleader",
+    "responseIDs" : [ "*/wingdownflock" ],
+    "earliness" : 0.034
+  }, {
+    "type" : "cue",
+    "id" : "*/wingdownflock",
+    "name" : "wingdownflock",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "stretchable" : true,
+    "endingSound" : "*/wingupflock",
+    "earliness" : 0.013
+  }, {
+    "type" : "cue",
+    "id" : "*/wingupleader",
+    "name" : "wingupleader",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "stretchable" : true,
+    "responseIDs" : [ "*/wingupflock" ],
+    "earliness" : 0.017
+  }, {
+    "type" : "cue",
+    "id" : "*/wingupflock",
+    "name" : "wingupflock",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "stretchable" : true,
+    "earliness" : 0.032
+  }, {
+    "type" : "cue",
+    "id" : "*/leaderturn",
+    "name" : "leaderturn",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "responseIDs" : [ "*/flockturn" ]
+  }, {
+    "type" : "cue",
+    "id" : "*/flockturn",
+    "name" : "flockturn",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  } ]
+}

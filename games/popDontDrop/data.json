@@ -1,0 +1,252 @@
+{
+  "id" : "popDontDrop",
+  "name" : "Pop, Don't Drop",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/hardbubble",
+    "name" : "hardbubble",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "responseIDs" : [ "*_hardbubblepop" ],
+    "earliness" : 0.095
+  }, {
+    "type" : "cue",
+    "id" : "*/hardbubblealt",
+    "name" : "hardbubble - shorter hard pop",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "responseIDs" : [ "*_hardbubblepopshort" ],
+    "earliness" : 0.095
+  }, {
+    "type" : "cue",
+    "id" : "*/hold",
+    "name" : "hold",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "stretchable" : true
+  }, {
+    "type" : "cue",
+    "id" : "*/pophard1",
+    "name" : "pophard1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pophard2",
+    "name" : "pophard2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pophard3",
+    "name" : "pophard3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pophard4",
+    "name" : "pophard4",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pophard5",
+    "name" : "pophard5",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pophard6",
+    "name" : "pophard6",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pophard7",
+    "name" : "pophard7",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pophard8",
+    "name" : "pophard8",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pophard9",
+    "name" : "pophard9",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pophard10",
+    "name" : "pophard10",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pophard11",
+    "name" : "pophard11",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pophard12",
+    "name" : "pophard12",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pophard13",
+    "name" : "pophard13",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/popsoft",
+    "name" : "popsoft",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/softbubble1",
+    "name" : "softbubble1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/softbubble2",
+    "name" : "softbubble2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/softbubble3",
+    "name" : "softbubble3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/softbubble4",
+    "name" : "softbubble4",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "pattern",
+    "id" : "*_hardbubblepop",
+    "name" : "hard bubble pop",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hold",
+      "beat" : 1.4E-45,
+      "duration" : 1.0
+    }, {
+      "id" : "*_randomhardpop",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_hardbubblepopshort",
+    "name" : "hard bubble pop - short",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hold",
+      "beat" : 1.4E-45,
+      "duration" : 0.75
+    }, {
+      "id" : "*_randomhardpop",
+      "beat" : 0.75
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "randomCue",
+    "id" : "*_randomsoftspawn",
+    "name" : "random soft spawn",
+    "deprecatedIDs" : [ ],
+    "responseIDs" : [ "*/popsoft" ],
+    "cues" : [ {
+      "id" : "*/softbubble1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/softbubble2",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/softbubble3",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/softbubble4",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "randomCue",
+    "id" : "*_randomhardpop",
+    "name" : "random hard pop",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/pophard1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pophard2",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pophard3",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pophard4",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pophard5",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pophard6",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pophard7",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pophard8",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pophard9",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pophard10",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pophard11",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pophard12",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pophard13",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  } ]
+}

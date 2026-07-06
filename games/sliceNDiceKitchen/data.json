@@ -1,0 +1,282 @@
+{
+  "id" : "sliceNDiceKitchen",
+  "name" : "Slice N Dice Kitchen",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/tomato",
+    "name" : "tomato",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/pepper",
+    "name" : "pepper",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/broccoli",
+    "name" : "broccoli",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/catch",
+    "name" : "catch",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/catchshort",
+    "name" : "catchshort",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/hum1a",
+    "name" : "hum1a",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/hum1b",
+    "name" : "hum1b",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/hum2a",
+    "name" : "hum2a",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/hum2b",
+    "name" : "hum2b",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/hum3a",
+    "name" : "hum3a",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/hum3b",
+    "name" : "hum3b",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/hum4a",
+    "name" : "hum4a",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/hum4b",
+    "name" : "hum4b",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "pattern",
+    "id" : "*_tomato1",
+    "name" : "tomato - 1",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hum1a",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hum1b",
+      "beat" : 0.5
+    }, {
+      "id" : "*/catch",
+      "beat" : 1.5
+    }, {
+      "id" : "*/tomato",
+      "beat" : 0.5,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_tomato2",
+    "name" : "tomato - 2",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hum2a",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hum2b",
+      "beat" : 0.5
+    }, {
+      "id" : "*/catch",
+      "beat" : 1.5
+    }, {
+      "id" : "*/tomato",
+      "beat" : 0.5,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_tomato3",
+    "name" : "tomato - 3",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hum3a",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hum3b",
+      "beat" : 0.5
+    }, {
+      "id" : "*/catch",
+      "beat" : 1.5
+    }, {
+      "id" : "*/tomato",
+      "beat" : 0.5,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_tomato4",
+    "name" : "tomato - 4",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hum4a",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hum4b",
+      "beat" : 0.5
+    }, {
+      "id" : "*/catch",
+      "beat" : 1.5
+    }, {
+      "id" : "*/tomato",
+      "beat" : 0.5,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_pepper1",
+    "name" : "pepper - 1",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hum1a",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hum1b",
+      "beat" : 0.5
+    }, {
+      "id" : "*/catch",
+      "beat" : 1.5
+    }, {
+      "id" : "*/pepper",
+      "beat" : 0.5,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_pepper2",
+    "name" : "pepper - 2",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hum2a",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hum2b",
+      "beat" : 0.5
+    }, {
+      "id" : "*/catch",
+      "beat" : 1.5
+    }, {
+      "id" : "*/pepper",
+      "beat" : 0.5,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_pepper3",
+    "name" : "pepper - 3",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hum3a",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hum3b",
+      "beat" : 0.5
+    }, {
+      "id" : "*/catch",
+      "beat" : 1.5
+    }, {
+      "id" : "*/pepper",
+      "beat" : 0.5,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_pepper4",
+    "name" : "pepper - 4",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hum4a",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hum4b",
+      "beat" : 0.5
+    }, {
+      "id" : "*/catch",
+      "beat" : 1.5
+    }, {
+      "id" : "*/pepper",
+      "beat" : 0.5,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_broccoli",
+    "name" : "broccoli",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/broccoli",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/broccoli",
+      "beat" : 0.25
+    }, {
+      "id" : "*/broccoli",
+      "beat" : 0.5
+    }, {
+      "id" : "*/catchshort",
+      "beat" : 1.0
+    }, {
+      "id" : "*/catchshort",
+      "beat" : 1.5
+    }, {
+      "id" : "*/catch",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  } ]
+}

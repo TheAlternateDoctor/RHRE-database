@@ -1,0 +1,168 @@
+{
+  "id" : "crabSnacks",
+  "name" : "Crab Snacks",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/macaronhit",
+    "name" : "macaron - hit",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/macaronvoice",
+    "name" : "macaron - voice",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/macaronhole",
+    "name" : "macaron - hole",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/mangosteenhit",
+    "name" : "mangosteen - hit",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.5
+  }, {
+    "type" : "cue",
+    "id" : "*/mangosteenvoice",
+    "name" : "mangosteen - voice",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/mangosteenhole",
+    "name" : "mangosteen - hole",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/favabeanhit",
+    "name" : "favabean - hit",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/favabeanvoice1",
+    "name" : "favabean - voice 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/favabeanvoice2",
+    "name" : "favabean - voice 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/favabeanhole",
+    "name" : "favabean - hole",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/mmm",
+    "name" : "mmm",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "pattern",
+    "id" : "*_macaron",
+    "name" : "macaron",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/macaronhit",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/macaronhit",
+      "beat" : 2.0
+    }, {
+      "id" : "*/macaronhit",
+      "beat" : 4.0
+    }, {
+      "id" : "*/macaronvoice",
+      "beat" : 4.0,
+      "track" : 1
+    }, {
+      "id" : "*/macaronhole",
+      "beat" : 6.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_mangosteen",
+    "name" : "mangosteen",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/mangosteenhit",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/mangosteenhit",
+      "beat" : 1.5
+    }, {
+      "id" : "*/mangosteenhit",
+      "beat" : 3.0
+    }, {
+      "id" : "*/mangosteenvoice",
+      "beat" : 3.0,
+      "track" : 1
+    }, {
+      "id" : "*/mangosteenhole",
+      "beat" : 4.5
+    }, {
+      "id" : "*/mmm",
+      "beat" : 5.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_favabeans",
+    "name" : "fava beans",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/favabeanhit",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/favabeanhit",
+      "beat" : 1.0
+    }, {
+      "id" : "*/favabeanhit",
+      "beat" : 2.5
+    }, {
+      "id" : "*/favabeanhit",
+      "beat" : 3.5
+    }, {
+      "id" : "*/favabeanhit",
+      "beat" : 5.0
+    }, {
+      "id" : "*/favabeanvoice1",
+      "beat" : 5.0,
+      "track" : 1
+    }, {
+      "id" : "*/favabeanhit",
+      "beat" : 6.0
+    }, {
+      "id" : "*/favabeanvoice2",
+      "beat" : 6.0,
+      "track" : 1
+    }, {
+      "id" : "*/favabeanhole",
+      "beat" : 7.5
+    } ],
+    "subtext" : ""
+  } ]
+}

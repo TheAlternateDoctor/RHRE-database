@@ -1,0 +1,122 @@
+{
+  "id" : "stopNGoNStop",
+  "name" : "Stop N Go N Stop",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/accel1",
+    "name" : "accel1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/accel2",
+    "name" : "accel2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/accel3",
+    "name" : "accel3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/accelhit",
+    "name" : "accelhit",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/accelsound",
+    "name" : "accelsound",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/break1",
+    "name" : "break1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/break2",
+    "name" : "break2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/breakhit",
+    "name" : "breakhit",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/breaksound",
+    "name" : "breaksound",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "pattern",
+    "id" : "*_break",
+    "name" : "break",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/break1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/break2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/breakhit",
+      "beat" : 2.0
+    }, {
+      "id" : "*/breaksound",
+      "beat" : 2.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_accelerate",
+    "name" : "accelerate",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/accel1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/accel1",
+      "beat" : 1.0
+    }, {
+      "id" : "*/accel2",
+      "beat" : 2.0
+    }, {
+      "id" : "*/accel2",
+      "beat" : 2.5
+    }, {
+      "id" : "*/accel2",
+      "beat" : 3.0
+    }, {
+      "id" : "*/accel3",
+      "beat" : 3.5
+    }, {
+      "id" : "*/accelhit",
+      "beat" : 3.5,
+      "track" : 1
+    }, {
+      "id" : "*/accelsound",
+      "beat" : 3.5,
+      "track" : 2
+    } ],
+    "subtext" : ""
+  } ]
+}
