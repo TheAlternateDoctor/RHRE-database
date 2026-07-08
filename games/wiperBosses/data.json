@@ -1,0 +1,216 @@
+{
+  "id" : "wiperBosses",
+  "name" : "Wiper Bosses",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/alternatesign1",
+    "name" : "alternate sign - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/alternatesign2",
+    "name" : "alternate sign - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/bluejump",
+    "name" : "blue jump",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/bluesign",
+    "name" : "blue sign",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/bothsign",
+    "name" : "both sign",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/pinkjump",
+    "name" : "pink jump",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/pinksign",
+    "name" : "pink sign",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "pattern",
+    "id" : "*_blueslow",
+    "name" : "mr. blue - slow",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/bluesign",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/bluesign",
+      "beat" : 2.0
+    }, {
+      "id" : "*/bluejump",
+      "beat" : 4.0
+    }, {
+      "id" : "*/bluejump",
+      "beat" : 6.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_bluefast",
+    "name" : "mr. blue - fast",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/bluesign",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/bluesign",
+      "beat" : 1.0
+    }, {
+      "id" : "*/bluejump",
+      "beat" : 2.0
+    }, {
+      "id" : "*/bluejump",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_pinkslow",
+    "name" : "ms. pink - slow",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/pinksign",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pinksign",
+      "beat" : 2.0
+    }, {
+      "id" : "*/pinkjump",
+      "beat" : 4.0
+    }, {
+      "id" : "*/pinkjump",
+      "beat" : 6.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_pinkfast",
+    "name" : "ms. pink - fast",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/pinksign",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pinksign",
+      "beat" : 1.0
+    }, {
+      "id" : "*/pinkjump",
+      "beat" : 2.0
+    }, {
+      "id" : "*/pinkjump",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_bothslow",
+    "name" : "both - slow",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/bothsign",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/bothsign",
+      "beat" : 2.0
+    }, {
+      "id" : "*/bluejump",
+      "beat" : 4.0
+    }, {
+      "id" : "*/pinkjump",
+      "beat" : 4.0,
+      "track" : 1
+    }, {
+      "id" : "*/bluejump",
+      "beat" : 6.0
+    }, {
+      "id" : "*/pinkjump",
+      "beat" : 6.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_bothfast",
+    "name" : "both - fast",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/bothsign",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/bothsign",
+      "beat" : 1.0
+    }, {
+      "id" : "*/bluejump",
+      "beat" : 2.0
+    }, {
+      "id" : "*/pinkjump",
+      "beat" : 2.0,
+      "track" : 1
+    }, {
+      "id" : "*/bluejump",
+      "beat" : 3.0
+    }, {
+      "id" : "*/pinkjump",
+      "beat" : 3.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_alternate",
+    "name" : "alternate",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/alternatesign1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/alternatesign2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/alternatesign1",
+      "beat" : 2.0
+    }, {
+      "id" : "*/alternatesign2",
+      "beat" : 3.0
+    }, {
+      "id" : "*/pinkjump",
+      "beat" : 4.0
+    }, {
+      "id" : "*/bluejump",
+      "beat" : 5.0
+    }, {
+      "id" : "*/pinkjump",
+      "beat" : 6.0
+    }, {
+      "id" : "*/bluejump",
+      "beat" : 7.0
+    } ],
+    "subtext" : ""
+  } ]
+}

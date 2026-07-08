@@ -1,0 +1,183 @@
+{
+  "id" : "hopStopNRoll",
+  "name" : "Hop Stop N Roll",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/confetti",
+    "name" : "confetti",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/start1",
+    "name" : "start - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/start2",
+    "name" : "start - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/jump",
+    "name" : "jump",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/stop1",
+    "name" : "three",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.081
+  }, {
+    "type" : "cue",
+    "id" : "*/stop2",
+    "name" : "two",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.01
+  }, {
+    "type" : "cue",
+    "id" : "*/stop3",
+    "name" : "one",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/stop4",
+    "name" : "stop",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/jumpstop",
+    "name" : "jump - stop",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/rolling1",
+    "name" : "rolling - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/rolling2",
+    "name" : "rolling - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/roll",
+    "name" : "roll",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "pattern",
+    "id" : "*_starthopping",
+    "name" : "start hopping",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/start1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/start2",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_hopping",
+    "name" : "hopping",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/jump",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/jump",
+      "beat" : 1.0
+    }, {
+      "id" : "*/jump",
+      "beat" : 2.0
+    }, {
+      "id" : "*/jump",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_rolling",
+    "name" : "rolling",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/rolling1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/rolling2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/roll",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_rollingpop",
+    "name" : "rolling with confetti",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/rolling1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/rolling2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/roll",
+      "beat" : 2.0
+    }, {
+      "id" : "*/confetti",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_stop",
+    "name" : "stop",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/stop1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/stop2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/stop3",
+      "beat" : 2.0
+    }, {
+      "id" : "*/stop4",
+      "beat" : 3.0
+    }, {
+      "id" : "*/jumpstop",
+      "beat" : 3.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  } ]
+}

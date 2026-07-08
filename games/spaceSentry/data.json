@@ -1,0 +1,216 @@
+{
+  "id" : "spaceSentry",
+  "name" : "Space Sentry",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/shoot",
+    "name" : "shoot",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/hit",
+    "name" : "hit",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/normal1",
+    "name" : "normal - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/normal2",
+    "name" : "normal - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.01
+  }, {
+    "type" : "cue",
+    "id" : "*/normal3",
+    "name" : "normal - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/normal4",
+    "name" : "normal - 4",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/near1",
+    "name" : "near - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/near2",
+    "name" : "near - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/near3",
+    "name" : "near - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/near4",
+    "name" : "near - 4",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/near5",
+    "name" : "near - 5",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/far1",
+    "name" : "far - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/far2",
+    "name" : "far - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/far3",
+    "name" : "far - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/far4",
+    "name" : "far - 4",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/far5",
+    "name" : "far - 5",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.5
+  }, {
+    "type" : "cue",
+    "id" : "*/far6",
+    "name" : "far - 6",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "pattern",
+    "id" : "*_normal",
+    "name" : "normal meteorite",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/normal1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/normal2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/normal3",
+      "beat" : 2.0
+    }, {
+      "id" : "*/shoot",
+      "beat" : 2.0,
+      "track" : 1
+    }, {
+      "id" : "*/normal4",
+      "beat" : 3.0
+    }, {
+      "id" : "*/hit",
+      "beat" : 3.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_near",
+    "name" : "near meteorite",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/near1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/near2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/near3",
+      "beat" : 1.0
+    }, {
+      "id" : "*/near4",
+      "beat" : 2.5
+    }, {
+      "id" : "*/shoot",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*/near5",
+      "beat" : 3.0
+    }, {
+      "id" : "*/hit",
+      "beat" : 3.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_far",
+    "name" : "far",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/far1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/far2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/far3",
+      "beat" : 0.75
+    }, {
+      "id" : "*/far4",
+      "beat" : 1.0
+    }, {
+      "id" : "*/far5",
+      "beat" : 1.5
+    }, {
+      "id" : "*/shoot",
+      "beat" : 1.5,
+      "track" : 1
+    }, {
+      "id" : "*/far6",
+      "beat" : 3.0
+    }, {
+      "id" : "*/hit",
+      "beat" : 3.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  } ]
+}

@@ -91,7 +91,7 @@
   }, {
     "type" : "cue",
     "id" : "*/triplevoice1",
-    "name" : "triple clap voice - 3",
+    "name" : "triple clap voice - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
@@ -99,7 +99,7 @@
   }, {
     "type" : "cue",
     "id" : "*/triplevoice2",
-    "name" : "triple clap voice - 3",
+    "name" : "triple clap voice - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5

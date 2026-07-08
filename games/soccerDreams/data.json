@@ -1,0 +1,260 @@
+{
+  "id" : "soccerDreams",
+  "name" : "Soccer Dreams",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/kickv1",
+    "name" : "kickv1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/kickv2",
+    "name" : "kickv2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.038
+  }, {
+    "type" : "cue",
+    "id" : "*/ballspawn",
+    "name" : "ballspawn",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/kick",
+    "name" : "kick",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/trapv1",
+    "name" : "trapv1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/trapv2",
+    "name" : "trapv2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/trapv3",
+    "name" : "trapv3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/trapspawn",
+    "name" : "trapspawn",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/trap1",
+    "name" : "trap1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/trap2",
+    "name" : "trap2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/kickflipv1",
+    "name" : "kickflipv1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/kickflipv2",
+    "name" : "kickflipv2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/kickflipv3",
+    "name" : "kickflipv3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/kickflipspawn",
+    "name" : "kickflipspawn",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/whistle",
+    "name" : "whistle",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/kickflip1",
+    "name" : "kickflip1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/kickflip2",
+    "name" : "kickflip2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/kickflip3",
+    "name" : "kickflip3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/kickflip3alt",
+    "name" : "kickflip3alt",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "pattern",
+    "id" : "*_kick",
+    "name" : "and shoot",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/kickv1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/kickv2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/ballspawn",
+      "beat" : 0.5,
+      "track" : 1
+    }, {
+      "id" : "*/kick",
+      "beat" : 1.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_trap",
+    "name" : "and hey ha",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/trapv1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/trapv2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/trapv3",
+      "beat" : 1.5
+    }, {
+      "id" : "*/trapspawn",
+      "beat" : 1.5,
+      "track" : 1
+    }, {
+      "id" : "*/trap1",
+      "beat" : 2.5
+    }, {
+      "id" : "*/trap2",
+      "beat" : 3.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_kickflip",
+    "name" : "yes you can",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/kickflipv1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/kickflipv2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/kickflipv3",
+      "beat" : 1.5
+    }, {
+      "id" : "*/kickflipspawn",
+      "beat" : 1.5,
+      "track" : 1
+    }, {
+      "id" : "*/kickflip1",
+      "beat" : 2.5
+    }, {
+      "id" : "*/whistle",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*/kickflip2",
+      "beat" : 3.5
+    }, {
+      "id" : "*/whistle",
+      "beat" : 3.5,
+      "track" : 1
+    }, {
+      "id" : "*/kickflip3",
+      "beat" : 4.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_kickflipalt",
+    "name" : "yes you can - alt",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/kickflipv1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/kickflipv2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/kickflipv3",
+      "beat" : 1.5
+    }, {
+      "id" : "*/kickflipspawn",
+      "beat" : 1.5,
+      "track" : 1
+    }, {
+      "id" : "*/kickflip1",
+      "beat" : 2.5
+    }, {
+      "id" : "*/whistle",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*/kickflip2",
+      "beat" : 3.5
+    }, {
+      "id" : "*/whistle",
+      "beat" : 3.5,
+      "track" : 1
+    }, {
+      "id" : "*/kickflip3alt",
+      "beat" : 4.5
+    } ],
+    "subtext" : ""
+  } ]
+}

@@ -1,0 +1,258 @@
+{
+  "id" : "sodaHop",
+  "name" : "Soda Hop",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/jumpv1",
+    "name" : "jumpv1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/jumpv2",
+    "name" : "jumpv2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/jump",
+    "name" : "jump",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/ropeground",
+    "name" : "ropeground",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/ropeswing",
+    "name" : "ropeswing",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/stopv1",
+    "name" : "stopv1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/stopv2",
+    "name" : "stopv2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/stopv3",
+    "name" : "stopv3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/stopv4",
+    "name" : "stopv4",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.1
+  }, {
+    "type" : "cue",
+    "id" : "*/beatchange1",
+    "name" : "beatchange1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/beatchange2",
+    "name" : "beatchange2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/beatchange3",
+    "name" : "beatchange3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/beatchange4",
+    "name" : "beatchange4",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/offbeatjump1",
+    "name" : "offbeatjump1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/offbeatjump2",
+    "name" : "offbeatjump2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/offbeatswing1",
+    "name" : "offbeatswing1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/offbeatswing2",
+    "name" : "offbeatswing2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "pattern",
+    "id" : "*_start",
+    "name" : "start jumping",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/jumpv1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/jumpv2",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_jumping",
+    "name" : "jumping",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/jump",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/ropeground",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/ropeswing",
+      "beat" : 1.4E-45,
+      "track" : 2
+    }, {
+      "id" : "*/jump",
+      "beat" : 1.0
+    }, {
+      "id" : "*/ropeground",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/ropeswing",
+      "beat" : 1.0,
+      "track" : 2
+    }, {
+      "id" : "*/jump",
+      "beat" : 2.0
+    }, {
+      "id" : "*/ropeground",
+      "beat" : 2.0,
+      "track" : 1
+    }, {
+      "id" : "*/ropeswing",
+      "beat" : 2.0,
+      "track" : 2
+    }, {
+      "id" : "*/jump",
+      "beat" : 3.0
+    }, {
+      "id" : "*/ropeground",
+      "beat" : 3.0,
+      "track" : 1
+    }, {
+      "id" : "*/ropeswing",
+      "beat" : 3.0,
+      "track" : 2
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_stop",
+    "name" : "stop jumping",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/stopv1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/stopv2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/stopv3",
+      "beat" : 2.0
+    }, {
+      "id" : "*/stopv4",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_beatchange",
+    "name" : "beat change",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/offbeatjump1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/offbeatjump2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/offbeatswing1",
+      "beat" : 0.0,
+      "track" : 1
+    }, {
+      "id" : "*/offbeatswing2",
+      "beat" : 0.5,
+      "track" : 1
+    }, {
+      "id" : "*/ropeground",
+      "beat" : 0.0,
+      "track" : 2
+    }, {
+      "id" : "*/ropeground",
+      "beat" : 0.5,
+      "track" : 2
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_beatchangev",
+    "name" : "beat change - voice",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/beatchange1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/beatchange2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/beatchange3",
+      "beat" : 2.0
+    }, {
+      "id" : "*/beatchange4",
+      "beat" : 2.5
+    } ],
+    "subtext" : ""
+  } ]
+}
