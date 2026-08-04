@@ -1,0 +1,55 @@
+{
+  "id" : "synchroWings",
+  "name" : "Synchro Wings",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/leaderdown",
+    "name" : "leader - wings down",
+    "deprecatedIDs" : [ "syncroWings/wingdownleader" ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "stretchable" : true,
+    "endingSound" : "*/leaderup",
+    "responseIDs" : [ "*/flockdown" ]
+  }, {
+    "type" : "cue",
+    "id" : "*/leaderup",
+    "name" : "leader - wings up",
+    "deprecatedIDs" : [ "syncroWings/wingupleader" ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "responseIDs" : [ "*/flockup" ]
+  }, {
+    "type" : "cue",
+    "id" : "*/flockdown",
+    "name" : "flock - wings down",
+    "deprecatedIDs" : [ "syncroWings/wingupflock" ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "stretchable" : true,
+    "endingSound" : "*/flockup"
+  }, {
+    "type" : "cue",
+    "id" : "*/flockup",
+    "name" : "flock - wings up",
+    "deprecatedIDs" : [ "syncroWings/wingupflock" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/passover",
+    "name" : "leader - turn pass",
+    "deprecatedIDs" : [ "syncroWings/leaderturn" ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "responseIDs" : [ "*/success" ]
+  }, {
+    "type" : "cue",
+    "id" : "*/success",
+    "name" : "flock - turn pass",
+    "deprecatedIDs" : [ "syncroWings/flockturn" ],
+    "subtext" : "",
+    "duration" : 1.0
+  } ]
+}
