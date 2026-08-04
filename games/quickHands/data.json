@@ -176,7 +176,7 @@
     "type" : "pattern",
     "id" : "*_doubleCatch",
     "name" : "double-catch",
-    "deprecatedIDs" : [ "quickHands/quicka" ],
+    "deprecatedIDs" : [ "quickHands_quicka" ],
     "cues" : [ {
       "id" : "*/doubleVoice1",
       "beat" : 1.4E-45
@@ -201,7 +201,7 @@
     "type" : "pattern",
     "id" : "*_speedyCatch",
     "name" : "speedy double-catch",
-    "deprecatedIDs" : [ "quickHands/quickb" ],
+    "deprecatedIDs" : [ "quickHands_quickb" ],
     "cues" : [ {
       "id" : "*/speedyVoice1",
       "beat" : 1.4E-45
