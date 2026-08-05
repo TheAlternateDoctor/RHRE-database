@@ -1,0 +1,84 @@
+{
+  "id" : "deepSea",
+  "name" : "Deep Sea",
+  "series" : "groove",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/row",
+    "name" : "row",
+    "deprecatedIDs" : [ "deepEnd/flap" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/cueSingle1",
+    "name" : "single - 1",
+    "deprecatedIDs" : [ "deepEnd/single1" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/cueSingle2",
+    "name" : "single - 2",
+    "deprecatedIDs" : [ "deepEnd/single2" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/cueTriple1",
+    "name" : "triple - 1",
+    "deprecatedIDs" : [ "deepEnd/triple1" ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/cueTriple2",
+    "name" : "triple - 2",
+    "deprecatedIDs" : [ "deepEnd/triple2" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "pattern",
+    "id" : "*_single",
+    "name" : "single row",
+    "deprecatedIDs" : [ "deepEnd_single" ],
+    "cues" : [ {
+      "id" : "*/cueSingle1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/cueSingle2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/row",
+      "beat" : 1.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_triple",
+    "name" : "triple row",
+    "deprecatedIDs" : [ "deepEnd_triple" ],
+    "cues" : [ {
+      "id" : "*/cueTriple1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/cueTriple1",
+      "beat" : 0.25
+    }, {
+      "id" : "*/cueTriple2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/row",
+      "beat" : 1.5,
+      "duration" : 1.0
+    }, {
+      "id" : "*/row",
+      "beat" : 2.5,
+      "duration" : 1.0
+    }, {
+      "id" : "*/row",
+      "beat" : 3.5
+    } ],
+    "subtext" : ""
+  } ]
+}
