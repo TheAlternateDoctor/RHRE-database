@@ -4,383 +4,643 @@
   "series" : "groove",
   "objects" : [ {
     "type" : "cue",
-    "id" : "*/playerup",
-    "name" : "playerup",
+    "id" : "*/stretchUp",
+    "name" : "stretch - up",
+    "deprecatedIDs" : [ "*/playerup" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/stretchDown",
+    "name" : "stretch - down",
+    "deprecatedIDs" : [ "*/playerdown" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/countOkay1",
+    "name" : "okay! - 1",
+    "deprecatedIDs" : [ "*/start1" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countOkay2",
+    "name" : "okay! - 2",
+    "deprecatedIDs" : [ "*/start2" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countStop1",
+    "name" : "stop - three",
+    "deprecatedIDs" : [ "*/stop1" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countStop2",
+    "name" : "stop - two",
+    "deprecatedIDs" : [ "*/stop2" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countStop3",
+    "name" : "stop - one",
+    "deprecatedIDs" : [ "*/stop3" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countStop4",
+    "name" : "stop - hai!",
+    "deprecatedIDs" : [ "*/stop4" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countSlow1",
+    "name" : "slow - wind-up - 1",
+    "deprecatedIDs" : [ "*/slow1" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countSlow2",
+    "name" : "slow - wind-up - 2",
+    "deprecatedIDs" : [ "*/slow2" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countSlow3",
+    "name" : "slow - wind-up - 3",
+    "deprecatedIDs" : [ "*/slow3" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countSlow4",
+    "name" : "slow - wind-up - 4",
+    "deprecatedIDs" : [ "*/slow4" ],
+    "subtext" : "",
+    "duration" : 2.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countSlow5",
+    "name" : "slow - wind-up - whistle",
+    "deprecatedIDs" : [ "*/whistle" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countTriple1",
+    "name" : "triple - wind-up - 1",
+    "deprecatedIDs" : [ "*/fast1" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/countTriple2",
+    "name" : "triple - wind-up - 2",
+    "deprecatedIDs" : [ "*/fast2" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/countTriple3",
+    "name" : "triple - wind-up - 3",
+    "deprecatedIDs" : [ "*/fast3" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/voiceNormal1",
+    "name" : "stretch - voice - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/voiceNormal2",
+    "name" : "stretch - voice - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/voiceSlow1",
+    "name" : "slow - voice - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/voiceSlow2",
+    "name" : "slow - voice - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/voiceSlow3",
+    "name" : "slow - voice - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/voiceSlow4",
+    "name" : "slow - voice - 4",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/voiceTriple1",
+    "name" : "triple - voice - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/playerdown",
-    "name" : "playerdown",
+    "id" : "*/voiceTriple2",
+    "name" : "triple - voice - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/friendsdown",
-    "name" : "friendsdown",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/friendsstop",
-    "name" : "friendsstop",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/friendsup",
-    "name" : "friendsup",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/start1",
-    "name" : "start1",
+    "id" : "*/voiceTriple3",
+    "name" : "triple - voice - 3",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/start2",
-    "name" : "start2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/stop1",
-    "name" : "stop1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/stop2",
-    "name" : "stop2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/stop3",
-    "name" : "stop3",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/stop4",
-    "name" : "stop4",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/slow1",
-    "name" : "slow1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/slow2",
-    "name" : "slow2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/slow3",
-    "name" : "slow3",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/slow4",
-    "name" : "slow4",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/whistle",
-    "name" : "whistle",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/fast1",
-    "name" : "fast1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/fast2",
-    "name" : "fast2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/fast3",
-    "name" : "fast3",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
   }, {
     "type" : "pattern",
-    "id" : "*_start",
-    "name" : "start moving",
-    "deprecatedIDs" : [ ],
+    "id" : "*_countOkay",
+    "name" : "okay!",
+    "deprecatedIDs" : [ "*_start" ],
     "cues" : [ {
-      "id" : "*/start1",
+      "id" : "*/countOkay1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/start2",
+      "id" : "*/countOkay2",
       "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_countStop",
+    "name" : "three, two, one, hai!",
+    "deprecatedIDs" : [ "*_stop" ],
+    "cues" : [ {
+      "id" : "*/countStop1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/countStop2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/countStop3",
+      "beat" : 2.0
+    }, {
+      "id" : "*/countStop4",
+      "beat" : 3.0
     } ],
     "subtext" : ""
   }, {
     "type" : "keepTheBeat",
-    "id" : "*_moving",
-    "name" : "moving - up then down",
-    "deprecatedIDs" : [ ],
-    "defaultDuration" : 4.0,
+    "id" : "*_stretchNormal",
+    "name" : "stretching",
+    "deprecatedIDs" : [ "*_moving" ],
+    "defaultDuration" : 2.0,
     "cues" : [ {
-      "id" : "*/playerup",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/friendsdown",
+      "id" : "*/stretchUp",
       "beat" : 1.4E-45,
-      "track" : 1
+      "duration" : 1.0
     }, {
-      "id" : "*/playerdown",
-      "beat" : 1.0
-    }, {
-      "id" : "*/friendsup",
+      "id" : "*/stretchDown",
       "beat" : 1.0,
-      "track" : 1
-    }, {
-      "id" : "*/playerup",
-      "beat" : 2.0
-    }, {
-      "id" : "*/friendsdown",
-      "beat" : 2.0,
-      "track" : 1
-    }, {
-      "id" : "*/playerdown",
-      "beat" : 3.0
-    }, {
-      "id" : "*/friendsup",
-      "beat" : 3.0,
-      "track" : 1
+      "duration" : 1.0
     } ],
     "subtext" : ""
   }, {
     "type" : "keepTheBeat",
-    "id" : "*_movinginvert",
-    "name" : "moving - down then up",
-    "deprecatedIDs" : [ ],
-    "defaultDuration" : 4.0,
+    "id" : "*_stretchNormalRev",
+    "name" : "stretching - inverted",
+    "deprecatedIDs" : [ "*_movinginvert" ],
+    "defaultDuration" : 2.0,
     "cues" : [ {
-      "id" : "*/playerdown",
-      "beat" : 1.4E-45
+      "id" : "*/stretchDown",
+      "beat" : 0.0,
+      "duration" : 1.0
     }, {
-      "id" : "*/friendsup",
-      "beat" : 1.4E-45,
-      "track" : 1
-    }, {
-      "id" : "*/playerup",
-      "beat" : 1.0
-    }, {
-      "id" : "*/friendsdown",
+      "id" : "*/stretchUp",
       "beat" : 1.0,
-      "track" : 1
+      "duration" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_voiceNormal",
+    "name" : "stretching - voice",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 2.0,
+    "cues" : [ {
+      "id" : "*/voiceNormal1",
+      "beat" : 1.4E-45
     }, {
-      "id" : "*/playerdown",
-      "beat" : 2.0
+      "id" : "*/voiceNormal2",
+      "beat" : 1.0
     }, {
-      "id" : "*/friendsup",
+      "id" : "*/voiceNormal1",
       "beat" : 2.0,
-      "track" : 1
+      "volume" : 85
     }, {
-      "id" : "*/playerup",
-      "beat" : 3.0
-    }, {
-      "id" : "*/friendsdown",
+      "id" : "*/voiceNormal2",
       "beat" : 3.0,
-      "track" : 1
+      "volume" : 85
+    }, {
+      "id" : "*/voiceNormal1",
+      "beat" : 4.0,
+      "volume" : 60
+    }, {
+      "id" : "*/voiceNormal2",
+      "beat" : 5.0,
+      "volume" : 60
+    }, {
+      "id" : "*/voiceNormal1",
+      "beat" : 6.0,
+      "volume" : 45
+    }, {
+      "id" : "*/voiceNormal2",
+      "beat" : 7.0,
+      "volume" : 45
+    }, {
+      "id" : "*/voiceNormal1",
+      "beat" : 8.0,
+      "volume" : 35
+    }, {
+      "id" : "*/voiceNormal2",
+      "beat" : 9.0,
+      "volume" : 35
+    }, {
+      "id" : "*/voiceNormal1",
+      "beat" : 10.0,
+      "volume" : 25
+    }, {
+      "id" : "*/voiceNormal2",
+      "beat" : 11.0,
+      "volume" : 25
+    }, {
+      "id" : "*/voiceNormal1",
+      "beat" : 12.0,
+      "volume" : 20
+    }, {
+      "id" : "*/voiceNormal2",
+      "beat" : 13.0,
+      "volume" : 20
+    }, {
+      "id" : "*/voiceNormal1",
+      "beat" : 14.0,
+      "volume" : 15
+    }, {
+      "id" : "*/voiceNormal2",
+      "beat" : 15.0,
+      "volume" : 15
+    }, {
+      "id" : "*/voiceNormal1",
+      "beat" : 16.0,
+      "volume" : 10
+    }, {
+      "id" : "*/voiceNormal2",
+      "beat" : 17.0,
+      "volume" : 10
+    }, {
+      "id" : "*/voiceNormal1",
+      "beat" : 18.0,
+      "volume" : 9
+    }, {
+      "id" : "*/voiceNormal2",
+      "beat" : 19.0,
+      "volume" : 9
+    }, {
+      "id" : "*/voiceNormal1",
+      "beat" : 20.0,
+      "volume" : 8
+    }, {
+      "id" : "*/voiceNormal2",
+      "beat" : 21.0,
+      "volume" : 8
+    }, {
+      "id" : "*/voiceNormal1",
+      "beat" : 22.0,
+      "volume" : 7
+    }, {
+      "id" : "*/voiceNormal2",
+      "beat" : 23.0,
+      "volume" : 7
+    }, {
+      "id" : "*/voiceNormal1",
+      "beat" : 24.0,
+      "volume" : 6
+    }, {
+      "id" : "*/voiceNormal2",
+      "beat" : 25.0,
+      "volume" : 6
+    }, {
+      "id" : "*/voiceNormal1",
+      "beat" : 26.0,
+      "volume" : 5
+    }, {
+      "id" : "*/voiceNormal2",
+      "beat" : 27.0,
+      "volume" : 5
+    }, {
+      "id" : "*/voiceNormal1",
+      "beat" : 28.0,
+      "volume" : 4
+    }, {
+      "id" : "*/voiceNormal2",
+      "beat" : 29.0,
+      "volume" : 4
+    }, {
+      "id" : "*/voiceNormal1",
+      "beat" : 30.0,
+      "volume" : 3
+    }, {
+      "id" : "*/voiceNormal2",
+      "beat" : 31.0,
+      "volume" : 3
     } ],
-    "subtext" : ""
+    "subtext" : "[#BFBFBF]lasts up to 32 beats[]"
   }, {
     "type" : "pattern",
-    "id" : "*_stop",
-    "name" : "stop moving",
-    "deprecatedIDs" : [ ],
+    "id" : "*_countSlow",
+    "name" : "wind-up - slow",
+    "deprecatedIDs" : [ "*_slowprep" ],
     "cues" : [ {
-      "id" : "*/stop1",
+      "id" : "*/countSlow1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/stop2",
+      "id" : "*/countSlow2",
       "beat" : 1.0
     }, {
-      "id" : "*/stop3",
+      "id" : "*/countSlow3",
       "beat" : 2.0
     }, {
-      "id" : "*/stop4",
+      "id" : "*/countSlow4",
       "beat" : 3.0
     }, {
-      "id" : "*/friendsstop",
-      "beat" : 3.0,
-      "track" : 1
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_slowprep",
-    "name" : "slow - prepare",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/slow1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/slow2",
-      "beat" : 1.0
-    }, {
-      "id" : "*/slow3",
-      "beat" : 2.0
-    }, {
-      "id" : "*/slow4",
-      "beat" : 3.0
-    }, {
-      "id" : "*/whistle",
+      "id" : "*/countSlow5",
       "beat" : 5.0
     } ],
     "subtext" : ""
   }, {
     "type" : "keepTheBeat",
-    "id" : "*_slow",
-    "name" : "slow moving - up then down",
-    "deprecatedIDs" : [ ],
+    "id" : "*_stretchSlow",
+    "name" : "stretching - slow",
+    "deprecatedIDs" : [ "*_slow" ],
     "defaultDuration" : 4.0,
     "cues" : [ {
-      "id" : "*/playerup",
-      "beat" : 1.4E-45
+      "id" : "special/silence",
+      "beat" : 1.4E-45,
+      "duration" : 1.0
     }, {
-      "id" : "*/friendsdown",
-      "beat" : 0.0,
-      "track" : 1
+      "id" : "*/stretchUp",
+      "beat" : 1.0,
+      "duration" : 1.0
     }, {
-      "id" : "*/playerdown",
-      "beat" : 2.0
-    }, {
-      "id" : "*/friendsup",
+      "id" : "special/silence",
       "beat" : 2.0,
-      "track" : 1
+      "duration" : 1.0
+    }, {
+      "id" : "*/stretchDown",
+      "beat" : 3.0,
+      "duration" : 1.0
     } ],
     "subtext" : ""
   }, {
     "type" : "keepTheBeat",
-    "id" : "*_slowinvert",
-    "name" : "slow moving - down then up",
+    "id" : "*_stretchSlowRev",
+    "name" : "stretching - slow - inverted",
+    "deprecatedIDs" : [ "*_slowinvert" ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "special/silence",
+      "beat" : 1.4E-45,
+      "duration" : 1.0
+    }, {
+      "id" : "*/stretchDown",
+      "beat" : 1.0,
+      "duration" : 1.0
+    }, {
+      "id" : "special/silence",
+      "beat" : 2.0,
+      "duration" : 1.0
+    }, {
+      "id" : "*/stretchUp",
+      "beat" : 3.0,
+      "duration" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_voiceSlow",
+    "name" : "stretching - slow - voice",
     "deprecatedIDs" : [ ],
     "defaultDuration" : 4.0,
     "cues" : [ {
-      "id" : "*/playerdown",
+      "id" : "*/voiceSlow1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/friendsup",
-      "beat" : 0.0,
-      "track" : 1
+      "id" : "*/voiceSlow2",
+      "beat" : 1.0
     }, {
-      "id" : "*/playerup",
+      "id" : "*/voiceSlow3",
+      "beat" : 2.0,
+      "volume" : 85
+    }, {
+      "id" : "*/voiceSlow4",
+      "beat" : 3.0,
+      "volume" : 85
+    }, {
+      "id" : "*/voiceSlow1",
+      "beat" : 4.0,
+      "volume" : 60
+    }, {
+      "id" : "*/voiceSlow2",
+      "beat" : 5.0,
+      "volume" : 60
+    }, {
+      "id" : "*/voiceSlow3",
+      "beat" : 6.0,
+      "volume" : 45
+    }, {
+      "id" : "*/voiceSlow4",
+      "beat" : 7.0,
+      "volume" : 45
+    }, {
+      "id" : "*/voiceSlow1",
+      "beat" : 8.0,
+      "volume" : 35
+    }, {
+      "id" : "*/voiceSlow2",
+      "beat" : 9.0,
+      "volume" : 35
+    }, {
+      "id" : "*/voiceSlow3",
+      "beat" : 10.0,
+      "volume" : 25
+    }, {
+      "id" : "*/voiceSlow4",
+      "beat" : 11.0,
+      "volume" : 25
+    }, {
+      "id" : "*/voiceSlow1",
+      "beat" : 12.0,
+      "volume" : 20
+    }, {
+      "id" : "*/voiceSlow2",
+      "beat" : 13.0,
+      "volume" : 20
+    }, {
+      "id" : "*/voiceSlow3",
+      "beat" : 14.0,
+      "volume" : 15
+    }, {
+      "id" : "*/voiceSlow4",
+      "beat" : 15.0,
+      "volume" : 15
+    }, {
+      "id" : "*/voiceSlow1",
+      "beat" : 16.0,
+      "volume" : 10
+    }, {
+      "id" : "*/voiceSlow2",
+      "beat" : 17.0,
+      "volume" : 10
+    }, {
+      "id" : "*/voiceSlow3",
+      "beat" : 18.0,
+      "volume" : 9
+    }, {
+      "id" : "*/voiceSlow4",
+      "beat" : 19.0,
+      "volume" : 9
+    }, {
+      "id" : "*/voiceSlow1",
+      "beat" : 20.0,
+      "volume" : 8
+    }, {
+      "id" : "*/voiceSlow2",
+      "beat" : 21.0,
+      "volume" : 8
+    }, {
+      "id" : "*/voiceSlow3",
+      "beat" : 22.0,
+      "volume" : 7
+    }, {
+      "id" : "*/voiceSlow4",
+      "beat" : 23.0,
+      "volume" : 7
+    }, {
+      "id" : "*/voiceSlow1",
+      "beat" : 24.0,
+      "volume" : 6
+    }, {
+      "id" : "*/voiceSlow2",
+      "beat" : 25.0,
+      "volume" : 6
+    }, {
+      "id" : "*/voiceSlow3",
+      "beat" : 26.0,
+      "volume" : 5
+    }, {
+      "id" : "*/voiceSlow4",
+      "beat" : 27.0,
+      "volume" : 5
+    }, {
+      "id" : "*/voiceSlow1",
+      "beat" : 28.0,
+      "volume" : 4
+    }, {
+      "id" : "*/voiceSlow2",
+      "beat" : 29.0,
+      "volume" : 4
+    }, {
+      "id" : "*/voiceSlow3",
+      "beat" : 30.0,
+      "volume" : 3
+    }, {
+      "id" : "*/voiceSlow4",
+      "beat" : 31.0,
+      "volume" : 3
+    } ],
+    "subtext" : "[#BFBFBF]lasts up to 32 beats[]"
+  }, {
+    "type" : "pattern",
+    "id" : "*_countTriple",
+    "name" : "wind-up - triple",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/countTriple1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/countTriple2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/countTriple3",
+      "beat" : 1.0,
+      "duration" : 1.0
+    }, {
+      "id" : "*/voiceTriple1",
       "beat" : 2.0
     }, {
-      "id" : "*/friendsdown",
-      "beat" : 2.0,
-      "track" : 1
+      "id" : "*/voiceTriple2",
+      "beat" : 2.5
+    }, {
+      "id" : "*/voiceTriple3",
+      "beat" : 3.0
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_fast",
-    "name" : "fast - up then down",
+    "id" : "*_stretchTriple",
+    "name" : "stretching - triple",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/fast1",
-      "beat" : 1.4E-45
+      "id" : "*/stretchUp",
+      "beat" : 1.4E-45,
+      "duration" : 0.5
     }, {
-      "id" : "*/fast2",
-      "beat" : 0.5
+      "id" : "*/stretchDown",
+      "beat" : 0.5,
+      "duration" : 0.5
     }, {
-      "id" : "*/fast3",
-      "beat" : 1.0
-    }, {
-      "id" : "*/playerup",
-      "beat" : 2.0
-    }, {
-      "id" : "*/playerdown",
-      "beat" : 2.5
-    }, {
-      "id" : "*/playerup",
-      "beat" : 3.0
-    }, {
-      "id" : "*/friendsdown",
-      "beat" : 2.0,
-      "track" : 1
-    }, {
-      "id" : "*/friendsup",
-      "beat" : 2.5,
-      "track" : 1
-    }, {
-      "id" : "*/friendsdown",
-      "beat" : 3.0,
-      "track" : 1
+      "id" : "*/stretchUp",
+      "beat" : 1.0,
+      "duration" : 1.0
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_fastinvert",
-    "name" : "fast - down then up",
+    "id" : "*_stretchTripleRev",
+    "name" : "stretching - triple - inverted",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/fast1",
-      "beat" : 1.4E-45
+      "id" : "*/stretchDown",
+      "beat" : 1.4E-45,
+      "duration" : 0.5
     }, {
-      "id" : "*/fast2",
-      "beat" : 0.5
+      "id" : "*/stretchUp",
+      "beat" : 0.5,
+      "duration" : 0.5
     }, {
-      "id" : "*/fast3",
-      "beat" : 1.0
-    }, {
-      "id" : "*/playerdown",
-      "beat" : 2.0
-    }, {
-      "id" : "*/playerup",
-      "beat" : 2.5
-    }, {
-      "id" : "*/playerdown",
-      "beat" : 3.0
-    }, {
-      "id" : "*/friendsup",
-      "beat" : 2.0,
-      "track" : 1
-    }, {
-      "id" : "*/friendsdown",
-      "beat" : 2.5,
-      "track" : 1
-    }, {
-      "id" : "*/friendsup",
-      "beat" : 3.0,
-      "track" : 1
+      "id" : "*/stretchDown",
+      "beat" : 1.0,
+      "duration" : 1.0
     } ],
     "subtext" : ""
   } ]
