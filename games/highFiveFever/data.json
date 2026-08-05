@@ -4,94 +4,81 @@
   "series" : "groove",
   "objects" : [ {
     "type" : "cue",
-    "id" : "*/clapping",
-    "name" : "clapping",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/doubleclap1",
-    "name" : "double clap - 1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/doubleclap2",
-    "name" : "double clap - 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/doublevoice1",
-    "name" : "double clap voice - 1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/doublevoice2",
-    "name" : "double clap voice - 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/doublevoice3",
-    "name" : "double clap voice - 3",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5,
-    "earliness" : 0.03
-  }, {
-    "type" : "cue",
     "id" : "*/one",
-    "name" : "one",
+    "name" : "count - one",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/stop",
-    "name" : "stop",
+    "id" : "*/two",
+    "name" : "count - two",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.023
   }, {
     "type" : "cue",
     "id" : "*/three",
-    "name" : "three",
+    "name" : "count - three",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
     "earliness" : 0.042
   }, {
     "type" : "cue",
-    "id" : "*/tripleclap1",
-    "name" : "triple clap - 1",
+    "id" : "*/stop",
+    "name" : "count - stop",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/highfive",
+    "name" : "high-five",
+    "deprecatedIDs" : [ "*/clapping" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/doublevoice1",
+    "name" : "double high-five - voice - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.25
   }, {
     "type" : "cue",
-    "id" : "*/tripleclap2",
-    "name" : "triple clap - 2",
+    "id" : "*/doublevoice2",
+    "name" : "double high-five - voice - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.25
   }, {
     "type" : "cue",
-    "id" : "*/tripleclap3",
-    "name" : "triple clap - 3",
+    "id" : "*/doublevoice3",
+    "name" : "double high-five - voice - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.03
+  }, {
+    "type" : "cue",
+    "id" : "*/doublehighfive1",
+    "name" : "double high-five - 1",
+    "deprecatedIDs" : [ "*/doubleclap1" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/doublehighfive2",
+    "name" : "double high-five - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/triplevoice1",
-    "name" : "triple clap voice - 1",
+    "name" : "triple high-five - voice - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
@@ -99,86 +86,38 @@
   }, {
     "type" : "cue",
     "id" : "*/triplevoice2",
-    "name" : "triple clap voice - 2",
+    "name" : "triple high-five - voice - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/triplevoice3",
-    "name" : "triple clap voice - 3",
+    "name" : "triple high-five - voice - 3",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/two",
-    "name" : "two",
-    "deprecatedIDs" : [ ],
+    "id" : "*/triplehighfive1",
+    "name" : "triple high-five - 1",
+    "deprecatedIDs" : [ "*/tripleclap1" ],
     "subtext" : "",
-    "duration" : 1.0,
-    "earliness" : 0.023
+    "duration" : 0.25
   }, {
-    "type" : "keepTheBeat",
-    "id" : "*_clapping",
-    "name" : "clapping",
-    "deprecatedIDs" : [ ],
-    "defaultDuration" : 4.0,
-    "cues" : [ {
-      "id" : "*/clapping",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/clapping",
-      "beat" : 2.0
-    } ],
-    "subtext" : ""
+    "type" : "cue",
+    "id" : "*/triplehighfive2",
+    "name" : "triple high-five - 2",
+    "deprecatedIDs" : [ "*/tripleclap2" ],
+    "subtext" : "",
+    "duration" : 0.25
   }, {
-    "type" : "pattern",
-    "id" : "*_doubleClap",
-    "name" : "double clap",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/doublevoice1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/doublevoice2",
-      "beat" : 0.25
-    }, {
-      "id" : "*/doublevoice3",
-      "beat" : 0.5
-    }, {
-      "id" : "*/doubleclap1",
-      "beat" : 1.5
-    }, {
-      "id" : "*/doubleclap2",
-      "beat" : 2.0
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_tripleClap",
-    "name" : "triple clap",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/triplevoice1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/triplevoice2",
-      "beat" : 0.5
-    }, {
-      "id" : "*/triplevoice3",
-      "beat" : 1.0
-    }, {
-      "id" : "*/tripleclap1",
-      "beat" : 2.5
-    }, {
-      "id" : "*/tripleclap2",
-      "beat" : 2.75
-    }, {
-      "id" : "*/tripleclap3",
-      "beat" : 3.0
-    } ],
-    "subtext" : ""
+    "type" : "cue",
+    "id" : "*/triplehighfive3",
+    "name" : "triple high-five - 3",
+    "deprecatedIDs" : [ "*/tripleclap3" ],
+    "subtext" : "",
+    "duration" : 1.0
   }, {
     "type" : "pattern",
     "id" : "*_countIn",
@@ -193,6 +132,67 @@
     }, {
       "id" : "*/three",
       "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_highFiving",
+    "name" : "high-fiving",
+    "deprecatedIDs" : [ "*_clapping" ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/highfive",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/highfive",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_doubleHighFive",
+    "name" : "double high-five",
+    "deprecatedIDs" : [ "*_doubleClap" ],
+    "cues" : [ {
+      "id" : "*/doublevoice1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/doublevoice2",
+      "beat" : 0.25
+    }, {
+      "id" : "*/doublevoice3",
+      "beat" : 0.5
+    }, {
+      "id" : "*/doublehighfive1",
+      "beat" : 1.5
+    }, {
+      "id" : "*/doublehighfive2",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_tripleHighFive",
+    "name" : "triple high-five",
+    "deprecatedIDs" : [ "*_tripleClap" ],
+    "cues" : [ {
+      "id" : "*/triplevoice1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/triplevoice2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/triplevoice3",
+      "beat" : 1.0
+    }, {
+      "id" : "*/triplehighfive1",
+      "beat" : 2.5
+    }, {
+      "id" : "*/triplehighfive2",
+      "beat" : 2.75
+    }, {
+      "id" : "*/triplehighfive3",
+      "beat" : 3.0
     } ],
     "subtext" : ""
   }, {
