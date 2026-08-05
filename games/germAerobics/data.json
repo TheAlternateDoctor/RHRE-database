@@ -13,105 +13,105 @@
     "type" : "cue",
     "id" : "*/stretchDown",
     "name" : "stretch - down",
-    "deprecatedIDs" : [ "*/playerdown" ],
+    "deprecatedIDs" : [ "germAerobics/playerdown" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/countOkay1",
     "name" : "okay! - 1",
-    "deprecatedIDs" : [ "*/start1" ],
+    "deprecatedIDs" : [ "germAerobics/start1" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/countOkay2",
     "name" : "okay! - 2",
-    "deprecatedIDs" : [ "*/start2" ],
+    "deprecatedIDs" : [ "germAerobics/start2" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/countStop1",
     "name" : "stop - three",
-    "deprecatedIDs" : [ "*/stop1" ],
+    "deprecatedIDs" : [ "germAerobics/stop1" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/countStop2",
     "name" : "stop - two",
-    "deprecatedIDs" : [ "*/stop2" ],
+    "deprecatedIDs" : [ "germAerobics/stop2" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/countStop3",
     "name" : "stop - one",
-    "deprecatedIDs" : [ "*/stop3" ],
+    "deprecatedIDs" : [ "germAerobics/stop3" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/countStop4",
     "name" : "stop - hai!",
-    "deprecatedIDs" : [ "*/stop4" ],
+    "deprecatedIDs" : [ "germAerobics/stop4" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/countSlow1",
     "name" : "slow - wind-up - 1",
-    "deprecatedIDs" : [ "*/slow1" ],
+    "deprecatedIDs" : [ "germAerobics/slow1" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/countSlow2",
     "name" : "slow - wind-up - 2",
-    "deprecatedIDs" : [ "*/slow2" ],
+    "deprecatedIDs" : [ "germAerobics/slow2" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/countSlow3",
     "name" : "slow - wind-up - 3",
-    "deprecatedIDs" : [ "*/slow3" ],
+    "deprecatedIDs" : [ "germAerobics/slow3" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/countSlow4",
     "name" : "slow - wind-up - 4",
-    "deprecatedIDs" : [ "*/slow4" ],
+    "deprecatedIDs" : [ "germAerobics/slow4" ],
     "subtext" : "",
     "duration" : 2.0
   }, {
     "type" : "cue",
     "id" : "*/countSlow5",
     "name" : "slow - wind-up - whistle",
-    "deprecatedIDs" : [ "*/whistle" ],
+    "deprecatedIDs" : [ "germAerobics/whistle" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/countTriple1",
     "name" : "triple - wind-up - 1",
-    "deprecatedIDs" : [ "*/fast1" ],
+    "deprecatedIDs" : [ "germAerobics/fast1" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/countTriple2",
     "name" : "triple - wind-up - 2",
-    "deprecatedIDs" : [ "*/fast2" ],
+    "deprecatedIDs" : [ "germAerobics/fast2" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/countTriple3",
     "name" : "triple - wind-up - 3",
-    "deprecatedIDs" : [ "*/fast3" ],
+    "deprecatedIDs" : [ "germAerobics/fast3" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
@@ -181,7 +181,7 @@
     "type" : "pattern",
     "id" : "*_countOkay",
     "name" : "okay!",
-    "deprecatedIDs" : [ "*_start" ],
+    "deprecatedIDs" : [ "germAerobics_start" ],
     "cues" : [ {
       "id" : "*/countOkay1",
       "beat" : 1.4E-45
@@ -194,7 +194,7 @@
     "type" : "pattern",
     "id" : "*_countStop",
     "name" : "three, two, one, hai!",
-    "deprecatedIDs" : [ "*_stop" ],
+    "deprecatedIDs" : [ "germAerobics_stop" ],
     "cues" : [ {
       "id" : "*/countStop1",
       "beat" : 1.4E-45
@@ -213,7 +213,7 @@
     "type" : "keepTheBeat",
     "id" : "*_stretchNormal",
     "name" : "stretching",
-    "deprecatedIDs" : [ "*_moving" ],
+    "deprecatedIDs" : [ "germAerobics_moving" ],
     "defaultDuration" : 2.0,
     "cues" : [ {
       "id" : "*/stretchUp",
@@ -229,7 +229,7 @@
     "type" : "keepTheBeat",
     "id" : "*_stretchNormalRev",
     "name" : "stretching - inverted",
-    "deprecatedIDs" : [ "*_movinginvert" ],
+    "deprecatedIDs" : [ "germAerobics_movinginvert" ],
     "defaultDuration" : 2.0,
     "cues" : [ {
       "id" : "*/stretchDown",
@@ -379,7 +379,7 @@
     "type" : "pattern",
     "id" : "*_countSlow",
     "name" : "wind-up - slow",
-    "deprecatedIDs" : [ "*_slowprep" ],
+    "deprecatedIDs" : [ "germAerobics_slowprep" ],
     "cues" : [ {
       "id" : "*/countSlow1",
       "beat" : 1.4E-45
@@ -401,7 +401,7 @@
     "type" : "keepTheBeat",
     "id" : "*_stretchSlow",
     "name" : "stretching - slow",
-    "deprecatedIDs" : [ "*_slow" ],
+    "deprecatedIDs" : [ "germAerobics_slow" ],
     "defaultDuration" : 4.0,
     "cues" : [ {
       "id" : "special/silence",
@@ -425,7 +425,7 @@
     "type" : "keepTheBeat",
     "id" : "*_stretchSlowRev",
     "name" : "stretching - slow - inverted",
-    "deprecatedIDs" : [ "*_slowinvert" ],
+    "deprecatedIDs" : [ "germAerobics_slowinvert" ],
     "defaultDuration" : 4.0,
     "cues" : [ {
       "id" : "special/silence",

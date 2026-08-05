@@ -6,21 +6,21 @@
     "type" : "cue",
     "id" : "*/countJump1",
     "name" : "jump,  jump! - 1",
-    "deprecatedIDs" : [ "*/jumpv1" ],
+    "deprecatedIDs" : [ "sodaHop/jumpv1" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/countJump2",
     "name" : "jump,  jump! - 2",
-    "deprecatedIDs" : [ "*/jumpv2" ],
+    "deprecatedIDs" : [ "sodaHop/jumpv2" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/countStop1",
     "name" : "stop - 3",
-    "deprecatedIDs" : [ "*/stopv1" ],
+    "deprecatedIDs" : [ "sodaHop/stopv1" ],
     "subtext" : "",
     "duration" : 1.0,
     "earliness" : 0.05
@@ -28,7 +28,7 @@
     "type" : "cue",
     "id" : "*/countStop2",
     "name" : "stop - 2",
-    "deprecatedIDs" : [ "*/stopv2" ],
+    "deprecatedIDs" : [ "sodaHop/stopv2" ],
     "subtext" : "",
     "duration" : 1.0,
     "earliness" : 0.05
@@ -36,7 +36,7 @@
     "type" : "cue",
     "id" : "*/countStop3",
     "name" : "stop - 1",
-    "deprecatedIDs" : [ "*/stopv3" ],
+    "deprecatedIDs" : [ "sodaHop/stopv3" ],
     "subtext" : "",
     "duration" : 1.0,
     "earliness" : 0.05
@@ -44,7 +44,7 @@
     "type" : "cue",
     "id" : "*/countStop4",
     "name" : "stop - stop!",
-    "deprecatedIDs" : [ "*/stopv4" ],
+    "deprecatedIDs" : [ "sodaHop/stopv4" ],
     "subtext" : "",
     "duration" : 1.0,
     "earliness" : 0.08
@@ -59,7 +59,7 @@
     "type" : "cue",
     "id" : "*/jumpRope",
     "name" : "jump - rope",
-    "deprecatedIDs" : [ "*/ropeground" ],
+    "deprecatedIDs" : [ "sodaHop/ropeground" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
@@ -73,49 +73,49 @@
     "type" : "cue",
     "id" : "*/jumpSwitch1",
     "name" : "double-under - jump - 1",
-    "deprecatedIDs" : [ "*/offbeatjump1" ],
+    "deprecatedIDs" : [ "sodaHop/offbeatjump1" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/jumpSwitch2",
     "name" : "double-under - jump - 2",
-    "deprecatedIDs" : [ "*/offbeatjump2" ],
+    "deprecatedIDs" : [ "sodaHop/offbeatjump2" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/countSwitch1",
     "name" : "double-under - voice - ding",
-    "deprecatedIDs" : [ "*/beatchange1" ],
+    "deprecatedIDs" : [ "sodaHop/beatchange1" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/countSwitch2",
     "name" : "double-under - voice - dong",
-    "deprecatedIDs" : [ "*/beatchange2" ],
+    "deprecatedIDs" : [ "sodaHop/beatchange2" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/countSwitch3",
     "name" : "double-under - voice - da",
-    "deprecatedIDs" : [ "*/beatchange3" ],
+    "deprecatedIDs" : [ "sodaHop/beatchange3" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/countSwitch4",
     "name" : "double-under - voice - dan",
-    "deprecatedIDs" : [ "*/beatchange4" ],
+    "deprecatedIDs" : [ "sodaHop/beatchange4" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "pattern",
     "id" : "*_countJump",
     "name" : "jump, jump!",
-    "deprecatedIDs" : [ "*_start" ],
+    "deprecatedIDs" : [ "sodaHop_start" ],
     "cues" : [ {
       "id" : "*/countJump1",
       "beat" : 1.4E-45
@@ -128,7 +128,7 @@
     "type" : "pattern",
     "id" : "*_countStop",
     "name" : "3, 2, 1, stop!",
-    "deprecatedIDs" : [ "*_stop" ],
+    "deprecatedIDs" : [ "sodaHop_stop" ],
     "cues" : [ {
       "id" : "*/countStop1",
       "beat" : 1.4E-45
@@ -166,7 +166,7 @@
     "type" : "pattern",
     "id" : "*_jumpSwitch",
     "name" : "double-under",
-    "deprecatedIDs" : [ "*_beatchange" ],
+    "deprecatedIDs" : [ "sodaHop_beatchange" ],
     "cues" : [ {
       "id" : "*/jumpSwitch1",
       "beat" : 1.4E-45,
@@ -192,7 +192,7 @@
     "type" : "pattern",
     "id" : "*_countSwitch",
     "name" : "double-under - voice",
-    "deprecatedIDs" : [ "*_beatchangev" ],
+    "deprecatedIDs" : [ "sodaHop_beatchangev" ],
     "cues" : [ {
       "id" : "*/countSwitch1",
       "beat" : 0.0

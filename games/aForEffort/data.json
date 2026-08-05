@@ -35,14 +35,14 @@
     "type" : "cue",
     "id" : "*/hit",
     "name" : "a - hit",
-    "deprecatedIDs" : [ "*/ahit" ],
+    "deprecatedIDs" : [ "aForEffort/ahit" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/hitlong",
     "name" : "a - hit - long",
-    "deprecatedIDs" : [ "*/ahit2" ],
+    "deprecatedIDs" : [ "aForEffort/ahit2" ],
     "subtext" : "",
     "duration" : 0.5
   }, {

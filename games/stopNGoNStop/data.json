@@ -6,7 +6,7 @@
     "type" : "pattern",
     "id" : "*_brake",
     "name" : "brake",
-    "deprecatedIDs" : [ "*_break" ],
+    "deprecatedIDs" : [ "stopNGoNStop_break" ],
     "cues" : [ {
       "id" : "*/brakesignal1",
       "beat" : 1.4E-45
@@ -22,7 +22,7 @@
     "type" : "pattern",
     "id" : "*_accel",
     "name" : "accelerate",
-    "deprecatedIDs" : [ "*_accelerate" ],
+    "deprecatedIDs" : [ "stopNGoNStop_accelerate" ],
     "cues" : [ {
       "id" : "*/accelsignal1",
       "beat" : 1.4E-45
@@ -54,7 +54,7 @@
     "type" : "cue",
     "id" : "*/brakesignal1",
     "name" : "brake - signal - 1",
-    "deprecatedIDs" : [ "*/break1" ],
+    "deprecatedIDs" : [ "stopNGoNStop/break1" ],
     "subtext" : "",
     "duration" : 1.0,
     "repitchable" : true,
@@ -63,7 +63,7 @@
     "type" : "cue",
     "id" : "*/brakesignal2",
     "name" : "brake - signal - 2",
-    "deprecatedIDs" : [ "*/break2" ],
+    "deprecatedIDs" : [ "stopNGoNStop/break2" ],
     "subtext" : "",
     "duration" : 1.0,
     "repitchable" : true,
@@ -72,14 +72,14 @@
     "type" : "cue",
     "id" : "*/brake",
     "name" : "brake - hit",
-    "deprecatedIDs" : [ "*/breakhit" ],
+    "deprecatedIDs" : [ "stopNGoNStop/breakhit" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/accelsignal2",
     "name" : "accelerate - signal - 2",
-    "deprecatedIDs" : [ "*/accel3" ],
+    "deprecatedIDs" : [ "stopNGoNStop/accel3" ],
     "subtext" : "",
     "duration" : 0.5,
     "repitchable" : true
@@ -87,7 +87,7 @@
     "type" : "cue",
     "id" : "*/accelsignal1",
     "name" : "accelerate - signal - 1",
-    "deprecatedIDs" : [ "*/accel1", "*/accel2" ],
+    "deprecatedIDs" : [ "stopNGoNStop/accel1", "stopNGoNStop/accel2" ],
     "subtext" : "",
     "duration" : 0.5,
     "repitchable" : true
@@ -95,7 +95,7 @@
     "type" : "cue",
     "id" : "*/accel",
     "name" : "accelerate - hit",
-    "deprecatedIDs" : [ "*/accelhit" ],
+    "deprecatedIDs" : [ "stopNGoNStop/accelhit" ],
     "subtext" : "",
     "duration" : 0.5
   } ]

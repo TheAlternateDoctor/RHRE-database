@@ -43,14 +43,14 @@
     "type" : "cue",
     "id" : "*/hoop",
     "name" : "hoop",
-    "deprecatedIDs" : [ "*/hoopPass" ],
+    "deprecatedIDs" : [ "hoopTrundling/hoopPass" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "pattern",
     "id" : "*_paPiPuPePo",
     "name" : "pa pi pu pe po",
-    "deprecatedIDs" : [ "*_hoop" ],
+    "deprecatedIDs" : [ "hoopTrundling_hoop" ],
     "cues" : [ {
       "id" : "*/pa",
       "beat" : 1.4E-45
