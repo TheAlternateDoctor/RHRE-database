@@ -1,56 +1,55 @@
 {
-  "id" : "hoopTrundling",
-  "name" : "Hoop Trundling",
+  "id" : "hoopTrundlingCast",
+  "name" : "Cast of Characters",
   "series" : "groove",
   "group" : "Hoop Trundling",
-  "groupDefault" : true,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/pa",
     "name" : "pa",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "hoopTrundlingCastOfCharacters/pa" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/pi",
     "name" : "pi",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "hoopTrundlingCastOfCharacters/pi" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/pu",
     "name" : "pu",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "hoopTrundlingCastOfCharacters/pu" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/pe",
     "name" : "pe",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "hoopTrundlingCastOfCharacters/pe" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/po",
     "name" : "po",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "hoopTrundlingCastOfCharacters/po" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/hoop",
     "name" : "hoop",
-    "deprecatedIDs" : [ "*/hoopPass" ],
+    "deprecatedIDs" : [ "hoopTrundlingCastOfCharacters/hoopPass" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "pattern",
     "id" : "*_paPiPuPePo",
     "name" : "pa pi pu pe po",
-    "deprecatedIDs" : [ "*_hoop" ],
+    "deprecatedIDs" : [ "hoopTrundlingCastOfCharacters_hoop" ],
     "cues" : [ {
       "id" : "*/pa",
       "beat" : 1.4E-45
