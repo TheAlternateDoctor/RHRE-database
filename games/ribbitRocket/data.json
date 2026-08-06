@@ -4,251 +4,249 @@
   "series" : "groove",
   "objects" : [ {
     "type" : "cue",
-    "id" : "*/earlyland",
-    "name" : "early land",
+    "id" : "*/bgFrogAppear",
+    "name" : "big frog - appear",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/jump",
-    "name" : "jump",
+    "id" : "*/bgFrogSplash",
+    "name" : "big frog - splash",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/launch",
-    "name" : "launch",
+    "id" : "*/fgFrogRise1",
+    "name" : "foreground frog - rise - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/frog1",
-    "name" : "frog - 1",
+    "id" : "*/fgFrogRise2",
+    "name" : "foreground frog - rise - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/frog2",
-    "name" : "frog - 2",
+    "id" : "*/fgFrogRise3",
+    "name" : "foreground frog - rise - 3",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/frog3",
-    "name" : "frog - 3",
+    "id" : "*/fgFrogRise4",
+    "name" : "foreground frog - rise - 4",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/tadpole1",
-    "name" : "tadpole - 1",
-    "deprecatedIDs" : [ ],
+    "id" : "*/hop",
+    "name" : "hop",
+    "deprecatedIDs" : [ "ribbitRocket/jump" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/tadpole2",
-    "name" : "tadpole - 2",
+    "id" : "*/early",
+    "name" : "land",
+    "deprecatedIDs" : [ "ribbitRocket/earlyland" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/frogCroak1",
+    "name" : "frog - croak - 1",
+    "deprecatedIDs" : [ "ribbitRocket/frog1" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/frogCroak1Early",
+    "name" : "frog - croak - 1 (early)",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/tadpole3",
-    "name" : "tadpole - 3",
-    "deprecatedIDs" : [ ],
+    "id" : "*/frogCroak2",
+    "name" : "frog - croak - 2",
+    "deprecatedIDs" : [ "ribbitRocket/frog2" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
+    "type" : "cue",
+    "id" : "*/frogRocket",
+    "name" : "frog - rocket",
+    "deprecatedIDs" : [ "ribbitRocket/frog3" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/tadpoleCroak1",
+    "name" : "tadpole - croak - 1",
+    "deprecatedIDs" : [ "ribbitRocket/tadpole1" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/tadpoleCroak2",
+    "name" : "tadpole - croak - 2",
+    "deprecatedIDs" : [ "ribbitRocket/tadpole2" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/tadpoleRocket",
+    "name" : "tadpole - rocket",
+    "deprecatedIDs" : [ "ribbitRocket/tadpole3" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
     "type" : "pattern",
-    "id" : "*_frog5",
-    "name" : "frog - 5 beats",
+    "id" : "*_frog3",
+    "name" : "frog - 3 hops",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/jump",
+      "id" : "*/frogCroak1Early",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/jump",
+      "id" : "*/frogCroak2",
       "beat" : 1.0
     }, {
-      "id" : "*/jump",
+      "id" : "*/frogRocket",
       "beat" : 2.0
-    }, {
-      "id" : "*/jump",
-      "beat" : 3.0
-    }, {
-      "id" : "*/launch",
-      "beat" : 4.0
-    }, {
-      "id" : "*/frog1",
-      "beat" : 2.0,
-      "track" : 1
-    }, {
-      "id" : "*/frog2",
-      "beat" : 3.0,
-      "track" : 1
-    }, {
-      "id" : "*/frog3",
-      "beat" : 4.0,
-      "track" : 1
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
     "id" : "*_frog4",
-    "name" : "frog - 4 beats",
+    "name" : "frog - 4 hops",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/earlyland",
-      "beat" : 0.0
-    }, {
-      "id" : "*/jump",
-      "beat" : 1.0
-    }, {
-      "id" : "*/jump",
-      "beat" : 2.0
-    }, {
-      "id" : "*/launch",
-      "beat" : 3.0
-    }, {
-      "id" : "*/frog1",
-      "beat" : 1.0,
-      "track" : 1
-    }, {
-      "id" : "*/frog2",
-      "beat" : 2.0,
-      "track" : 1
-    }, {
-      "id" : "*/frog3",
-      "beat" : 3.0,
-      "track" : 1
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_frog3",
-    "name" : "frog - 3 beats",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/earlyland",
-      "beat" : 0.0
-    }, {
-      "id" : "*/jump",
-      "beat" : 1.0
-    }, {
-      "id" : "*/launch",
-      "beat" : 2.0
-    }, {
-      "id" : "*/frog1",
-      "beat" : 0.0,
-      "track" : 1
-    }, {
-      "id" : "*/frog2",
-      "beat" : 1.0,
-      "track" : 1
-    }, {
-      "id" : "*/frog3",
-      "beat" : 2.0,
-      "track" : 1
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_tadpole5",
-    "name" : "tadpole - 5 beats",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/jump",
+      "id" : "*/early",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/jump",
+      "id" : "*/frogCroak1",
       "beat" : 1.0
     }, {
-      "id" : "*/jump",
+      "id" : "*/frogCroak2",
       "beat" : 2.0
     }, {
-      "id" : "*/jump",
+      "id" : "*/frogRocket",
       "beat" : 3.0
-    }, {
-      "id" : "*/launch",
-      "beat" : 4.0
-    }, {
-      "id" : "*/tadpole1",
-      "beat" : 2.5,
-      "track" : 1
-    }, {
-      "id" : "*/tadpole2",
-      "beat" : 3.0,
-      "track" : 1
-    }, {
-      "id" : "*/tadpole3",
-      "beat" : 4.0,
-      "track" : 1
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_tadpole4",
-    "name" : "tadpole - 4 beats",
+    "id" : "*_frog5",
+    "name" : "frog - 5 hops",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/earlyland",
-      "beat" : 0.0
+      "id" : "*/hop",
+      "beat" : 1.4E-45
     }, {
-      "id" : "*/jump",
+      "id" : "*/hop",
       "beat" : 1.0
     }, {
-      "id" : "*/jump",
+      "id" : "*/frogCroak1",
       "beat" : 2.0
     }, {
-      "id" : "*/launch",
+      "id" : "*/frogCroak2",
       "beat" : 3.0
     }, {
-      "id" : "*/tadpole1",
-      "beat" : 1.5,
-      "track" : 1
-    }, {
-      "id" : "*/tadpole2",
-      "beat" : 2.0,
-      "track" : 1
-    }, {
-      "id" : "*/tadpole3",
-      "beat" : 3.0,
-      "track" : 1
+      "id" : "*/frogRocket",
+      "beat" : 4.0
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
     "id" : "*_tadpole3",
-    "name" : "tadpole - 3 beats",
+    "name" : "tadpole - 3 hops",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/earlyland",
-      "beat" : 0.0
+      "id" : "*/early",
+      "beat" : 1.4E-45
     }, {
-      "id" : "*/jump",
+      "id" : "*/tadpoleCroak1",
+      "beat" : 0.5
+    }, {
+      "id" : "*/tadpoleCroak2",
       "beat" : 1.0
     }, {
-      "id" : "*/launch",
+      "id" : "*/tadpoleRocket",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_tadpole4",
+    "name" : "tadpole - 4 hops",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/early",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hop",
+      "beat" : 1.0
+    }, {
+      "id" : "*/tadpoleCroak1",
+      "beat" : 1.5
+    }, {
+      "id" : "*/tadpoleCroak2",
       "beat" : 2.0
     }, {
-      "id" : "*/tadpole1",
-      "beat" : 0.5,
-      "track" : 1
+      "id" : "*/tadpoleRocket",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_tadpole5",
+    "name" : "tadpole - 5 hops",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/hop",
+      "beat" : 1.4E-45
     }, {
-      "id" : "*/tadpole2",
-      "beat" : 1.0,
-      "track" : 1
+      "id" : "*/hop",
+      "beat" : 1.0
     }, {
-      "id" : "*/tadpole3",
-      "beat" : 2.0,
-      "track" : 1
+      "id" : "*/hop",
+      "beat" : 2.0
+    }, {
+      "id" : "*/tadpoleCroak1",
+      "beat" : 2.5
+    }, {
+      "id" : "*/tadpoleCroak2",
+      "beat" : 3.0
+    }, {
+      "id" : "*/tadpoleRocket",
+      "beat" : 4.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_fgFrog",
+    "name" : "foreground frog - rising",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/fgFrogRise1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/fgFrogRise2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/fgFrogRise3",
+      "beat" : 2.0
+    }, {
+      "id" : "*/fgFrogRise4",
+      "beat" : 3.0
     } ],
     "subtext" : ""
   } ]
