@@ -4,89 +4,62 @@
   "series" : "groove",
   "objects" : [ {
     "type" : "cue",
-    "id" : "*/hop",
-    "name" : "hopping",
-    "deprecatedIDs" : [ ],
+    "id" : "*/hopping1",
+    "name" : "hop - 1",
+    "deprecatedIDs" : [ "hopNSlide/hop1" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/hop1",
-    "name" : "hop - 1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.75
-  }, {
-    "type" : "cue",
-    "id" : "*/hop2",
+    "id" : "*/hopping2",
     "name" : "hop - 2",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "hopNSlide/hop3" ],
     "subtext" : "",
-    "duration" : 0.25
+    "duration" : 1.0,
+    "earliness" : 0.083
   }, {
     "type" : "cue",
-    "id" : "*/hop3",
+    "id" : "*/hopping3",
     "name" : "hop - 3",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "hopNSlide/hop4" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/hop4",
-    "name" : "hop - 4",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/slide",
-    "name" : "sliding",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/slide1",
+    "id" : "*/sliding1",
     "name" : "slide - 1",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "hopNSlide/slide1" ],
     "subtext" : "",
     "duration" : 0.5,
-    "earliness" : 0.08
+    "earliness" : 0.066
   }, {
     "type" : "cue",
-    "id" : "*/slide2",
+    "id" : "*/sliding2",
     "name" : "slide - 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/slide3",
-    "name" : "slide - 3",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "hopNSlide/slide2" ],
     "subtext" : "",
     "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/sliding3",
+    "name" : "slide - 3",
+    "deprecatedIDs" : [ "hopNSlide/slide3" ],
+    "subtext" : "",
+    "duration" : 0.5
   }, {
     "type" : "pattern",
     "id" : "*_hop",
     "name" : "hop",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/hop1",
+      "id" : "*/hopping1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/hop2",
-      "beat" : 0.75
-    }, {
-      "id" : "*/hop3",
+      "id" : "*/hopping2",
       "beat" : 1.0
     }, {
-      "id" : "*/hop4",
+      "id" : "*/hopping3",
       "beat" : 2.0
-    }, {
-      "id" : "*/hop",
-      "beat" : 2.0,
-      "track" : 1
     } ],
     "subtext" : ""
   }, {
@@ -95,18 +68,14 @@
     "name" : "slide",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/slide1",
+      "id" : "*/sliding1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/slide2",
+      "id" : "*/sliding2",
       "beat" : 0.5
     }, {
-      "id" : "*/slide3",
+      "id" : "*/sliding3",
       "beat" : 1.5
-    }, {
-      "id" : "*/slide",
-      "beat" : 1.5,
-      "track" : 1
     } ],
     "subtext" : ""
   } ]
