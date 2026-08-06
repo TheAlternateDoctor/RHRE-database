@@ -73,7 +73,7 @@
       "id" : "*/beep",
       "beat" : 0.5
     }, {
-      "id" : "*/tomAy",
+      "id" : "*/tomAyy",
       "beat" : 1.5
     }, {
       "id" : "*/tomYah",
@@ -92,10 +92,10 @@
       "id" : "*/beep",
       "beat" : 0.5
     }, {
-      "id" : "*/tomAy",
+      "id" : "*/tomAyy",
       "beat" : 1.5
     }, {
-      "id" : "*/frogAy",
+      "id" : "*/frogAyy",
       "beat" : 1.5,
       "track" : 1
     }, {
@@ -119,7 +119,7 @@
       "id" : "*/beep",
       "beat" : 1.0
     }, {
-      "id" : "*/tomAy",
+      "id" : "*/tomAyy",
       "beat" : 2.0
     }, {
       "id" : "*/tomYah",
@@ -146,7 +146,7 @@
       "beat" : 1.0,
       "track" : 1
     }, {
-      "id" : "*/tomAy",
+      "id" : "*/tomAyy",
       "beat" : 2.0
     }, {
       "id" : "*/frogBeep",
