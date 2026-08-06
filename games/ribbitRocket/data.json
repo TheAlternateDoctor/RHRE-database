@@ -167,7 +167,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_tadpole3",
-    "name" : "tadpole - 3 hops",
+    "name" : "tadpole - 3 hops (unused)",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/early",
