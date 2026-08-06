@@ -36,7 +36,7 @@
     "type" : "cue",
     "id" : "*/highfive",
     "name" : "high-five",
-    "deprecatedIDs" : [ "*/clapping" ],
+    "deprecatedIDs" : [ "highFiveFever/clapping" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
@@ -65,7 +65,7 @@
     "type" : "cue",
     "id" : "*/doublehighfive1",
     "name" : "double high-five - 1",
-    "deprecatedIDs" : [ "*/doubleclap1" ],
+    "deprecatedIDs" : [ "highFiveFever/doubleclap1" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
@@ -101,21 +101,21 @@
     "type" : "cue",
     "id" : "*/triplehighfive1",
     "name" : "triple high-five - 1",
-    "deprecatedIDs" : [ "*/tripleclap1" ],
+    "deprecatedIDs" : [ "highFiveFever/tripleclap1" ],
     "subtext" : "",
     "duration" : 0.25
   }, {
     "type" : "cue",
     "id" : "*/triplehighfive2",
     "name" : "triple high-five - 2",
-    "deprecatedIDs" : [ "*/tripleclap2" ],
+    "deprecatedIDs" : [ "highFiveFever/tripleclap2" ],
     "subtext" : "",
     "duration" : 0.25
   }, {
     "type" : "cue",
     "id" : "*/triplehighfive3",
     "name" : "triple high-five - 3",
-    "deprecatedIDs" : [ "*/tripleclap3" ],
+    "deprecatedIDs" : [ "highFiveFever/tripleclap3" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
@@ -138,7 +138,7 @@
     "type" : "keepTheBeat",
     "id" : "*_highFiving",
     "name" : "high-fiving",
-    "deprecatedIDs" : [ "*_clapping" ],
+    "deprecatedIDs" : [ "highFiveFever_clapping" ],
     "defaultDuration" : 4.0,
     "cues" : [ {
       "id" : "*/highfive",
@@ -152,7 +152,7 @@
     "type" : "pattern",
     "id" : "*_doubleHighFive",
     "name" : "double high-five",
-    "deprecatedIDs" : [ "*_doubleClap" ],
+    "deprecatedIDs" : [ "highFiveFever_doubleClap" ],
     "cues" : [ {
       "id" : "*/doublevoice1",
       "beat" : 1.4E-45
@@ -174,7 +174,7 @@
     "type" : "pattern",
     "id" : "*_tripleHighFive",
     "name" : "triple high-five",
-    "deprecatedIDs" : [ "*_tripleClap" ],
+    "deprecatedIDs" : [ "highFiveFever_tripleClap" ],
     "cues" : [ {
       "id" : "*/triplevoice1",
       "beat" : 1.4E-45

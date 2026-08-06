@@ -404,16 +404,8 @@
     "deprecatedIDs" : [ "germAerobics_slow" ],
     "defaultDuration" : 4.0,
     "cues" : [ {
-      "id" : "special/silence",
-      "beat" : 1.4E-45,
-      "duration" : 1.0
-    }, {
       "id" : "*/stretchUp",
       "beat" : 1.0,
-      "duration" : 1.0
-    }, {
-      "id" : "special/silence",
-      "beat" : 2.0,
       "duration" : 1.0
     }, {
       "id" : "*/stretchDown",
@@ -428,16 +420,8 @@
     "deprecatedIDs" : [ "germAerobics_slowinvert" ],
     "defaultDuration" : 4.0,
     "cues" : [ {
-      "id" : "special/silence",
-      "beat" : 1.4E-45,
-      "duration" : 1.0
-    }, {
       "id" : "*/stretchDown",
       "beat" : 1.0,
-      "duration" : 1.0
-    }, {
-      "id" : "special/silence",
-      "beat" : 2.0,
       "duration" : 1.0
     }, {
       "id" : "*/stretchUp",
