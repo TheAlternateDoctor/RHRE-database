@@ -4,107 +4,105 @@
   "series" : "groove",
   "objects" : [ {
     "type" : "cue",
-    "id" : "*/apple1",
-    "name" : "apple - voice 1",
-    "deprecatedIDs" : [ ],
+    "id" : "*/cheerSeagull",
+    "name" : "cheer - seagull",
+    "deprecatedIDs" : [ "fruitFlex/seagull" ],
     "subtext" : "",
-    "duration" : 0.25
+    "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/apple2",
-    "name" : "apple - voice 2",
-    "deprecatedIDs" : [ ],
+    "id" : "*/cheerCrowd1",
+    "name" : "cheer - crowd - short",
+    "deprecatedIDs" : [ "fruitFlex/cheershort" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/cheerCrowd2",
+    "name" : "cheer - crowd - long",
+    "deprecatedIDs" : [ "fruitFlex/cheerlong" ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "stretchable" : true,
+    "useTimeStretching" : false,
+    "loops" : true,
+    "loopStart" : 6.81,
+    "loopEnd" : 6.87
+  }, {
+    "type" : "cue",
+    "id" : "*/signApple1",
+    "name" : "apple - cue - 1",
+    "deprecatedIDs" : [ "fruitFlex/apple1" ],
+    "subtext" : "",
+    "duration" : 0.25,
+    "earliness" : 0.029
+  }, {
+    "type" : "cue",
+    "id" : "*/signApple2",
+    "name" : "apple - cue - 2",
+    "deprecatedIDs" : [ "fruitFlex/apple2" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/flexApple1",
+    "name" : "apple - flex - 1",
+    "deprecatedIDs" : [ "fruitFlex/applepump1" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/flexApple2",
+    "name" : "apple - flex - 2",
+    "deprecatedIDs" : [ "fruitFlex/applepump2" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/signLemon1",
+    "name" : "lemon - cue - 1",
+    "deprecatedIDs" : [ "fruitFlex/lemon1" ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.025
+  }, {
+    "type" : "cue",
+    "id" : "*/signLemon2",
+    "name" : "lemon - cue - 1",
+    "deprecatedIDs" : [ "fruitFlex/lemon2" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/flexLemon1",
+    "name" : "lemon - flex - 1",
+    "deprecatedIDs" : [ "fruitFlex/lemonpump1" ],
     "subtext" : "",
     "duration" : 0.75
   }, {
     "type" : "cue",
-    "id" : "*/applepump1",
-    "name" : "apple pump - 1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/applepump2",
-    "name" : "apple pump - 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/lemon1",
-    "name" : "lemon - voice 1",
-    "deprecatedIDs" : [ ],
+    "id" : "*/flexLemon2",
+    "name" : "lemon - flex - 2",
+    "deprecatedIDs" : [ "fruitFlex/lemonpump2" ],
     "subtext" : "",
     "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/lemon2",
-    "name" : "lemon - voice 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/lemonpump1",
-    "name" : "lemon pump - 1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/lemonpump2",
-    "name" : "lemon pump - 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/seagull",
-    "name" : "seagull",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0,
-    "earliness" : 0.05
-  }, {
-    "type" : "cue",
-    "id" : "*/cheershort",
-    "name" : "cheer - short",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 4.0
-  }, {
-    "type" : "cue",
-    "id" : "*/cheerlong",
-    "name" : "cheer - long",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 8.0
   }, {
     "type" : "pattern",
     "id" : "*_apple",
     "name" : "apple",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/apple1",
+      "id" : "*/signApple1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/apple2",
+      "id" : "*/signApple2",
       "beat" : 0.25
     }, {
-      "id" : "*/applepump1",
+      "id" : "*/flexApple1",
       "beat" : 1.25
     }, {
-      "id" : "*/applepump2",
+      "id" : "*/flexApple2",
       "beat" : 2.25
-    }, {
-      "id" : "*/applesound",
-      "beat" : 1.4E-45,
-      "track" : 1
-    }, {
-      "id" : "*/applesound",
-      "beat" : 0.25,
-      "track" : 1
     } ],
     "subtext" : ""
   }, {
@@ -113,40 +111,18 @@
     "name" : "lemon",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/lemon1",
+      "id" : "*/signLemon1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/lemon2",
+      "id" : "*/signLemon2",
       "beat" : 0.5
     }, {
-      "id" : "*/lemonpump1",
+      "id" : "*/flexLemon1",
       "beat" : 1.5
     }, {
-      "id" : "*/lemonpump2",
+      "id" : "*/flexLemon2",
       "beat" : 2.25
-    }, {
-      "id" : "*/lemonsound",
-      "beat" : 1.4E-45,
-      "track" : 1
-    }, {
-      "id" : "*/lemonsound",
-      "beat" : 0.5,
-      "track" : 1
     } ],
     "subtext" : ""
-  }, {
-    "type" : "cue",
-    "id" : "*/applesound",
-    "name" : "apple",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/lemonsound",
-    "name" : "lemon",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
   } ]
 }
