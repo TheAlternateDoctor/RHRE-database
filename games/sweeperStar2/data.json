@@ -30,21 +30,21 @@
     "name" : "sweeping - sweep - 1",
     "deprecatedIDs" : [ "sweeperStar/brush" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/brush2",
     "name" : "sweeping - sweep - 2",
     "deprecatedIDs" : [ "sweeperStar/brush" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/brush3",
     "name" : "sweeping - sweep - 3",
     "deprecatedIDs" : [ "sweeperStar/brush" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/voice1",
@@ -58,7 +58,7 @@
     "name" : "sweeping - voice - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0,
+    "duration" : 0.5,
     "earliness" : 0.09
   }, {
     "type" : "cue",
