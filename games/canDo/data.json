@@ -32,7 +32,7 @@
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/frogAy",
+    "id" : "*/frogAyy",
     "name" : "frog - ay",
     "deprecatedIDs" : [ ],
     "subtext" : "",
@@ -49,7 +49,7 @@
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/tomAy",
+    "id" : "*/tomAyy",
     "name" : "tom catio - ay",
     "deprecatedIDs" : [ "canDo/liftup" ],
     "subtext" : "",
