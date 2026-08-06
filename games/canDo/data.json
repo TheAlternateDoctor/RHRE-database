@@ -4,158 +4,114 @@
   "series" : "groove",
   "objects" : [ {
     "type" : "cue",
-    "id" : "*/canthrow",
-    "name" : "can - throw",
-    "deprecatedIDs" : [ ],
+    "id" : "*/canLand",
+    "name" : "can - land",
+    "deprecatedIDs" : [ "canDo/canthrow" ],
     "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/frog",
-    "name" : "frog",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/frogay",
-    "name" : "frog - ay",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/frogya",
-    "name" : "frog - ya",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/frogayshort",
-    "name" : "frog - ay (count)",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.25
   }, {
     "type" : "cue",
     "id" : "*/beep",
-    "name" : "beep",
+    "name" : "can - beep",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/ay",
-    "name" : "ay",
+    "id" : "*/frogHello",
+    "name" : "frog - hop",
+    "deprecatedIDs" : [ "canDo/frog" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/frogBeep",
+    "name" : "frog - short ay",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/frogAy",
+    "name" : "frog - ay",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
-    "earliness" : 0.009
+    "loops" : true,
+    "loopStart" : 1.0,
+    "loopEnd" : 1.01
   }, {
     "type" : "cue",
-    "id" : "*/ya",
-    "name" : "ya",
+    "id" : "*/frogYah",
+    "name" : "frog - yah!",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5,
-    "earliness" : 0.023
+    "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/liftup",
-    "name" : "lift hammer",
-    "deprecatedIDs" : [ ],
+    "id" : "*/tomAy",
+    "name" : "tom catio - ay",
+    "deprecatedIDs" : [ "canDo/liftup" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/cancrush",
-    "name" : "can - crush",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/slam",
-    "name" : "slam",
-    "deprecatedIDs" : [ ],
+    "id" : "*/tomYah",
+    "name" : "tom catio - yah!",
+    "deprecatedIDs" : [ "canDo/slam" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "pattern",
-    "id" : "*_redcan",
-    "name" : "[RED]red can[]",
-    "deprecatedIDs" : [ ],
+    "id" : "*_red",
+    "name" : "[#DB0000]red can[]",
+    "deprecatedIDs" : [ "canDo/redcan" ],
     "cues" : [ {
       "id" : "*/beep",
-      "beat" : 1.4E-45
+      "beat" : 0.0
     }, {
       "id" : "*/beep",
       "beat" : 0.5
     }, {
-      "id" : "*/ay",
+      "id" : "*/tomAy",
       "beat" : 1.5
     }, {
-      "id" : "*/ya",
+      "id" : "*/tomYah",
       "beat" : 2.5
-    }, {
-      "id" : "*/liftup",
-      "beat" : 1.5,
-      "track" : 1
-    }, {
-      "id" : "*/slam",
-      "beat" : 2.5,
-      "track" : 1
-    }, {
-      "id" : "*/cancrush",
-      "beat" : 2.5,
-      "track" : 2
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_redcanfrog",
-    "name" : "[RED]red can[] (with frog)",
-    "deprecatedIDs" : [ ],
+    "id" : "*_redFrog",
+    "name" : "[#DB0000]red can[] - with frog",
+    "deprecatedIDs" : [ "canDo/redcanfrog" ],
     "cues" : [ {
       "id" : "*/beep",
-      "beat" : 1.4E-45
+      "beat" : 0.0
     }, {
       "id" : "*/beep",
       "beat" : 0.5
     }, {
-      "id" : "*/ay",
+      "id" : "*/tomAy",
       "beat" : 1.5
     }, {
-      "id" : "*/ya",
+      "id" : "*/frogAy",
+      "beat" : 1.5,
+      "track" : 1
+    }, {
+      "id" : "*/tomYah",
       "beat" : 2.5
     }, {
-      "id" : "*/liftup",
-      "beat" : 1.5,
-      "track" : 1
-    }, {
-      "id" : "*/slam",
+      "id" : "*/frogYah",
       "beat" : 2.5,
       "track" : 1
-    }, {
-      "id" : "*/cancrush",
-      "beat" : 2.5,
-      "track" : 2
-    }, {
-      "id" : "*/frogay",
-      "beat" : 1.5,
-      "track" : 3
-    }, {
-      "id" : "*/frogya",
-      "beat" : 2.5,
-      "track" : 3
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_bluecan",
-    "name" : "[BLUE]blue can[]",
-    "deprecatedIDs" : [ ],
+    "id" : "*_blue",
+    "name" : "[#004EF6]blue can[]",
+    "deprecatedIDs" : [ "canDo/bluecan" ],
     "cues" : [ {
       "id" : "*/beep",
       "beat" : 1.4E-45
@@ -163,70 +119,46 @@
       "id" : "*/beep",
       "beat" : 1.0
     }, {
-      "id" : "*/ay",
+      "id" : "*/tomAy",
       "beat" : 2.0
     }, {
-      "id" : "*/ya",
+      "id" : "*/tomYah",
       "beat" : 3.0
-    }, {
-      "id" : "*/liftup",
-      "beat" : 2.0,
-      "track" : 1
-    }, {
-      "id" : "*/slam",
-      "beat" : 3.0,
-      "track" : 1
-    }, {
-      "id" : "*/cancrush",
-      "beat" : 3.0,
-      "track" : 2
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_bluecanfrog",
-    "name" : "[BLUE]blue can[] (with frog)",
-    "deprecatedIDs" : [ ],
+    "id" : "*_blueFrog",
+    "name" : "[#004EF6]blue can[] - with frog",
+    "deprecatedIDs" : [ "canDo/bluecanfrog" ],
     "cues" : [ {
       "id" : "*/beep",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/beep",
-      "beat" : 1.0
-    }, {
-      "id" : "*/ay",
-      "beat" : 2.0
-    }, {
-      "id" : "*/ya",
-      "beat" : 3.0
-    }, {
-      "id" : "*/liftup",
-      "beat" : 2.0,
-      "track" : 1
-    }, {
-      "id" : "*/slam",
-      "beat" : 3.0,
-      "track" : 1
-    }, {
-      "id" : "*/cancrush",
-      "beat" : 3.0,
-      "track" : 2
-    }, {
-      "id" : "*/frogayshort",
+      "id" : "*/frogBeep",
       "beat" : 1.4E-45,
-      "track" : 3
+      "track" : 1
     }, {
-      "id" : "*/frogayshort",
+      "id" : "*/beep",
+      "beat" : 1.0
+    }, {
+      "id" : "*/frogBeep",
       "beat" : 1.0,
-      "track" : 3
+      "track" : 1
     }, {
-      "id" : "*/frogay",
+      "id" : "*/tomAy",
+      "beat" : 2.0
+    }, {
+      "id" : "*/frogBeep",
       "beat" : 2.0,
-      "track" : 3
+      "track" : 1
     }, {
-      "id" : "*/frogya",
+      "id" : "*/tomYah",
+      "beat" : 3.0
+    }, {
+      "id" : "*/frogYah",
       "beat" : 3.0,
-      "track" : 3
+      "track" : 1
     } ],
     "subtext" : ""
   } ]
