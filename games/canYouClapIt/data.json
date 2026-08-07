@@ -1,0 +1,231 @@
+{
+  "id" : "canYouClapIt",
+  "name" : "Can You Clap It?",
+  "series" : "side",
+  "objects" : [ {
+    "type" : "keepTheBeat",
+    "id" : "*_cowbell",
+    "name" : "cowbell",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/cowbell",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/cowbell",
+      "beat" : 1.0
+    }, {
+      "id" : "*/cowbell",
+      "beat" : 2.0
+    }, {
+      "id" : "*/cowbell",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_countIn2Beats",
+    "name" : "count in - 2 beats",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/countin1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/countin2",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_countIn3Beats",
+    "name" : "count in - 3 beats",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/countin1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/countin2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/countin3",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_scoreTally",
+    "name" : "score tally",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/scoretally",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/scoretally",
+      "beat" : 0.5
+    }, {
+      "id" : "*/scoretally",
+      "beat" : 1.0
+    }, {
+      "id" : "*/scoretally",
+      "beat" : 1.5
+    }, {
+      "id" : "*/scoretally",
+      "beat" : 2.0
+    }, {
+      "id" : "*/scoretally",
+      "beat" : 2.5
+    }, {
+      "id" : "*/scoretally",
+      "beat" : 3.0
+    }, {
+      "id" : "*/scoretally",
+      "beat" : 3.5
+    }, {
+      "id" : "*/scoretally",
+      "beat" : 4.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "cue",
+    "id" : "*/hostready",
+    "name" : "host - ready",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "responseIDs" : [ "*/contestantready" ]
+  }, {
+    "type" : "cue",
+    "id" : "*/hostclap",
+    "name" : "host - clap",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "responseIDs" : [ "*/contestantclap" ]
+  }, {
+    "type" : "cue",
+    "id" : "*/contestantready",
+    "name" : "contestant - ready",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/contestantclap",
+    "name" : "contestant - clap",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/applauseintro",
+    "name" : "intro - applause",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/success",
+    "name" : "success",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/successwithapplause",
+    "name" : "success (with applause)",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/cowbell",
+    "name" : "cowbell",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countin1",
+    "name" : "count in - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countin2",
+    "name" : "count in - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countin3",
+    "name" : "count in - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/scoretally",
+    "name" : "score tally",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/winapplausemaxscore",
+    "name" : "win - applause - max score",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/winapplausehighscore",
+    "name" : "win - applause - high score",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/winapplauselowscore",
+    "name" : "win - applause - low score",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/wincoinshower1",
+    "name" : "win - coin shower - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/wincoinshower2",
+    "name" : "win - coin shower - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/wincoinshower3",
+    "name" : "win - coin shower - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/wincoinshower4",
+    "name" : "win - coin shower - 4",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/wincoinshower5",
+    "name" : "win - coin shower - 5",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  } ]
+}
