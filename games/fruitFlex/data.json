@@ -68,7 +68,7 @@
   }, {
     "type" : "cue",
     "id" : "*/signLemon2",
-    "name" : "lemon - cue - 1",
+    "name" : "lemon - cue - 2",
     "deprecatedIDs" : [ "fruitFlex/lemon2" ],
     "subtext" : "",
     "duration" : 0.5

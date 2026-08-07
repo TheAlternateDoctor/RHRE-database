@@ -4,56 +4,62 @@
   "series" : "groove",
   "objects" : [ {
     "type" : "cue",
-    "id" : "*/pinkHeartShoot",
-    "name" : "[YELLOW]yellow[] flower - shoot",
-    "deprecatedIDs" : [ ],
+    "id" : "*/shootYellow",
+    "name" : "[#FED900]yellow[] flower - launch",
+    "deprecatedIDs" : [ "feedingTheBeast/pinkHeartShoot" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.5,
+    "responseIDs" : [ "*/chompYellow" ]
   }, {
     "type" : "cue",
-    "id" : "*/greenHeartShoot",
-    "name" : "[PURPLE]purple[] flower - shoot",
-    "deprecatedIDs" : [ ],
+    "id" : "*/chompYellow",
+    "name" : "[#FED900]yellow[] flower - chomp",
+    "deprecatedIDs" : [ "feedingTheBeast/munch1" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/munch1",
-    "name" : "[YELLOW]yellow[] flower - munch",
-    "deprecatedIDs" : [ ],
+    "id" : "*/shootPurple",
+    "name" : "[#7B00B2]purple[] flower - launch",
+    "deprecatedIDs" : [ "feedingTheBeast/greenHeartShoot" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.5,
+    "responseIDs" : [ "*/chompPurple" ]
   }, {
     "type" : "cue",
-    "id" : "*/munch2",
-    "name" : "[PURPLE]purple[] flower - munch",
-    "deprecatedIDs" : [ ],
+    "id" : "*/chompPurple",
+    "name" : "[#7B00B2]purple[] flower - chomp",
+    "deprecatedIDs" : [ "feedingTheBeast/munch2" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.5
   }, {
     "type" : "pattern",
-    "id" : "*_yellowFlower",
-    "name" : "[YELLOW]yellow[] flower",
-    "deprecatedIDs" : [ ],
+    "id" : "*_yellow",
+    "name" : "[#FED900]yellow[] flower",
+    "deprecatedIDs" : [ "feedingTheBeast_yellowFlower" ],
     "cues" : [ {
-      "id" : "*/pinkHeartShoot",
-      "beat" : 1.4E-45
+      "id" : "*/shootYellow",
+      "beat" : 0.0,
+      "duration" : 2.0
     }, {
-      "id" : "*/munch1",
-      "beat" : 2.0
+      "id" : "*/chompYellow",
+      "beat" : 2.0,
+      "duration" : 0.5
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_purpleFlower",
-    "name" : "[PURPLE]purple[] flower",
-    "deprecatedIDs" : [ ],
+    "id" : "*_purple",
+    "name" : "[#7B00B2]purple[] flower ",
+    "deprecatedIDs" : [ "feedingTheBeast_purpleFlower" ],
     "cues" : [ {
-      "id" : "*/greenHeartShoot",
-      "beat" : 1.4E-45
+      "id" : "*/shootPurple",
+      "beat" : 1.4E-45,
+      "duration" : 4.0
     }, {
-      "id" : "*/munch2",
-      "beat" : 4.0
+      "id" : "*/chompPurple",
+      "beat" : 4.0,
+      "duration" : 0.5
     } ],
     "subtext" : ""
   } ]
