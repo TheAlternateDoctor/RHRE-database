@@ -30,7 +30,7 @@
     "type" : "cue",
     "id" : "*/flockdown",
     "name" : "flock - flap down",
-    "deprecatedIDs" : [ "syncroWings/wingupflock" ],
+    "deprecatedIDs" : [ "syncroWings/wingdownflock" ],
     "subtext" : "",
     "duration" : 0.5
   }, {

@@ -65,7 +65,7 @@
     "type" : "pattern",
     "id" : "*_red",
     "name" : "[#DB0000]red can[]",
-    "deprecatedIDs" : [ "canDo/redcan" ],
+    "deprecatedIDs" : [ "canDo_redcan" ],
     "cues" : [ {
       "id" : "*/beep",
       "beat" : 0.0
@@ -84,7 +84,7 @@
     "type" : "pattern",
     "id" : "*_redFrog",
     "name" : "[#DB0000]red can[] - with frog",
-    "deprecatedIDs" : [ "canDo/redcanfrog" ],
+    "deprecatedIDs" : [ "canDo_redcanfrog" ],
     "cues" : [ {
       "id" : "*/beep",
       "beat" : 0.0
@@ -111,7 +111,7 @@
     "type" : "pattern",
     "id" : "*_blue",
     "name" : "[#004EF6]blue can[]",
-    "deprecatedIDs" : [ "canDo/bluecan" ],
+    "deprecatedIDs" : [ "canDo_bluecan" ],
     "cues" : [ {
       "id" : "*/beep",
       "beat" : 1.4E-45
@@ -130,7 +130,7 @@
     "type" : "pattern",
     "id" : "*_blueFrog",
     "name" : "[#004EF6]blue can[] - with frog",
-    "deprecatedIDs" : [ "canDo/bluecanfrog" ],
+    "deprecatedIDs" : [ "canDo_bluecanfrog" ],
     "cues" : [ {
       "id" : "*/beep",
       "beat" : 1.4E-45

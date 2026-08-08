@@ -72,7 +72,7 @@
     "type" : "cue",
     "id" : "*/doublehighfive2",
     "name" : "double high-five - 2",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "highFiveFever/doubleclap2" ],
     "subtext" : "",
     "duration" : 1.0
   }, {

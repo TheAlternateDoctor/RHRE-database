@@ -161,7 +161,7 @@
     "type" : "cue",
     "id" : "*/favabeanhit1",
     "name" : "fava bean - hit - 1",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "crabSnacks/favabeanhit" ],
     "subtext" : "",
     "duration" : 0.5
   }, {

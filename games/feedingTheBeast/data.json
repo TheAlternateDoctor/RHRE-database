@@ -40,7 +40,7 @@
     "cues" : [ {
       "id" : "*/shootYellow",
       "beat" : 0.0,
-      "duration" : 2.0
+      "duration" : 0.5
     }, {
       "id" : "*/chompYellow",
       "beat" : 2.0,
@@ -55,7 +55,7 @@
     "cues" : [ {
       "id" : "*/shootPurple",
       "beat" : 1.4E-45,
-      "duration" : 4.0
+      "duration" : 0.5
     }, {
       "id" : "*/chompPurple",
       "beat" : 4.0,

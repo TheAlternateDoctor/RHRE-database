@@ -50,29 +50,7 @@
     "type" : "pattern",
     "id" : "*_paPiPuPePo",
     "name" : "pa pi pu pe po",
-    "deprecatedIDs" : [ "hoopTrundling_hoop" ],
-    "cues" : [ {
-      "id" : "*/pa",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/pi",
-      "beat" : 0.5
-    }, {
-      "id" : "*/pu",
-      "beat" : 1.0
-    }, {
-      "id" : "*/pe",
-      "beat" : 1.5
-    }, {
-      "id" : "*/po",
-      "beat" : 2.0
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_hooPaPiPuPePo",
-    "name" : "pa pi pu pe po - with hoop",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "hoopTrundling_hoop", "hoopTrundling_hooPaPiPuPePo" ],
     "cues" : [ {
       "id" : "*/hoop",
       "beat" : -1.0
