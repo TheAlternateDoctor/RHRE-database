@@ -1,0 +1,70 @@
+{
+  "id" : "bouncyPufferfish",
+  "name" : "Bouncy Pufferfish",
+  "series" : "side",
+  "objects" : [ {
+    "type" : "keepTheBeat",
+    "id" : "*_pufferfishBouncingDeflated",
+    "name" : "pufferfish - bouncing - deflated",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 2.0,
+    "cues" : [ {
+      "id" : "*/pufferfishbouncedeflated",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_pufferfishBouncingInflated",
+    "name" : "pufferfish - bouncing - inflated",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 3.0,
+    "cues" : [ {
+      "id" : "*/pufferfishbounceinflated",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "cue",
+    "id" : "*/pufferfishthrow",
+    "name" : "pufferfish - throw",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pufferfishdeflate",
+    "name" : "pufferfish - deflate",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pufferfishinflate",
+    "name" : "pufferfish - inflate",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/cashregister",
+    "name" : "cash register",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pufferfishbouncedeflated",
+    "name" : "pufferfish - bounce - deflated",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/pufferfishbounceinflated",
+    "name" : "pufferfish - bounce - inflated",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  } ]
+}
