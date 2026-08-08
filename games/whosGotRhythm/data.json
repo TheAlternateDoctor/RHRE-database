@@ -1,0 +1,64 @@
+{
+  "id" : "whosGotRhythm",
+  "name" : "Who's Got Rhythm?",
+  "series" : "side",
+  "objects" : [ {
+    "type" : "randomCue",
+    "id" : "*_randomCorrectAnswer",
+    "name" : "random correct answer",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/correctanswer1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/correctanswer2",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/correctanswer3",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "cue",
+    "id" : "*/clap",
+    "name" : "clap",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/movecursor",
+    "name" : "move cursor",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/correctanswer1",
+    "name" : "correct answer - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/correctanswer2",
+    "name" : "correct answer - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/correctanswer3",
+    "name" : "correct answer - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/recoverheart",
+    "name" : "recover heart",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  } ]
+}
