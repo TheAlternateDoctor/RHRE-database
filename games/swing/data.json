@@ -1,0 +1,132 @@
+{
+  "id" : "swing",
+  "name" : "Swing",
+  "series" : "side",
+  "objects" : [ {
+    "type" : "keepTheBeat",
+    "id" : "*_swinging",
+    "name" : "swinging",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/swinginglegsin",
+      "beat" : 1.0
+    }, {
+      "id" : "*/swinginglegsout",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_birdGuide",
+    "name" : "bird - guide",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/birdswinginsignal",
+      "beat" : 1.0
+    }, {
+      "id" : "*/birdswingoutsignal",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_birdGuideWithKick",
+    "name" : "bird - guide (with kick)",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/birdkicksignal",
+      "beat" : 0.0
+    }, {
+      "id" : "*/birdswinginsignal",
+      "beat" : 1.0
+    }, {
+      "id" : "*/birdswingoutsignal",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "cue",
+    "id" : "*/shoekickoff",
+    "name" : "shoe - kick off",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 4.0,
+    "stretchable" : true,
+    "loops" : true,
+    "loopStart" : 2.703,
+    "loopEnd" : 5.289
+  }, {
+    "type" : "cue",
+    "id" : "*/shoeflyingcrow",
+    "name" : "flying ambience - crow",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/shoeflyingdogbark",
+    "name" : "flying ambience - dog - barking",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/shoeflyingdoghowl",
+    "name" : "flying ambience - dog - howling",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/shoeflyingrooster",
+    "name" : "flying ambience - rooster",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/shoehitground",
+    "name" : "shoe - hit ground",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/swinginglegsin",
+    "name" : "swinging - legs in",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/swinginglegsout",
+    "name" : "swinging - legs out",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/birdkicksignal",
+    "name" : "bird - signal - kick",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/birdswinginsignal",
+    "name" : "bird - signal - swing in",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/birdswingoutsignal",
+    "name" : "bird - signal - swing out",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  } ]
+}
