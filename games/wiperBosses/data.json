@@ -4,211 +4,202 @@
   "series" : "groove",
   "objects" : [ {
     "type" : "cue",
-    "id" : "*/alternatesign1",
-    "name" : "alternate sign - 1",
-    "deprecatedIDs" : [ ],
+    "id" : "*/beepPink",
+    "name" : "ms. pink - beep",
+    "deprecatedIDs" : [ "wiperBosses/pinksign" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/alternatesign2",
-    "name" : "alternate sign - 2",
-    "deprecatedIDs" : [ ],
+    "id" : "*/jumpPink",
+    "name" : "ms. pink - jump",
+    "deprecatedIDs" : [ "wiperBosses/pinkjump" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/beepBlue",
+    "name" : "mr. blue - beep",
+    "deprecatedIDs" : [ "wiperBosses/bluesign" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/bluejump",
-    "name" : "blue jump",
-    "deprecatedIDs" : [ ],
+    "id" : "*/jumpBlue",
+    "name" : "mr. blue - jump",
+    "deprecatedIDs" : [ "wiperBosses/bluejump" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/beepBoth",
+    "name" : "both bosses - beep",
+    "deprecatedIDs" : [ "wiperBosses/bothsign" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/bluesign",
-    "name" : "blue sign",
+    "id" : "*/jumpBoth",
+    "name" : "both bosses - jump",
     "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/beepAlternate1",
+    "name" : "both bosses - alternating beep - 1",
+    "deprecatedIDs" : [ "wiperBosses/alternatesign1" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/bothsign",
-    "name" : "both sign",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/pinkjump",
-    "name" : "pink jump",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/pinksign",
-    "name" : "pink sign",
-    "deprecatedIDs" : [ ],
+    "id" : "*/beepAlternate2",
+    "name" : "both bosses - alternating beep - 2",
+    "deprecatedIDs" : [ "wiperBosses/alternatesign2" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "pattern",
-    "id" : "*_blueslow",
-    "name" : "mr. blue - slow",
-    "deprecatedIDs" : [ ],
+    "id" : "*_pinkSlow",
+    "name" : "ms. pink - slow jumps",
+    "deprecatedIDs" : [ "wiperBosses_pinkslow" ],
     "cues" : [ {
-      "id" : "*/bluesign",
+      "id" : "*/beepPink",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/bluesign",
+      "id" : "*/beepPink",
       "beat" : 2.0
     }, {
-      "id" : "*/bluejump",
+      "id" : "*/jumpPink",
       "beat" : 4.0
     }, {
-      "id" : "*/bluejump",
+      "id" : "*/jumpPink",
       "beat" : 6.0
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_bluefast",
-    "name" : "mr. blue - fast",
-    "deprecatedIDs" : [ ],
+    "id" : "*_pinkFast",
+    "name" : "ms. pink - fast jumps",
+    "deprecatedIDs" : [ "wiperBosses_pinkfast" ],
     "cues" : [ {
-      "id" : "*/bluesign",
+      "id" : "*/beepPink",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/bluesign",
+      "id" : "*/beepPink",
       "beat" : 1.0
     }, {
-      "id" : "*/bluejump",
+      "id" : "*/jumpPink",
       "beat" : 2.0
     }, {
-      "id" : "*/bluejump",
+      "id" : "*/jumpPink",
       "beat" : 3.0
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_pinkslow",
-    "name" : "ms. pink - slow",
-    "deprecatedIDs" : [ ],
+    "id" : "*_blueSlow",
+    "name" : "mr. blue - slow jumps",
+    "deprecatedIDs" : [ "wiperBosses_blueslow" ],
     "cues" : [ {
-      "id" : "*/pinksign",
+      "id" : "*/beepBlue",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/pinksign",
+      "id" : "*/beepBlue",
       "beat" : 2.0
     }, {
-      "id" : "*/pinkjump",
+      "id" : "*/jumpBlue",
       "beat" : 4.0
     }, {
-      "id" : "*/pinkjump",
+      "id" : "*/jumpBlue",
       "beat" : 6.0
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_pinkfast",
-    "name" : "ms. pink - fast",
-    "deprecatedIDs" : [ ],
+    "id" : "*_blueFast",
+    "name" : "mr. blue - fast jumps",
+    "deprecatedIDs" : [ "wiperBosses_bluefast" ],
     "cues" : [ {
-      "id" : "*/pinksign",
+      "id" : "*/beepBlue",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/pinksign",
+      "id" : "*/beepBlue",
       "beat" : 1.0
     }, {
-      "id" : "*/pinkjump",
+      "id" : "*/jumpBlue",
       "beat" : 2.0
     }, {
-      "id" : "*/pinkjump",
+      "id" : "*/jumpBlue",
       "beat" : 3.0
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_bothslow",
-    "name" : "both - slow",
-    "deprecatedIDs" : [ ],
+    "id" : "*_bothSlow",
+    "name" : "both bosses - slow jumps",
+    "deprecatedIDs" : [ "wiperBosses_bothslow" ],
     "cues" : [ {
-      "id" : "*/bothsign",
+      "id" : "*/beepBoth",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/bothsign",
+      "id" : "*/beepBoth",
       "beat" : 2.0
     }, {
-      "id" : "*/bluejump",
+      "id" : "*/jumpBoth",
       "beat" : 4.0
     }, {
-      "id" : "*/pinkjump",
-      "beat" : 4.0,
-      "track" : 1
-    }, {
-      "id" : "*/bluejump",
+      "id" : "*/jumpBoth",
       "beat" : 6.0
-    }, {
-      "id" : "*/pinkjump",
-      "beat" : 6.0,
-      "track" : 1
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_bothfast",
-    "name" : "both - fast",
-    "deprecatedIDs" : [ ],
+    "id" : "*_bothFast",
+    "name" : "both bosses - fast jumps",
+    "deprecatedIDs" : [ "wiperBosses_bothfast" ],
     "cues" : [ {
-      "id" : "*/bothsign",
+      "id" : "*/beepBoth",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/bothsign",
+      "id" : "*/beepBoth",
       "beat" : 1.0
     }, {
-      "id" : "*/bluejump",
+      "id" : "*/jumpBoth",
       "beat" : 2.0
     }, {
-      "id" : "*/pinkjump",
-      "beat" : 2.0,
-      "track" : 1
-    }, {
-      "id" : "*/bluejump",
+      "id" : "*/jumpBoth",
       "beat" : 3.0
-    }, {
-      "id" : "*/pinkjump",
-      "beat" : 3.0,
-      "track" : 1
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_alternate",
-    "name" : "alternate",
-    "deprecatedIDs" : [ ],
+    "id" : "*_bothAlternate",
+    "name" : "both bosses - alternating jumps",
+    "deprecatedIDs" : [ "wiperBosses_alternate" ],
     "cues" : [ {
-      "id" : "*/alternatesign1",
+      "id" : "*/beepAlternate1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/alternatesign2",
+      "id" : "*/beepAlternate2",
       "beat" : 1.0
     }, {
-      "id" : "*/alternatesign1",
+      "id" : "*/beepAlternate1",
       "beat" : 2.0
     }, {
-      "id" : "*/alternatesign2",
+      "id" : "*/beepAlternate2",
       "beat" : 3.0
     }, {
-      "id" : "*/pinkjump",
+      "id" : "*/jumpPink",
       "beat" : 4.0
     }, {
-      "id" : "*/bluejump",
+      "id" : "*/jumpBlue",
       "beat" : 5.0
     }, {
-      "id" : "*/pinkjump",
+      "id" : "*/jumpPink",
       "beat" : 6.0
     }, {
-      "id" : "*/bluejump",
+      "id" : "*/jumpBlue",
       "beat" : 7.0
     } ],
     "subtext" : ""
