@@ -37,13 +37,13 @@
     "deprecatedIDs" : [ ],
     "defaultDuration" : 4.0,
     "cues" : [ {
-      "id" : "*/birdswinginsignal",
+      "id" : "*/birdkicksignal",
       "beat" : 0.0
     }, {
-      "id" : "*/birdswingoutsignal",
-      "beat" : 2.0
+      "id" : "*/birdswinginsignal",
+      "beat" : 1.0
     }, {
-      "id" : "*/birdkicksignal",
+      "id" : "*/birdswingoutsignal",
       "beat" : 3.0
     } ],
     "subtext" : ""
