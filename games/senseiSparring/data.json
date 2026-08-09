@@ -1,0 +1,171 @@
+{
+  "id" : "senseiSparring",
+  "name" : "Sensei Sparring",
+  "series" : "side",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/1voice",
+    "name" : "one - voice",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/1voiceFast",
+    "name" : "one - voice - fast",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/1dodge",
+    "name" : "one - dodge",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/2voice",
+    "name" : "two - voice",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/2voiceFast",
+    "name" : "two - voice - fast",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/2dodge",
+    "name" : "two - dodge",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/kickVoice",
+    "name" : "kick - voice",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/kickVoiceFast",
+    "name" : "kick - voice - fast",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/kickDodge",
+    "name" : "kick - dodge",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "pattern",
+    "id" : "*_one",
+    "name" : "one",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/1voice",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/1dodge",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_two",
+    "name" : "two",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/2voice",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/2dodge",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_kick",
+    "name" : "kick",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/kickVoice",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/kickDodge",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_oneTwo",
+    "name" : "one, two",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/1voice",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/2voice",
+      "beat" : 1.0
+    }, {
+      "id" : "*/1dodge",
+      "beat" : 2.0
+    }, {
+      "id" : "*/2dodge",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_oneTwoFast",
+    "name" : "one, two (fast)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/1voiceFast",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/2voice",
+      "beat" : 0.5
+    }, {
+      "id" : "*/1dodge",
+      "beat" : 2.0
+    }, {
+      "id" : "*/2dodge",
+      "beat" : 2.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_oneTwoKick",
+    "name" : "one, two, kick",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/1voiceFast",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/2voiceFast",
+      "beat" : 0.5
+    }, {
+      "id" : "*/kickVoiceFast",
+      "beat" : 1.0
+    }, {
+      "id" : "*/1dodge",
+      "beat" : 2.0
+    }, {
+      "id" : "*/2dodge",
+      "beat" : 2.5
+    }, {
+      "id" : "*/kickDodge",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  } ]
+}
