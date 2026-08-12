@@ -3,324 +3,385 @@
   "name" : "Backup Spotlight",
   "series" : "groove",
   "objects" : [ {
-    "type" : "cue",
-    "id" : "*/elbowprep1",
-    "name" : "elbow count-in - 1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/elbowprep2",
-    "name" : "elbow count-in - 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/guu",
-    "name" : "elbow count-in - 3",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/elbow",
-    "name" : "elbow dance",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/haa",
-    "name" : "elbow voice",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/turnprep1",
-    "name" : "dance count-in - 1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/turnprep2",
-    "name" : "dance count-in - 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/turn",
-    "name" : "dance - step",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/three",
-    "name" : "stop cue - three",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5,
-    "earliness" : 0.042
-  }, {
-    "type" : "cue",
-    "id" : "*/two",
-    "name" : "stop cue - two",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/one",
-    "name" : "stop cue - one",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/stop",
-    "name" : "stop cue - ow!",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/fastturn1",
-    "name" : "flashy move - warning - 1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/fastturn2",
-    "name" : "flashy move - warning - 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/signleft",
-    "name" : "warning - left",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/signright",
-    "name" : "warning - right",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
     "type" : "pattern",
-    "id" : "*_elbow",
-    "name" : "elbow count-in",
-    "deprecatedIDs" : [ ],
+    "id" : "*_countElbow",
+    "name" : "posing - count-in",
+    "deprecatedIDs" : [ "backupSpotlight_elbow" ],
     "cues" : [ {
-      "id" : "*/elbowprep1",
+      "id" : "*/countElbow1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/elbowprep2",
+      "id" : "*/countElbow2",
       "beat" : 0.5
     }, {
-      "id" : "*/guu",
+      "id" : "*/countElbow3",
       "beat" : 1.5
     } ],
     "subtext" : ""
   }, {
     "type" : "keepTheBeat",
-    "id" : "*_elbowing",
-    "name" : "elbow dance",
-    "deprecatedIDs" : [ ],
+    "id" : "*_danceElbow",
+    "name" : "posing",
+    "deprecatedIDs" : [ "backupSpotlight_elbowing" ],
     "defaultDuration" : 4.0,
     "cues" : [ {
-      "id" : "*/elbow",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/elbow",
-      "beat" : 2.0
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_elbowvoice",
-    "name" : "elbow dance - voice (fade)",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/haa",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/haa",
-      "beat" : 2.0,
-      "volume" : 86
-    }, {
-      "id" : "*/haa",
-      "beat" : 4.0,
-      "volume" : 72
-    }, {
-      "id" : "*/haa",
-      "beat" : 6.0,
-      "volume" : 58
-    }, {
-      "id" : "*/haa",
-      "beat" : 8.0,
-      "volume" : 44
-    }, {
-      "id" : "*/haa",
-      "beat" : 10.0,
-      "volume" : 30
-    }, {
-      "id" : "*/haa",
-      "beat" : 12.0,
-      "volume" : 16
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_turndanceleft",
-    "name" : "dance count-in (left)",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/turnprep1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/turnprep2",
+      "id" : "*/danceElbow",
       "beat" : 1.0
     }, {
-      "id" : "*/signleft",
+      "id" : "*/danceElbow",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_danceVoice",
+    "name" : "pose - voice",
+    "deprecatedIDs" : [ "backupSpotlight_elbowvoice" ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/danceVoice",
+      "beat" : 1.0
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 3.0,
+      "volume" : 85
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 5.0,
+      "volume" : 75
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 7.0,
+      "volume" : 65
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 9.0,
+      "volume" : 55
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 11.0,
+      "volume" : 45
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 13.0,
+      "volume" : 35
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 15.0,
+      "volume" : 25
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 17.0,
+      "volume" : 22
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 19.0,
+      "volume" : 20
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 21.0,
+      "volume" : 18
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 23.0,
+      "volume" : 16
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 25.0,
+      "volume" : 14
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 27.0,
+      "volume" : 12
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 29.0,
+      "volume" : 10
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 31.0,
+      "volume" : 8
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 33.0,
+      "volume" : 6
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 35.0,
+      "volume" : 5
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 37.0,
+      "volume" : 4
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 39.0,
+      "volume" : 3
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 41.0,
+      "volume" : 2
+    }, {
+      "id" : "*/danceVoice",
+      "beat" : 43.0,
+      "volume" : 1
+    } ],
+    "subtext" : "[#BFBFBF]lasts up to 44 beats[]"
+  }, {
+    "type" : "pattern",
+    "id" : "*_countDanceL",
+    "name" : "dancing - count-in - left",
+    "deprecatedIDs" : [ "backupSpotlight_turndanceleft" ],
+    "cues" : [ {
+      "id" : "*/countDance1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/beepLeft",
       "beat" : 1.4E-45,
       "track" : 1
     }, {
-      "id" : "*/signleft",
+      "id" : "*/countDance2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/beepLeft",
       "beat" : 1.0,
       "track" : 1
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_turndanceright",
-    "name" : "dance count-in (right)",
-    "deprecatedIDs" : [ ],
+    "id" : "*_countDanceR",
+    "name" : "dancing - count-in - right",
+    "deprecatedIDs" : [ "backupSpotlight_turndanceright" ],
     "cues" : [ {
-      "id" : "*/turnprep1",
+      "id" : "*/countDance1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/turnprep2",
-      "beat" : 1.0
-    }, {
-      "id" : "*/signright",
+      "id" : "*/beepRight",
       "beat" : 1.4E-45,
       "track" : 1
     }, {
-      "id" : "*/signright",
+      "id" : "*/countDance2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/beepRight",
       "beat" : 1.0,
       "track" : 1
     } ],
     "subtext" : ""
   }, {
     "type" : "keepTheBeat",
-    "id" : "*_dancing",
+    "id" : "*_dance",
     "name" : "dancing",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "backupSpotlight_dancing" ],
     "defaultDuration" : 4.0,
     "cues" : [ {
-      "id" : "*/turn",
+      "id" : "*/danceStep",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/elbow",
+      "id" : "*/danceElbow",
       "beat" : 1.0
     }, {
-      "id" : "*/turn",
+      "id" : "*/danceStep",
       "beat" : 2.0
     }, {
-      "id" : "*/elbow",
+      "id" : "*/danceElbow",
       "beat" : 3.0
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_stop",
-    "name" : "stop cue",
-    "deprecatedIDs" : [ ],
+    "id" : "*_countStop",
+    "name" : "stop dancing",
+    "deprecatedIDs" : [ "backupSpotlight_stop" ],
     "cues" : [ {
-      "id" : "*/three",
-      "beat" : 1.4E-45
+      "id" : "*/countStop1",
+      "beat" : 0.0
     }, {
-      "id" : "*/two",
+      "id" : "*/countStop2",
       "beat" : 1.0
     }, {
-      "id" : "*/one",
+      "id" : "*/countStop3",
       "beat" : 2.0
     }, {
-      "id" : "*/stop",
+      "id" : "*/countStop4",
       "beat" : 3.0
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_fastturnleft",
-    "name" : "flashy move (left)",
-    "deprecatedIDs" : [ ],
+    "id" : "*_flashyLeft",
+    "name" : "flashy move - left",
+    "deprecatedIDs" : [ "backupSpotlight_fastturnleft" ],
     "cues" : [ {
-      "id" : "*/fastturn1",
+      "id" : "*/countFlashy1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/fastturn2",
-      "beat" : 0.5
-    }, {
-      "id" : "*/turn",
-      "beat" : 2.0
-    }, {
-      "id" : "*/elbow",
-      "beat" : 2.5
-    }, {
-      "id" : "*/signleft",
+      "id" : "*/beepLeft",
       "beat" : 1.4E-45,
       "track" : 1
     }, {
-      "id" : "*/signleft",
+      "id" : "*/countFlashy2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/beepLeft",
       "beat" : 0.5,
       "track" : 1
     }, {
-      "id" : "*/haa",
+      "id" : "*/danceStep",
+      "beat" : 2.0
+    }, {
+      "id" : "*/danceElbow",
+      "beat" : 2.5
+    }, {
+      "id" : "*/danceVoice",
       "beat" : 2.5,
       "track" : 1
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_fastturnright",
-    "name" : "flashy move (right)",
-    "deprecatedIDs" : [ ],
+    "id" : "*_flashyRight",
+    "name" : "flashy move - right",
+    "deprecatedIDs" : [ "backupSpotlight_fastturnright" ],
     "cues" : [ {
-      "id" : "*/fastturn1",
+      "id" : "*/countFlashy1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/fastturn2",
-      "beat" : 0.5
-    }, {
-      "id" : "*/turn",
-      "beat" : 2.0
-    }, {
-      "id" : "*/elbow",
-      "beat" : 2.5
-    }, {
-      "id" : "*/signright",
+      "id" : "*/beepRight",
       "beat" : 1.4E-45,
       "track" : 1
     }, {
-      "id" : "*/signright",
+      "id" : "*/countFlashy2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/beepRight",
       "beat" : 0.5,
       "track" : 1
     }, {
-      "id" : "*/haa",
+      "id" : "*/danceStep",
+      "beat" : 2.0
+    }, {
+      "id" : "*/danceElbow",
+      "beat" : 2.5
+    }, {
+      "id" : "*/danceVoice",
       "beat" : 2.5,
       "track" : 1
     } ],
     "subtext" : ""
+  }, {
+    "type" : "cue",
+    "id" : "*/countElbow1",
+    "name" : "posing - count-in - 1",
+    "deprecatedIDs" : [ "backupSpotlight/elbowprep1" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/countElbow2",
+    "name" : "posing - count-in - 2",
+    "deprecatedIDs" : [ "backupSpotlight/elbowprep2" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countElbow3",
+    "name" : "posing - count-in - 3",
+    "deprecatedIDs" : [ "backupSpotlight/guu" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countDance1",
+    "name" : "dancing - count-in - 1",
+    "deprecatedIDs" : [ "backupSpotlight/turnprep1" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countDance2",
+    "name" : "dancing - count-in - 2",
+    "deprecatedIDs" : [ "backupSpotlight/turnprep2" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countStop1",
+    "name" : "stop - three",
+    "deprecatedIDs" : [ "backupSpotlight/three" ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.072
+  }, {
+    "type" : "cue",
+    "id" : "*/countStop2",
+    "name" : "stop - two",
+    "deprecatedIDs" : [ "backupSpotlight/two" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countStop3",
+    "name" : "stop - one",
+    "deprecatedIDs" : [ "backupSpotlight/one" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countStop4",
+    "name" : "stop - ow!",
+    "deprecatedIDs" : [ "backupSpotlight/stop" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/danceElbow",
+    "name" : "dance - pose",
+    "deprecatedIDs" : [ "backupSpotlight/elbow" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/danceStep",
+    "name" : "dance - step",
+    "deprecatedIDs" : [ "backupSpotlight/turn" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/danceVoice",
+    "name" : "dance - voice",
+    "deprecatedIDs" : [ "backupSpotlight/haa" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/countFlashy1",
+    "name" : "flashy move - cue - 1",
+    "deprecatedIDs" : [ "backupSpotlight/fastturn1" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/countFlashy2",
+    "name" : "flashy move - cue - 2",
+    "deprecatedIDs" : [ "backupSpotlight/fastturn2" ],
+    "subtext" : "",
+    "duration" : 1.5
+  }, {
+    "type" : "cue",
+    "id" : "*/beepLeft",
+    "name" : "warning - left",
+    "deprecatedIDs" : [ "backupSpotlight/signleft" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/beepRight",
+    "name" : "warning - right",
+    "deprecatedIDs" : [ "backupSpotlight/signright" ],
+    "subtext" : "",
+    "duration" : 0.5
   } ]
 }
