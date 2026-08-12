@@ -48,7 +48,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_paPiPuPePo",
-    "name" : "pa pi pu pe po - with hoop",
+    "name" : "pa pi pu pe po",
     "deprecatedIDs" : [ "hoopTrundlingCastOfCharacters_hoop", "hoopTrundlingCast_hooPaPiPuPePo" ],
     "cues" : [ {
       "id" : "*/hoop",
