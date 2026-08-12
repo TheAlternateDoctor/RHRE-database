@@ -8,16 +8,16 @@
     "name" : "uh-cha-cha cha - bom bom!",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/alienCha1",
+      "id" : "*/alienUh",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/alienCha2",
+      "id" : "*/alienCha",
       "beat" : 0.5
     }, {
-      "id" : "*/alienCha2",
+      "id" : "*/alienCha",
       "beat" : 1.0
     }, {
-      "id" : "*/alienCha2",
+      "id" : "*/alienCha",
       "beat" : 1.75
     }, {
       "id" : "*/kidsBom",
@@ -61,7 +61,7 @@
     "type" : "pattern",
     "id" : "*_bomCha",
     "name" : "bom bom cha - bom cha!",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "alienAlphabet_bomcha" ],
     "cues" : [ {
       "id" : "*/alienBom",
       "beat" : 1.4E-45
@@ -69,7 +69,7 @@
       "id" : "*/alienBom",
       "beat" : 0.5
     }, {
-      "id" : "*/alienCha2",
+      "id" : "*/alienCha",
       "beat" : 1.0
     }, {
       "id" : "*/kidsBom",
@@ -89,16 +89,16 @@
     "name" : "uh-cha-cha cha - bom bom! - adults",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/alienCha1",
+      "id" : "*/alienUh",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/alienCha2",
+      "id" : "*/alienCha",
       "beat" : 0.5
     }, {
-      "id" : "*/alienCha2",
+      "id" : "*/alienCha",
       "beat" : 1.0
     }, {
-      "id" : "*/alienCha2",
+      "id" : "*/alienCha",
       "beat" : 1.75
     }, {
       "id" : "*/adultsBom",
@@ -150,7 +150,7 @@
       "id" : "*/alienBom",
       "beat" : 0.5
     }, {
-      "id" : "*/alienCha2",
+      "id" : "*/alienCha",
       "beat" : 1.0
     }, {
       "id" : "*/adultsBom",
@@ -208,14 +208,14 @@
     "duration" : 0.25
   }, {
     "type" : "cue",
-    "id" : "*/alienCha1",
+    "id" : "*/alienUh",
     "name" : "alien - cha - uh",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/alienCha2",
+    "id" : "*/alienCha",
     "name" : "alien - cha - cha",
     "deprecatedIDs" : [ ],
     "subtext" : "",
@@ -230,7 +230,7 @@
   }, {
     "type" : "cue",
     "id" : "*/kidsCha",
-    "name" : "kids - cha",
+    "name" : "friends - cha",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
@@ -238,7 +238,7 @@
   }, {
     "type" : "cue",
     "id" : "*/kidsBom",
-    "name" : "kids - bom",
+    "name" : "friends - bom",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
@@ -246,7 +246,7 @@
   }, {
     "type" : "cue",
     "id" : "*/adultsCha",
-    "name" : "adults - cha",
+    "name" : "friends - cha - adults",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
@@ -254,7 +254,7 @@
   }, {
     "type" : "cue",
     "id" : "*/adultsBom",
-    "name" : "adults - bom",
+    "name" : "friends - bom - adults",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
