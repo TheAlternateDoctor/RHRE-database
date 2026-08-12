@@ -1,0 +1,71 @@
+{
+  "id" : "buildingBlocks",
+  "name" : "Building Blocks",
+  "series" : "side",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/tadcopterAppear",
+    "name" : "tadcopter - appear",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/whistle1",
+    "name" : "whistle - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "responseIDs" : [ "*/tadcopterPrepare" ]
+  }, {
+    "type" : "cue",
+    "id" : "*/whistle2",
+    "name" : "whistle - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "responseIDs" : [ "*/tadcopterDrop" ]
+  }, {
+    "type" : "cue",
+    "id" : "*/tadcopterPrepare",
+    "name" : "tadcopter - prepare",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/tadcopterDrop",
+    "name" : "tadcopter - drop",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/tadcopterFly",
+    "name" : "tadcopter - fly",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/tadcopterVisorOn",
+    "name" : "tadcopter - visor on",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/speedUp",
+    "name" : "speed up",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/tadcopterDisappear",
+    "name" : "tadcopter - disappear",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  } ]
+}
