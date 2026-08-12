@@ -49,6 +49,24 @@
     "subtext" : ""
   }, {
     "type" : "cue",
+    "id" : "*/airplane",
+    "name" : "airplane",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/helicopter",
+    "name" : "helicopter",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "stretchable" : true,
+    "loops" : true,
+    "loopStart" : 1.437,
+    "loopEnd" : -1.0
+  }, {
+    "type" : "cue",
     "id" : "*/brakesignal1",
     "name" : "brake - signal - 1",
     "deprecatedIDs" : [ "stopNGoNStop/break1" ],
