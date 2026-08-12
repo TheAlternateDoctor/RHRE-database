@@ -67,5 +67,18 @@
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
+  }, {
+    "type" : "pattern",
+    "id" : "*_whistle2WithFlyingSfx",
+    "name" : "whistle - 2 (w/ flying sfx)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/whistle2",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/tadcopterFly",
+      "beat" : 0.5
+    } ],
+    "subtext" : ""
   } ]
 }
