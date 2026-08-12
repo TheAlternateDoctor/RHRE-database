@@ -3,180 +3,32 @@
   "name" : "Alien Alphabet",
   "series" : "groove",
   "objects" : [ {
-    "type" : "cue",
-    "id" : "*/alienbom",
-    "name" : "alien - bom",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/bomblink",
-    "name" : "alien - bom blink",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/aliencha1",
-    "name" : "alien - cha - 1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/aliencha2",
-    "name" : "alien - cha - 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/chablink",
-    "name" : "alien - cha blink",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/bomhit",
-    "name" : "bom - hit",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/chahit",
-    "name" : "cha - hit",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/boybom",
-    "name" : "boy - bom",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/boycha",
-    "name" : "boy - cha",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5,
-    "earliness" : 0.035
-  }, {
-    "type" : "cue",
-    "id" : "*/boygrownbom",
-    "name" : "boy - bom (grown)",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/boygrowncha",
-    "name" : "boy - cha (grown)",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/girlbom",
-    "name" : "girl - bom",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/girlcha",
-    "name" : "girl - cha",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/girlgrownbom",
-    "name" : "girl - bom (grown)",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/girlgrowncha",
-    "name" : "girl - cha (grown)",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/success1",
-    "name" : "success - 1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/success2",
-    "name" : "success - 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.75
-  }, {
     "type" : "pattern",
     "id" : "*_cha",
-    "name" : "uh cha-cha cha - bom bom!",
+    "name" : "uh-cha-cha cha - bom bom!",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/aliencha1",
-      "beat" : 0.0
+      "id" : "*/alienCha1",
+      "beat" : 1.4E-45
     }, {
-      "id" : "*/aliencha2",
+      "id" : "*/alienCha2",
       "beat" : 0.5
     }, {
-      "id" : "*/aliencha2",
+      "id" : "*/alienCha2",
       "beat" : 1.0
     }, {
-      "id" : "*/aliencha2",
+      "id" : "*/alienCha2",
       "beat" : 1.75
     }, {
-      "id" : "*/boybom",
+      "id" : "*/kidsBom",
       "beat" : 2.5
     }, {
-      "id" : "*/girlbom",
-      "beat" : 2.5,
-      "track" : 1
-    }, {
-      "id" : "*/boybom",
+      "id" : "*/kidsBom",
       "beat" : 3.0
     }, {
-      "id" : "*/girlbom",
+      "id" : "*/success",
       "beat" : 3.0,
       "track" : 1
-    }, {
-      "id" : "*_success",
-      "beat" : 3.0,
-      "track" : 3
-    }, {
-      "id" : "*/chablink",
-      "beat" : 0.5,
-      "track" : 1
-    }, {
-      "id" : "*/chablink",
-      "beat" : 1.0,
-      "track" : 1
-    }, {
-      "id" : "*/chablink",
-      "beat" : 1.75,
-      "track" : 1
-    }, {
-      "id" : "*/bomhit",
-      "beat" : 2.5,
-      "track" : 2
-    }, {
-      "id" : "*/bomhit",
-      "beat" : 3.0,
-      "track" : 2
     } ],
     "subtext" : ""
   }, {
@@ -185,277 +37,227 @@
     "name" : "bom bom bom-bom - cha!",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/alienbom",
-      "beat" : 0.0
+      "id" : "*/alienBom",
+      "beat" : 1.4E-45
     }, {
-      "id" : "*/alienbom",
+      "id" : "*/alienBom",
       "beat" : 0.75
     }, {
-      "id" : "*/alienbom",
+      "id" : "*/alienBom",
       "beat" : 1.5
     }, {
-      "id" : "*/alienbom",
+      "id" : "*/alienBom",
       "beat" : 2.0
     }, {
-      "id" : "*/boycha",
+      "id" : "*/kidsCha",
       "beat" : 3.0
     }, {
-      "id" : "*/girlcha",
+      "id" : "*/success",
       "beat" : 3.0,
       "track" : 1
-    }, {
-      "id" : "*_success",
-      "beat" : 3.0,
-      "track" : 3
-    }, {
-      "id" : "*/bomblink",
-      "beat" : 0.0,
-      "track" : 1
-    }, {
-      "id" : "*/bomblink",
-      "beat" : 0.75,
-      "track" : 1
-    }, {
-      "id" : "*/bomblink",
-      "beat" : 1.5,
-      "track" : 1
-    }, {
-      "id" : "*/bomblink",
-      "beat" : 2.0,
-      "track" : 1
-    }, {
-      "id" : "*/chahit",
-      "beat" : 3.0,
-      "track" : 2
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_bomcha",
+    "id" : "*_bomCha",
     "name" : "bom bom cha - bom cha!",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/alienbom",
-      "beat" : 0.0
+      "id" : "*/alienBom",
+      "beat" : 1.4E-45
     }, {
-      "id" : "*/alienbom",
+      "id" : "*/alienBom",
       "beat" : 0.5
     }, {
-      "id" : "*/aliencha2",
+      "id" : "*/alienCha2",
       "beat" : 1.0
     }, {
-      "id" : "*/boybom",
+      "id" : "*/kidsBom",
       "beat" : 2.5
     }, {
-      "id" : "*/boycha",
+      "id" : "*/kidsCha",
       "beat" : 3.0
     }, {
-      "id" : "*/girlbom",
-      "beat" : 2.5,
-      "track" : 1
-    }, {
-      "id" : "*/girlcha",
+      "id" : "*/success",
       "beat" : 3.0,
       "track" : 1
-    }, {
-      "id" : "*_success",
-      "beat" : 3.0,
-      "track" : 3
-    }, {
-      "id" : "*/bomblink",
-      "beat" : 1.4E-45,
-      "track" : 1
-    }, {
-      "id" : "*/bomblink",
-      "beat" : 0.5,
-      "track" : 1
-    }, {
-      "id" : "*/chablink",
-      "beat" : 1.0,
-      "track" : 1
-    }, {
-      "id" : "*/bomhit",
-      "beat" : 2.5,
-      "track" : 2
-    }, {
-      "id" : "*/chahit",
-      "beat" : 3.0,
-      "track" : 2
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
     "id" : "*_chaGrown",
-    "name" : "uh cha-cha cha - bom bom! (grown)",
+    "name" : "uh-cha-cha cha - bom bom! - adults",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/aliencha1",
-      "beat" : 0.0
+      "id" : "*/alienCha1",
+      "beat" : 1.4E-45
     }, {
-      "id" : "*/aliencha2",
+      "id" : "*/alienCha2",
       "beat" : 0.5
     }, {
-      "id" : "*/aliencha2",
+      "id" : "*/alienCha2",
       "beat" : 1.0
     }, {
-      "id" : "*/aliencha2",
+      "id" : "*/alienCha2",
       "beat" : 1.75
     }, {
-      "id" : "*/boygrownbom",
+      "id" : "*/adultsBom",
       "beat" : 2.5
     }, {
-      "id" : "*/boygrownbom",
+      "id" : "*/adultsBom",
       "beat" : 3.0
     }, {
-      "id" : "*/girlgrownbom",
-      "beat" : 2.5,
-      "track" : 1
-    }, {
-      "id" : "*/girlgrownbom",
+      "id" : "*/success",
       "beat" : 3.0,
       "track" : 1
-    }, {
-      "id" : "*_success",
-      "beat" : 3.0,
-      "track" : 3
-    }, {
-      "id" : "*/chablink",
-      "beat" : 0.5,
-      "track" : 1
-    }, {
-      "id" : "*/chablink",
-      "beat" : 1.0,
-      "track" : 1
-    }, {
-      "id" : "*/chablink",
-      "beat" : 1.75,
-      "track" : 1
-    }, {
-      "id" : "*/bomhit",
-      "beat" : 2.5,
-      "track" : 2
-    }, {
-      "id" : "*/bomhit",
-      "beat" : 3.0,
-      "track" : 2
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
     "id" : "*_bomGrown",
-    "name" : "bom bom bom-bom - cha! (grown)",
+    "name" : "bom bom bom-bom - cha! - adults",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/alienbom",
-      "beat" : 0.0
+      "id" : "*/alienBom",
+      "beat" : 1.4E-45
     }, {
-      "id" : "*/alienbom",
+      "id" : "*/alienBom",
       "beat" : 0.75
     }, {
-      "id" : "*/alienbom",
+      "id" : "*/alienBom",
       "beat" : 1.5
     }, {
-      "id" : "*/alienbom",
+      "id" : "*/alienBom",
       "beat" : 2.0
     }, {
-      "id" : "*/boygrowncha",
+      "id" : "*/adultsCha",
       "beat" : 3.0
     }, {
-      "id" : "*/girlgrowncha",
+      "id" : "*/success",
       "beat" : 3.0,
       "track" : 1
-    }, {
-      "id" : "*_success",
-      "beat" : 3.0,
-      "track" : 3
-    }, {
-      "id" : "*/bomblink",
-      "beat" : 0.0,
-      "track" : 1
-    }, {
-      "id" : "*/bomblink",
-      "beat" : 0.75,
-      "track" : 1
-    }, {
-      "id" : "*/bomblink",
-      "beat" : 1.5,
-      "track" : 1
-    }, {
-      "id" : "*/bomblink",
-      "beat" : 2.0,
-      "track" : 1
-    }, {
-      "id" : "*/chahit",
-      "beat" : 3.0,
-      "track" : 2
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_bomchaGrown",
-    "name" : "bom bom cha - bom cha! (grown)",
-    "deprecatedIDs" : [ ],
+    "id" : "*_bomChaGrown",
+    "name" : "bom bom cha - bom cha! - adults",
+    "deprecatedIDs" : [ "alienAlphabet_bomchaGrown" ],
     "cues" : [ {
-      "id" : "*/alienbom",
-      "beat" : 0.0
+      "id" : "*/alienBom",
+      "beat" : 1.4E-45
     }, {
-      "id" : "*/alienbom",
+      "id" : "*/alienBom",
       "beat" : 0.5
     }, {
-      "id" : "*/aliencha2",
+      "id" : "*/alienCha2",
       "beat" : 1.0
     }, {
-      "id" : "*/boygrownbom",
+      "id" : "*/adultsBom",
       "beat" : 2.5
     }, {
-      "id" : "*/boygrowncha",
+      "id" : "*/adultsCha",
       "beat" : 3.0
     }, {
-      "id" : "*/girlgrownbom",
-      "beat" : 2.5,
-      "track" : 1
-    }, {
-      "id" : "*/girlgrowncha",
+      "id" : "*/success",
       "beat" : 3.0,
       "track" : 1
-    }, {
-      "id" : "*_success",
-      "beat" : 3.0,
-      "track" : 3
-    }, {
-      "id" : "*/bomblink",
-      "beat" : 1.4E-45,
-      "track" : 1
-    }, {
-      "id" : "*/bomblink",
-      "beat" : 0.5,
-      "track" : 1
-    }, {
-      "id" : "*/chablink",
-      "beat" : 1.0,
-      "track" : 1
-    }, {
-      "id" : "*/bomhit",
-      "beat" : 2.5,
-      "track" : 2
-    }, {
-      "id" : "*/chahit",
-      "beat" : 3.0,
-      "track" : 2
     } ],
     "subtext" : ""
   }, {
-    "type" : "pattern",
-    "id" : "*_success",
-    "name" : "success",
+    "type" : "cue",
+    "id" : "*/tractorBeam",
+    "name" : "warp - tractor beam",
     "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/success1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/success2",
-      "beat" : 0.25
-    } ],
-    "subtext" : ""
+    "subtext" : "",
+    "duration" : 2.0
+  }, {
+    "type" : "cue",
+    "id" : "*/warpPrepare",
+    "name" : "warp - prepare",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/warp",
+    "name" : "warp - warp",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/success",
+    "name" : "success",
+    "deprecatedIDs" : [ "alienAlphabet_success" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/successSplit1",
+    "name" : "success - split - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "(not in-game)",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/successSplit2",
+    "name" : "success - split - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "(not in-game)",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/alienCha1",
+    "name" : "alien - cha - uh",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/alienCha2",
+    "name" : "alien - cha - cha",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/alienBom",
+    "name" : "alien - bom",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/kidsCha",
+    "name" : "kids - cha",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.035
+  }, {
+    "type" : "cue",
+    "id" : "*/kidsBom",
+    "name" : "kids - bom",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.038
+  }, {
+    "type" : "cue",
+    "id" : "*/adultsCha",
+    "name" : "adults - cha",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.024
+  }, {
+    "type" : "cue",
+    "id" : "*/adultsBom",
+    "name" : "adults - bom",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.02
   } ]
 }
