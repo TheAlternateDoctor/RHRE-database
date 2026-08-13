@@ -8,22 +8,22 @@
     "name" : "uh-cha-cha cha - bom bom!",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/alienUh",
+      "id" : "*/chaAlien1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/alienCha",
+      "id" : "*/chaAlien2",
       "beat" : 0.5
     }, {
-      "id" : "*/alienCha",
+      "id" : "*/chaAlien2",
       "beat" : 1.0
     }, {
-      "id" : "*/alienCha",
+      "id" : "*/chaAlien2",
       "beat" : 1.75
     }, {
-      "id" : "*/kidsBom",
+      "id" : "*/bomKids",
       "beat" : 2.5
     }, {
-      "id" : "*/kidsBom",
+      "id" : "*/bomKids",
       "beat" : 3.0
     }, {
       "id" : "*/success",
@@ -37,19 +37,19 @@
     "name" : "bom bom bom-bom - cha!",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/alienBom",
+      "id" : "*/bomAlien",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/alienBom",
+      "id" : "*/bomAlien",
       "beat" : 0.75
     }, {
-      "id" : "*/alienBom",
+      "id" : "*/bomAlien",
       "beat" : 1.5
     }, {
-      "id" : "*/alienBom",
+      "id" : "*/bomAlien",
       "beat" : 2.0
     }, {
-      "id" : "*/kidsCha",
+      "id" : "*/chaKids",
       "beat" : 3.0
     }, {
       "id" : "*/success",
@@ -63,19 +63,19 @@
     "name" : "bom bom cha - bom cha!",
     "deprecatedIDs" : [ "alienAlphabet_bomcha" ],
     "cues" : [ {
-      "id" : "*/alienBom",
+      "id" : "*/bomAlien",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/alienBom",
+      "id" : "*/bomAlien",
       "beat" : 0.5
     }, {
-      "id" : "*/alienCha",
+      "id" : "*/chaAlien2",
       "beat" : 1.0
     }, {
-      "id" : "*/kidsBom",
+      "id" : "*/bomKids",
       "beat" : 2.5
     }, {
-      "id" : "*/kidsCha",
+      "id" : "*/chaKids",
       "beat" : 3.0
     }, {
       "id" : "*/success",
@@ -89,22 +89,22 @@
     "name" : "uh-cha-cha cha - bom bom! - adults",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/alienUh",
+      "id" : "*/chaAlien1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/alienCha",
+      "id" : "*/chaAlien2",
       "beat" : 0.5
     }, {
-      "id" : "*/alienCha",
+      "id" : "*/chaAlien2",
       "beat" : 1.0
     }, {
-      "id" : "*/alienCha",
+      "id" : "*/chaAlien2",
       "beat" : 1.75
     }, {
-      "id" : "*/adultsBom",
+      "id" : "*/bomAdults",
       "beat" : 2.5
     }, {
-      "id" : "*/adultsBom",
+      "id" : "*/bomAdults",
       "beat" : 3.0
     }, {
       "id" : "*/success",
@@ -118,19 +118,19 @@
     "name" : "bom bom bom-bom - cha! - adults",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/alienBom",
+      "id" : "*/bomAlien",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/alienBom",
+      "id" : "*/bomAlien",
       "beat" : 0.75
     }, {
-      "id" : "*/alienBom",
+      "id" : "*/bomAlien",
       "beat" : 1.5
     }, {
-      "id" : "*/alienBom",
+      "id" : "*/bomAlien",
       "beat" : 2.0
     }, {
-      "id" : "*/adultsCha",
+      "id" : "*/chaAdults",
       "beat" : 3.0
     }, {
       "id" : "*/success",
@@ -144,19 +144,19 @@
     "name" : "bom bom cha - bom cha! - adults",
     "deprecatedIDs" : [ "alienAlphabet_bomchaGrown" ],
     "cues" : [ {
-      "id" : "*/alienBom",
+      "id" : "*/bomAlien",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/alienBom",
+      "id" : "*/bomAlien",
       "beat" : 0.5
     }, {
-      "id" : "*/alienCha",
+      "id" : "*/chaAlien2",
       "beat" : 1.0
     }, {
-      "id" : "*/adultsBom",
+      "id" : "*/bomAdults",
       "beat" : 2.5
     }, {
-      "id" : "*/adultsCha",
+      "id" : "*/chaAdults",
       "beat" : 3.0
     }, {
       "id" : "*/success",
@@ -208,28 +208,28 @@
     "duration" : 0.25
   }, {
     "type" : "cue",
-    "id" : "*/alienUh",
+    "id" : "*/chaAlien1",
     "name" : "alien - cha - uh",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/alienCha",
+    "id" : "*/chaAlien2",
     "name" : "alien - cha - cha",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/alienBom",
+    "id" : "*/bomAlien",
     "name" : "alien - bom",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/kidsCha",
+    "id" : "*/chaKids",
     "name" : "friends - cha",
     "deprecatedIDs" : [ ],
     "subtext" : "",
@@ -237,7 +237,7 @@
     "earliness" : 0.035
   }, {
     "type" : "cue",
-    "id" : "*/kidsBom",
+    "id" : "*/bomKids",
     "name" : "friends - bom",
     "deprecatedIDs" : [ ],
     "subtext" : "",
@@ -245,7 +245,7 @@
     "earliness" : 0.038
   }, {
     "type" : "cue",
-    "id" : "*/adultsCha",
+    "id" : "*/chaAdults",
     "name" : "friends - cha - adults",
     "deprecatedIDs" : [ ],
     "subtext" : "",
@@ -253,7 +253,7 @@
     "earliness" : 0.024
   }, {
     "type" : "cue",
-    "id" : "*/adultsBom",
+    "id" : "*/bomAdults",
     "name" : "friends - bom - adults",
     "deprecatedIDs" : [ ],
     "subtext" : "",
