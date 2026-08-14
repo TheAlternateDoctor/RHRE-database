@@ -1,83 +1,129 @@
 {
   "id" : "hopStopNRoll",
-  "name" : "Hop Stop N Roll",
+  "name" : "Hop, Stop N Roll",
   "series" : "groove",
   "objects" : [ {
-    "type" : "cue",
-    "id" : "*/confetti",
-    "name" : "confetti",
+    "type" : "pattern",
+    "id" : "*_startHopping",
+    "name" : "start hopping",
+    "deprecatedIDs" : [ "hopStopNRoll/starthopping" ],
+    "cues" : [ {
+      "id" : "*/startHopping1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/startHopping2",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_hopping",
+    "name" : "hopping",
     "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/hop",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hop",
+      "beat" : 1.0
+    }, {
+      "id" : "*/hop",
+      "beat" : 2.0
+    }, {
+      "id" : "*/hop",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_rolling",
+    "name" : "rolling!",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/rolling1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/rolling2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/roll",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_rollingWithPartyPopper",
+    "name" : "rolling! (with party popper)",
+    "deprecatedIDs" : [ "hopStopNRoll/rollingpop" ],
+    "cues" : [ {
+      "id" : "*/rolling1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/rolling2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/roll",
+      "beat" : 2.0
+    }, {
+      "id" : "*/partyPopper",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_stopHopping",
+    "name" : "stop hopping",
+    "deprecatedIDs" : [ "hopStopNRoll/stop" ],
+    "cues" : [ {
+      "id" : "*/stopHopping3",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/stopHopping2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/stopHopping1",
+      "beat" : 2.0
+    }, {
+      "id" : "*/stopHoppingLastHop",
+      "beat" : 3.0
+    }, {
+      "id" : "*/stopHoppingLastHopLand",
+      "beat" : 3.75
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "cue",
+    "id" : "*/startHopping1",
+    "name" : "start hopping - 1",
+    "deprecatedIDs" : [ "hopStopNRoll/start1" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/start1",
-    "name" : "start - 1",
-    "deprecatedIDs" : [ ],
+    "id" : "*/startHopping2",
+    "name" : "start hopping - 2",
+    "deprecatedIDs" : [ "hopStopNRoll/start2" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/start2",
-    "name" : "start - 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/jump",
-    "name" : "jump",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/stop1",
-    "name" : "three",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0,
-    "earliness" : 0.081
-  }, {
-    "type" : "cue",
-    "id" : "*/stop2",
-    "name" : "two",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0,
-    "earliness" : 0.01
-  }, {
-    "type" : "cue",
-    "id" : "*/stop3",
-    "name" : "one",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/stop4",
-    "name" : "stop",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/jumpstop",
-    "name" : "jump - stop",
-    "deprecatedIDs" : [ ],
+    "id" : "*/hop",
+    "name" : "hop",
+    "deprecatedIDs" : [ "hopStopNRoll/hop" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/rolling1",
-    "name" : "rolling - 1",
+    "name" : "rolling - roll-",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/rolling2",
-    "name" : "rolling - 2",
+    "name" : "rolling - -ing!",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
@@ -89,95 +135,46 @@
     "subtext" : "",
     "duration" : 1.0
   }, {
-    "type" : "pattern",
-    "id" : "*_starthopping",
-    "name" : "start hopping",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/start1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/start2",
-      "beat" : 1.0
-    } ],
-    "subtext" : ""
+    "type" : "cue",
+    "id" : "*/partyPopper",
+    "name" : "party popper",
+    "deprecatedIDs" : [ "hopStopNRoll/confetti" ],
+    "subtext" : "",
+    "duration" : 0.5
   }, {
-    "type" : "keepTheBeat",
-    "id" : "*_hopping",
-    "name" : "hopping",
-    "deprecatedIDs" : [ ],
-    "defaultDuration" : 4.0,
-    "cues" : [ {
-      "id" : "*/jump",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/jump",
-      "beat" : 1.0
-    }, {
-      "id" : "*/jump",
-      "beat" : 2.0
-    }, {
-      "id" : "*/jump",
-      "beat" : 3.0
-    } ],
-    "subtext" : ""
+    "type" : "cue",
+    "id" : "*/stopHopping3",
+    "name" : "stop hopping - 3",
+    "deprecatedIDs" : [ "hopStopNRoll/stop1" ],
+    "subtext" : "",
+    "duration" : 1.0
   }, {
-    "type" : "pattern",
-    "id" : "*_rolling",
-    "name" : "rolling",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/rolling1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/rolling2",
-      "beat" : 1.0
-    }, {
-      "id" : "*/roll",
-      "beat" : 2.0
-    } ],
-    "subtext" : ""
+    "type" : "cue",
+    "id" : "*/stopHopping2",
+    "name" : "stop hopping - 2",
+    "deprecatedIDs" : [ "hopStopNRoll/stop2" ],
+    "subtext" : "",
+    "duration" : 1.0
   }, {
-    "type" : "pattern",
-    "id" : "*_rollingpop",
-    "name" : "rolling with confetti",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/rolling1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/rolling2",
-      "beat" : 1.0
-    }, {
-      "id" : "*/roll",
-      "beat" : 2.0
-    }, {
-      "id" : "*/confetti",
-      "beat" : 3.0
-    } ],
-    "subtext" : ""
+    "type" : "cue",
+    "id" : "*/stopHopping1",
+    "name" : "stop hopping - 1",
+    "deprecatedIDs" : [ "hopStopNRoll/stop3" ],
+    "subtext" : "",
+    "duration" : 1.0
   }, {
-    "type" : "pattern",
-    "id" : "*_stop",
-    "name" : "stop",
+    "type" : "cue",
+    "id" : "*/stopHoppingLastHop",
+    "name" : "stop hopping - last hop",
+    "deprecatedIDs" : [ "hopStopNRoll/jumpstop" ],
+    "subtext" : "",
+    "duration" : 0.75
+  }, {
+    "type" : "cue",
+    "id" : "*/stopHoppingLastHopLand",
+    "name" : "stop hopping - last hop - land",
     "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/stop1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/stop2",
-      "beat" : 1.0
-    }, {
-      "id" : "*/stop3",
-      "beat" : 2.0
-    }, {
-      "id" : "*/stop4",
-      "beat" : 3.0
-    }, {
-      "id" : "*/jumpstop",
-      "beat" : 3.0,
-      "track" : 1
-    } ],
-    "subtext" : ""
+    "subtext" : "",
+    "duration" : 0.25
   } ]
 }
