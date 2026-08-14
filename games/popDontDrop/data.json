@@ -70,7 +70,9 @@
     "name" : "soft bubble - pop",
     "deprecatedIDs" : [ "popDontDrop/popsoft" ],
     "subtext" : "",
-    "duration" : 0.25
+    "duration" : 0.25,
+    "randomPitchLow" : -75,
+    "randomPitchHigh" : 75
   }, {
     "type" : "cue",
     "id" : "*/hardCatch1",
