@@ -6,7 +6,7 @@
     "type" : "pattern",
     "id" : "*_startHopping",
     "name" : "start hopping",
-    "deprecatedIDs" : [ "hopStopNRoll/starthopping" ],
+    "deprecatedIDs" : [ "hopStopNRoll_starthopping" ],
     "cues" : [ {
       "id" : "*/startHopping1",
       "beat" : 1.4E-45
@@ -55,7 +55,7 @@
     "type" : "pattern",
     "id" : "*_rollingWithPartyPopper",
     "name" : "rolling! (with party popper)",
-    "deprecatedIDs" : [ "hopStopNRoll/rollingpop" ],
+    "deprecatedIDs" : [ "hopStopNRoll_rollingpop" ],
     "cues" : [ {
       "id" : "*/rolling1",
       "beat" : 1.4E-45
@@ -74,7 +74,7 @@
     "type" : "pattern",
     "id" : "*_stopHopping",
     "name" : "stop hopping",
-    "deprecatedIDs" : [ "hopStopNRoll/stop" ],
+    "deprecatedIDs" : [ "hopStopNRoll_stop" ],
     "cues" : [ {
       "id" : "*/stopHopping3",
       "beat" : 1.4E-45
@@ -98,14 +98,16 @@
     "name" : "start hopping - 1",
     "deprecatedIDs" : [ "hopStopNRoll/start1" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.017
   }, {
     "type" : "cue",
     "id" : "*/startHopping2",
     "name" : "start hopping - 2",
     "deprecatedIDs" : [ "hopStopNRoll/start2" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.015
   }, {
     "type" : "cue",
     "id" : "*/hop",
@@ -119,14 +121,16 @@
     "name" : "rolling - roll-",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.054
   }, {
     "type" : "cue",
     "id" : "*/rolling2",
     "name" : "rolling - -ing!",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.013
   }, {
     "type" : "cue",
     "id" : "*/roll",
@@ -147,28 +151,32 @@
     "name" : "stop hopping - 3",
     "deprecatedIDs" : [ "hopStopNRoll/stop1" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.08
   }, {
     "type" : "cue",
     "id" : "*/stopHopping2",
     "name" : "stop hopping - 2",
     "deprecatedIDs" : [ "hopStopNRoll/stop2" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.043
   }, {
     "type" : "cue",
     "id" : "*/stopHopping1",
     "name" : "stop hopping - 1",
     "deprecatedIDs" : [ "hopStopNRoll/stop3" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.028
   }, {
     "type" : "cue",
     "id" : "*/stopHoppingLastHop",
     "name" : "stop hopping - last hop",
     "deprecatedIDs" : [ "hopStopNRoll/jumpstop" ],
     "subtext" : "",
-    "duration" : 0.75
+    "duration" : 0.75,
+    "earliness" : 0.001
   }, {
     "type" : "cue",
     "id" : "*/stopHoppingLastHopLand",

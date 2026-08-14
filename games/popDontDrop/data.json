@@ -71,8 +71,8 @@
     "deprecatedIDs" : [ "popDontDrop/popsoft" ],
     "subtext" : "",
     "duration" : 0.25,
-    "randomPitchLow" : -75,
-    "randomPitchHigh" : 75
+    "randomPitchLowCents" : -75,
+    "randomPitchHighCents" : 75
   }, {
     "type" : "cue",
     "id" : "*/hardCatch1",
@@ -221,23 +221,11 @@
     "type" : "cue",
     "id" : "*/hardCatch13",
     "name" : "hard bubble - pop - 13",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/hardCatch14" ],
     "subtext" : "",
     "duration" : 1.0,
     "stretchable" : true,
     "endingSound" : "*/hardPop13",
-    "loops" : true,
-    "loopStart" : 1.035,
-    "loopEnd" : 1.04
-  }, {
-    "type" : "cue",
-    "id" : "*/hardCatch14",
-    "name" : "hard bubble - pop - 14",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0,
-    "stretchable" : true,
-    "endingSound" : "*/hardPop14",
     "loops" : true,
     "loopStart" : 1.035,
     "loopEnd" : 1.04
@@ -330,13 +318,6 @@
     "id" : "*/hardPop13",
     "name" : "hard bubble - yes! - 13",
     "deprecatedIDs" : [ "popDontDrop/pophard13" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/hardPop14",
-    "name" : "hard bubble - yes! - 14",
-    "deprecatedIDs" : [ "popDontDrop/pophard14" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
