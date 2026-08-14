@@ -4,6 +4,13 @@
   "series" : "groove",
   "objects" : [ {
     "type" : "cue",
+    "id" : "*/moai",
+    "name" : "moai - blast off",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
     "id" : "*/countJump1",
     "name" : "jump,  jump! - 1",
     "deprecatedIDs" : [ "sodaHop/jumpv1" ],
