@@ -122,5 +122,28 @@
     "deprecatedIDs" : [ "stopNGoNStop/accelhit" ],
     "subtext" : "",
     "duration" : 0.5
+  }, {
+    "type" : "pattern",
+    "id" : "*_accelRemix7",
+    "name" : "accelerate (Remix 7)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/accelsignal2",
+      "beat" : 0.0
+    }, {
+      "id" : "*/accelsignal2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/accelsignal2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/accel",
+      "beat" : 1.5,
+      "track" : 1
+    }, {
+      "id" : "*/accelsignal3",
+      "beat" : 1.5
+    } ],
+    "subtext" : ""
   } ]
 }
