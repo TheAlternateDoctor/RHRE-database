@@ -6,7 +6,7 @@
     "type" : "randomCue",
     "id" : "*_softGrow",
     "name" : "soft bubble - appear",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop_randomsoftspawn" ],
     "responseIDs" : [ "*/softPop" ],
     "cues" : [ {
       "id" : "*/softGrow1",
@@ -26,7 +26,7 @@
     "type" : "cue",
     "id" : "*/hardGrow",
     "name" : "hard bubble - appear",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/hardbubble", "popDontDrop/hardbubblealt" ],
     "subtext" : "",
     "duration" : 1.0,
     "stretchable" : true,
@@ -36,7 +36,7 @@
     "type" : "cue",
     "id" : "*/softGrow1",
     "name" : "soft bubble - appear - 1",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/softbubble1" ],
     "subtext" : "",
     "duration" : 0.25,
     "responseIDs" : [ "*/softPop" ]
@@ -44,7 +44,7 @@
     "type" : "cue",
     "id" : "*/softGrow2",
     "name" : "soft bubble - appear - 2",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/softbubble2" ],
     "subtext" : "",
     "duration" : 0.25,
     "responseIDs" : [ "*/softPop" ]
@@ -52,7 +52,7 @@
     "type" : "cue",
     "id" : "*/softGrow3",
     "name" : "soft bubble - appear - 3",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/softbubble3" ],
     "subtext" : "",
     "duration" : 0.25,
     "responseIDs" : [ "*/softPop" ]
@@ -60,7 +60,7 @@
     "type" : "cue",
     "id" : "*/softGrow4",
     "name" : "soft bubble - appear - 4",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/softbubble4" ],
     "subtext" : "",
     "duration" : 0.25,
     "responseIDs" : [ "*/softPop" ]
@@ -68,16 +68,14 @@
     "type" : "cue",
     "id" : "*/softPop",
     "name" : "soft bubble - pop",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/popsoft" ],
     "subtext" : "",
-    "duration" : 0.25,
-    "randomPitchLow" : -75,
-    "randomPitchHigh" : 75
+    "duration" : 0.25
   }, {
     "type" : "cue",
     "id" : "*/hardCatch1",
     "name" : "hard bubble - pop - 1",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/hold" ],
     "subtext" : "",
     "duration" : 1.0,
     "stretchable" : true,
@@ -245,98 +243,98 @@
     "type" : "cue",
     "id" : "*/hardPop1",
     "name" : "hard bubble - yes! - 1",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/pophard1" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/hardPop2",
     "name" : "hard bubble - yes! - 2",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/pophard2" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/hardPop3",
     "name" : "hard bubble - yes! - 3",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/pophard3" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/hardPop4",
     "name" : "hard bubble - yes! - 4",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/pophard4" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/hardPop5",
     "name" : "hard bubble - yes! - 5",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/pophard5" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/hardPop6",
     "name" : "hard bubble - yes! - 6",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/pophard6" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/hardPop7",
     "name" : "hard bubble - yes! - 7",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/pophard7" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/hardPop8",
     "name" : "hard bubble - yes! - 8",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/pophard8" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/hardPop9",
     "name" : "hard bubble - yes! - 9",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/pophard9" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/hardPop10",
     "name" : "hard bubble - yes! - 10",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/pophard10" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/hardPop11",
     "name" : "hard bubble - yes! - 11",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/pophard11" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/hardPop12",
     "name" : "hard bubble - yes! - 12",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/pophard12" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/hardPop13",
     "name" : "hard bubble - yes! - 13",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/pophard13" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/hardPop14",
     "name" : "hard bubble - yes! - 14",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "popDontDrop/pophard14" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
