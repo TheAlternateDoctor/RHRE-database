@@ -8,38 +8,40 @@
     "name" : "jump,  jump! - 1",
     "deprecatedIDs" : [ "sodaHop/jumpv1" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.042
   }, {
     "type" : "cue",
     "id" : "*/countJump2",
     "name" : "jump,  jump! - 2",
     "deprecatedIDs" : [ "sodaHop/jumpv2" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.041
   }, {
     "type" : "cue",
     "id" : "*/countStop1",
-    "name" : "stop - 3",
+    "name" : "stop - three",
     "deprecatedIDs" : [ "sodaHop/stopv1" ],
     "subtext" : "",
     "duration" : 1.0,
-    "earliness" : 0.05
+    "earliness" : 0.066
   }, {
     "type" : "cue",
     "id" : "*/countStop2",
-    "name" : "stop - 2",
+    "name" : "stop - two",
     "deprecatedIDs" : [ "sodaHop/stopv2" ],
     "subtext" : "",
     "duration" : 1.0,
-    "earliness" : 0.05
+    "earliness" : 0.049
   }, {
     "type" : "cue",
     "id" : "*/countStop3",
-    "name" : "stop - 1",
+    "name" : "stop - one",
     "deprecatedIDs" : [ "sodaHop/stopv3" ],
     "subtext" : "",
     "duration" : 1.0,
-    "earliness" : 0.05
+    "earliness" : 0.062
   }, {
     "type" : "cue",
     "id" : "*/countStop4",
@@ -47,7 +49,7 @@
     "deprecatedIDs" : [ "sodaHop/stopv4" ],
     "subtext" : "",
     "duration" : 1.0,
-    "earliness" : 0.08
+    "earliness" : 0.11
   }, {
     "type" : "cue",
     "id" : "*/jump",
@@ -127,7 +129,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_countStop",
-    "name" : "3, 2, 1, stop!",
+    "name" : "three, two, one, stop!",
     "deprecatedIDs" : [ "sodaHop_stop" ],
     "cues" : [ {
       "id" : "*/countStop1",
@@ -148,7 +150,7 @@
     "id" : "*_jumping",
     "name" : "jumping",
     "deprecatedIDs" : [ ],
-    "defaultDuration" : 1.0,
+    "defaultDuration" : 4.0,
     "cues" : [ {
       "id" : "*/jump",
       "beat" : 1.4E-45,
@@ -160,6 +162,39 @@
     }, {
       "id" : "*/jumpLand",
       "beat" : 0.5
+    }, {
+      "id" : "*/jump",
+      "beat" : 1.0,
+      "duration" : 0.125
+    }, {
+      "id" : "*/jumpRope",
+      "beat" : 1.125,
+      "duration" : 0.375
+    }, {
+      "id" : "*/jumpLand",
+      "beat" : 1.5
+    }, {
+      "id" : "*/jump",
+      "beat" : 2.0,
+      "duration" : 0.125
+    }, {
+      "id" : "*/jumpRope",
+      "beat" : 2.125,
+      "duration" : 0.375
+    }, {
+      "id" : "*/jumpLand",
+      "beat" : 2.5
+    }, {
+      "id" : "*/jump",
+      "beat" : 3.0,
+      "duration" : 0.125
+    }, {
+      "id" : "*/jumpRope",
+      "beat" : 3.125,
+      "duration" : 0.375
+    }, {
+      "id" : "*/jumpLand",
+      "beat" : 3.5
     } ],
     "subtext" : ""
   }, {

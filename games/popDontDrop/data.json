@@ -326,7 +326,7 @@
     "name" : "researchers - loop",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0,
+    "duration" : 10.0,
     "stretchable" : true,
     "loops" : true,
     "loopStart" : 0.515,
