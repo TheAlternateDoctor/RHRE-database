@@ -29,7 +29,8 @@
     "name" : "okay! - 2",
     "deprecatedIDs" : [ "germAerobics/start2" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.03
   }, {
     "type" : "cue",
     "id" : "*/countStop1",
@@ -64,14 +65,16 @@
     "name" : "slow - wind-up - 1",
     "deprecatedIDs" : [ "germAerobics/slow1" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.01
   }, {
     "type" : "cue",
     "id" : "*/countSlow2",
     "name" : "slow - wind-up - 2",
     "deprecatedIDs" : [ "germAerobics/slow2" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.013
   }, {
     "type" : "cue",
     "id" : "*/countSlow3",
@@ -106,21 +109,24 @@
     "name" : "triple - wind-up - 2",
     "deprecatedIDs" : [ "germAerobics/fast2" ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.028
   }, {
     "type" : "cue",
     "id" : "*/countTriple3",
     "name" : "triple - wind-up - 3",
     "deprecatedIDs" : [ "germAerobics/fast3" ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.019
   }, {
     "type" : "cue",
     "id" : "*/voiceNormal1",
     "name" : "stretch - voice - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.02
   }, {
     "type" : "cue",
     "id" : "*/voiceNormal2",
@@ -214,7 +220,7 @@
     "id" : "*_stretchNormal",
     "name" : "stretching",
     "deprecatedIDs" : [ "germAerobics_moving" ],
-    "defaultDuration" : 2.0,
+    "defaultDuration" : 4.0,
     "cues" : [ {
       "id" : "*/stretchUp",
       "beat" : 1.4E-45,
@@ -222,6 +228,14 @@
     }, {
       "id" : "*/stretchDown",
       "beat" : 1.0,
+      "duration" : 1.0
+    }, {
+      "id" : "*/stretchUp",
+      "beat" : 2.0,
+      "duration" : 1.0
+    }, {
+      "id" : "*/stretchDown",
+      "beat" : 3.0,
       "duration" : 1.0
     } ],
     "subtext" : ""
@@ -246,7 +260,7 @@
     "id" : "*_voiceNormal",
     "name" : "stretching - voice",
     "deprecatedIDs" : [ ],
-    "defaultDuration" : 2.0,
+    "defaultDuration" : 4.0,
     "cues" : [ {
       "id" : "*/voiceNormal1",
       "beat" : 1.4E-45
