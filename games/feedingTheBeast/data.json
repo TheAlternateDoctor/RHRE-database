@@ -5,7 +5,7 @@
   "objects" : [ {
     "type" : "cue",
     "id" : "*/shootYellow",
-    "name" : "[#FED900]yellow[] flower - launch",
+    "name" : "[#FED900]yellow flower[] - launch",
     "deprecatedIDs" : [ "feedingTheBeast/pinkHeartShoot" ],
     "subtext" : "",
     "duration" : 0.5,
@@ -13,14 +13,14 @@
   }, {
     "type" : "cue",
     "id" : "*/chompYellow",
-    "name" : "[#FED900]yellow[] flower - chomp",
+    "name" : "[#FED900]yellow flower[] - chomp",
     "deprecatedIDs" : [ "feedingTheBeast/munch1" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/shootPurple",
-    "name" : "[#7B00B2]purple[] flower - launch",
+    "name" : "[#7B00B2]purple flower[] - launch",
     "deprecatedIDs" : [ "feedingTheBeast/greenHeartShoot" ],
     "subtext" : "",
     "duration" : 0.5,
@@ -28,14 +28,14 @@
   }, {
     "type" : "cue",
     "id" : "*/chompPurple",
-    "name" : "[#7B00B2]purple[] flower - chomp",
+    "name" : "[#7B00B2]purple flower[] - chomp",
     "deprecatedIDs" : [ "feedingTheBeast/munch2" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "pattern",
     "id" : "*_yellow",
-    "name" : "[#FED900]yellow[] flower",
+    "name" : "[#FED900]yellow flower[]",
     "deprecatedIDs" : [ "feedingTheBeast_yellowFlower" ],
     "cues" : [ {
       "id" : "*/shootYellow",
@@ -50,7 +50,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_purple",
-    "name" : "[#7B00B2]purple[] flower ",
+    "name" : "[#7B00B2]purple flower[]",
     "deprecatedIDs" : [ "feedingTheBeast_purpleFlower" ],
     "cues" : [ {
       "id" : "*/shootPurple",

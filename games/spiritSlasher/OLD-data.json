@@ -6,7 +6,7 @@
     "type" : "pattern",
     "id" : "*_singleSlash",
     "name" : "single slash",
-    "deprecatedIDs" : [ "spiritSlasher_singleslice" ],
+    "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/singleWarning",
       "beat" : 1.4E-45
@@ -35,7 +35,7 @@
     "type" : "pattern",
     "id" : "*_singleStarter",
     "name" : "single slash - consecutive - starter",
-    "deprecatedIDs" : [ "spiritSlasher_singleslicenov" ],
+    "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/singleWarning",
       "beat" : 1.4E-45
@@ -61,7 +61,7 @@
     "type" : "keepTheBeat",
     "id" : "*_singleChain",
     "name" : "single slash - consecutive - chain",
-    "deprecatedIDs" : [ "spiritSlasher_singlesliceqnov" ],
+    "deprecatedIDs" : [ ],
     "defaultDuration" : 2.0,
     "cues" : [ {
       "id" : "*/singleAppear",
@@ -79,7 +79,7 @@
     "type" : "pattern",
     "id" : "*_singleFinisher",
     "name" : "single slash - consecutive - finisher",
-    "deprecatedIDs" : [ "spiritSlasher_singlesliceq" ],
+    "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/singleAppear",
       "beat" : 1.4E-45
@@ -99,7 +99,7 @@
     "type" : "pattern",
     "id" : "*_doubleSlash",
     "name" : "double slash",
-    "deprecatedIDs" : [ "spiritSlasher_doubleslice" ],
+    "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/doubleWarning",
       "beat" : 1.4E-45
@@ -198,7 +198,7 @@
     "type" : "randomCue",
     "id" : "*_singleVoice",
     "name" : "single slash - voice - random",
-    "deprecatedIDs" : [ "spiritSlasher_randomsamurai" ],
+    "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/singleVoice1",
       "beat" : 1.4E-45
@@ -217,70 +217,70 @@
     "type" : "cue",
     "id" : "*/singleWarning",
     "name" : "single slash - warning",
-    "deprecatedIDs" : [ "spiritSlasher/enemyasign" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/singlePortal",
     "name" : "single slash - portal",
-    "deprecatedIDs" : [ "spiritSlasher/enemyva" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/singleAppear",
     "name" : "single slash - appear",
-    "deprecatedIDs" : [ "spiritSlasher/enemyashoot" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/singleSlash",
     "name" : "single slash - slash",
-    "deprecatedIDs" : [ "spiritSlasher/enemyaslice" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/singleVoice1",
     "name" : "single slash - voice - 1",
-    "deprecatedIDs" : [ "spiritSlasher/samuraiva1" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/singleVoice2",
     "name" : "single slash - voice - 2",
-    "deprecatedIDs" : [ "spiritSlasher/samuraiva2" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/singleVoice3",
     "name" : "single slash - voice - 3",
-    "deprecatedIDs" : [ "spiritSlasher/samuraiva3" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/singleVoice4",
     "name" : "single slash - voice - 4",
-    "deprecatedIDs" : [ "spiritSlasher/samuraiva4" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/doubleWarning",
     "name" : "double slash - warning",
-    "deprecatedIDs" : [ "spiritSlasher/enemybsign" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/doublePortal1",
     "name" : "double slash - portal - 1",
-    "deprecatedIDs" : [ "spiritSlasher/enemyvb1" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
     "earliness" : 0.025
@@ -288,7 +288,7 @@
     "type" : "cue",
     "id" : "*/doublePortal2",
     "name" : "double slash - portal - 2",
-    "deprecatedIDs" : [ "spiritSlasher/enemyvb2" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
     "earliness" : 0.044
@@ -296,35 +296,35 @@
     "type" : "cue",
     "id" : "*/doubleAppear",
     "name" : "double slash - appear",
-    "deprecatedIDs" : [ "spiritSlasher/enemybshoot" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/doubleSlash1",
     "name" : "double slash - slash - 1",
-    "deprecatedIDs" : [ "spiritSlasher/enemybslice1" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/doubleSlash2",
     "name" : "double slash - slash - 2",
-    "deprecatedIDs" : [ "spiritSlasher/enemybslice2" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/doubleVoice1",
     "name" : "double slash - voice - 1",
-    "deprecatedIDs" : [ "spiritSlasher/samuraivb1" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/doubleVoice2",
     "name" : "double slash - voice - 2",
-    "deprecatedIDs" : [ "spiritSlasher/samuraivb2" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   } ]
