@@ -3,20 +3,318 @@
   "name" : "Flutter Speed",
   "series" : "groove",
   "group" : "Flutter Speed",
+  "groupDefault" : true,
   "objects" : [ {
-    "type" : "cue",
-    "id" : "*/catch",
-    "name" : "catch",
+    "type" : "pattern",
+    "id" : "*_butterfly",
+    "name" : "butterfly",
     "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
+    "cues" : [ {
+      "id" : "*/butterfly1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/butterfly2",
+      "beat" : 0.75
+    }, {
+      "id" : "*_randomCatch",
+      "beat" : 1.5
+    } ],
+    "subtext" : ""
   }, {
-    "type" : "cue",
-    "id" : "*/bugcaught",
-    "name" : "bug caught",
+    "type" : "pattern",
+    "id" : "*_grasshopper",
+    "name" : "grasshopper",
     "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
+    "cues" : [ {
+      "id" : "*/grasshopper1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/grasshopper1",
+      "beat" : 0.5
+    }, {
+      "id" : "*/grasshopper2",
+      "beat" : 1.0
+    }, {
+      "id" : "*_randomCatch",
+      "beat" : 1.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_dragonfly",
+    "name" : "dragonfly",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/dragonfly1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/dragonfly2",
+      "beat" : 1.0
+    }, {
+      "id" : "*_randomCatch",
+      "beat" : 4.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_butterflyRemix5",
+    "name" : "butterfly - Remix 5",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/butterfly1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/butterfly2",
+      "beat" : 1.5
+    }, {
+      "id" : "*_randomCatch",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_butterflyRemix5Counting",
+    "name" : "butterfly - Remix 5 - counting",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/butterfly1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/cowbell",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/butterfly2",
+      "beat" : 1.5
+    }, {
+      "id" : "*/cowbell",
+      "beat" : 1.5,
+      "track" : 1
+    }, {
+      "id" : "*_randomCatch",
+      "beat" : 3.0
+    }, {
+      "id" : "*/cowbell",
+      "beat" : 3.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_grasshopperRemix5",
+    "name" : "grasshopper - Remix 5",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/grasshopper1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/grasshopper1",
+      "beat" : 1.0
+    }, {
+      "id" : "*/grasshopper2",
+      "beat" : 2.0
+    }, {
+      "id" : "*_randomCatch",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_butterflyNoVoice",
+    "name" : "butterfly - no voice",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/butterfly1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/butterfly2",
+      "beat" : 0.75
+    }, {
+      "id" : "*/catchInsectNoPraise",
+      "beat" : 1.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_grasshopperNoVoice",
+    "name" : "grasshopper - no voice",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/grasshopper1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/grasshopper1",
+      "beat" : 0.5
+    }, {
+      "id" : "*/grasshopper2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/catchInsectNoPraise",
+      "beat" : 1.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_dragonflyNoVoice",
+    "name" : "dragonfly - no voice",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/dragonfly1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/dragonfly2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/catchInsectNoPraise",
+      "beat" : 4.0
+    } ],
+    "subtext" : "[#BFBFBF](unused)[]"
+  }, {
+    "type" : "pattern",
+    "id" : "*_butterflyRemix5NoVoice",
+    "name" : "butterfly - Remix 5 - no voice",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/butterfly1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/butterfly2",
+      "beat" : 1.5
+    }, {
+      "id" : "*/catchInsectNoPraise",
+      "beat" : 3.0
+    } ],
+    "subtext" : "[#BFBFBF](unused)[]"
+  }, {
+    "type" : "pattern",
+    "id" : "*_butterflyRemix5CountingNoVoice",
+    "name" : "butterfly - Remix 5 - counting - no voice",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/butterfly1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/cowbell",
+      "beat" : 1.4E-45,
+      "track" : 1
+    }, {
+      "id" : "*/butterfly2",
+      "beat" : 1.5
+    }, {
+      "id" : "*/cowbell",
+      "beat" : 1.5,
+      "track" : 1
+    }, {
+      "id" : "*/catchInsectNoPraise",
+      "beat" : 3.0
+    }, {
+      "id" : "*/cowbell",
+      "beat" : 3.0,
+      "track" : 1
+    } ],
+    "subtext" : "[#BFBFBF](unused)[]"
+  }, {
+    "type" : "pattern",
+    "id" : "*_grasshopperRemix5NoVoice",
+    "name" : "grasshopper - Remix 5 - no voice",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/grasshopper1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/grasshopper1",
+      "beat" : 1.0
+    }, {
+      "id" : "*/grasshopper2",
+      "beat" : 2.0
+    }, {
+      "id" : "*/catchInsectNoPraise",
+      "beat" : 3.0
+    } ],
+    "subtext" : "[#BFBFBF](unused)[]"
+  }, {
+    "type" : "pattern",
+    "id" : "*_butterflyPractice",
+    "name" : "butterfly - practice",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/butterfly1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/butterfly2",
+      "beat" : 0.75
+    }, {
+      "id" : "*/catchInsectPractice",
+      "beat" : 1.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_grasshopperPractice",
+    "name" : "grasshopper - practice",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/grasshopper1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/grasshopper1",
+      "beat" : 0.5
+    }, {
+      "id" : "*/grasshopper2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/catchInsectPractice",
+      "beat" : 1.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_dragonflyPractice",
+    "name" : "dragonfly - practice",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/dragonfly1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/dragonfly2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/catchInsectPractice",
+      "beat" : 4.0
+    } ],
+    "subtext" : "[#BFBFBF](unused)[]"
+  }, {
+    "type" : "pattern",
+    "id" : "*_dragonflyPracticeCounting",
+    "name" : "dragonfly - practice - counting",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/dragonfly1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/dragonfly2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/cowbell",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/cowbell",
+      "beat" : 2.0,
+      "track" : 1
+    }, {
+      "id" : "*/cowbell",
+      "beat" : 3.0,
+      "track" : 1
+    }, {
+      "id" : "*/cowbell",
+      "beat" : 4.0,
+      "track" : 1
+    }, {
+      "id" : "*/catchInsectPractice",
+      "beat" : 4.0
+    } ],
+    "subtext" : "[#BFBFBF](unused)[]"
   }, {
     "type" : "cue",
     "id" : "*/butterfly1",
@@ -33,16 +331,16 @@
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/hopper1",
+    "id" : "*/grasshopper1",
     "name" : "grasshopper - 1",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "flutterSpeed/hopper1" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/hopper2",
+    "id" : "*/grasshopper2",
     "name" : "grasshopper - 2",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "flutterSpeed/hopper2" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
@@ -51,7 +349,7 @@
     "name" : "dragonfly - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/dragonfly2",
@@ -61,117 +359,60 @@
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/girlhappy1",
-    "name" : "girl happy - 1",
+    "id" : "*/catchInsectA",
+    "name" : "catch insect - A",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/girlhappy2",
-    "name" : "girl happy - 2",
+    "id" : "*/catchInsectB",
+    "name" : "catch insect - B",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/girlhappy3",
-    "name" : "girl happy - 3",
+    "id" : "*/catchInsectC",
+    "name" : "catch insect - C",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.5
   }, {
-    "type" : "pattern",
-    "id" : "*_butterfly",
-    "name" : "butterfly",
+    "type" : "cue",
+    "id" : "*/catchInsectPractice",
+    "name" : "catch insect - practice",
     "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/butterfly1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/butterfly2",
-      "beat" : 0.75
-    }, {
-      "id" : "*/catch",
-      "beat" : 1.5
-    }, {
-      "id" : "*/bugcaught",
-      "beat" : 1.5,
-      "track" : 1
-    }, {
-      "id" : "*_girlhappy",
-      "beat" : 1.5,
-      "track" : 2
-    } ],
-    "subtext" : ""
+    "subtext" : "",
+    "duration" : 0.5
   }, {
-    "type" : "pattern",
-    "id" : "*_grasshopper",
-    "name" : "grasshopper",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/hopper1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/hopper1",
-      "beat" : 0.5
-    }, {
-      "id" : "*/hopper2",
-      "beat" : 1.0
-    }, {
-      "id" : "*/catch",
-      "beat" : 1.5
-    }, {
-      "id" : "*/bugcaught",
-      "beat" : 1.5,
-      "track" : 1
-    }, {
-      "id" : "*_girlhappy",
-      "beat" : 1.5,
-      "track" : 2
-    } ],
-    "subtext" : ""
+    "type" : "cue",
+    "id" : "*/catchInsectNoPraise",
+    "name" : "catch insect - no voice",
+    "deprecatedIDs" : [ "flutterSpeed/catch" ],
+    "subtext" : "",
+    "duration" : 0.5
   }, {
-    "type" : "pattern",
-    "id" : "*_dragonfly",
-    "name" : "dragonfly",
+    "type" : "cue",
+    "id" : "*/cowbell",
+    "name" : "cowbell",
     "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/dragonfly1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/dragonfly2",
-      "beat" : 1.0
-    }, {
-      "id" : "*/catch",
-      "beat" : 4.0
-    }, {
-      "id" : "*/bugcaught",
-      "beat" : 4.0,
-      "track" : 1
-    }, {
-      "id" : "*_girlhappy",
-      "beat" : 4.0,
-      "track" : 2
-    } ],
-    "subtext" : ""
+    "subtext" : "",
+    "duration" : 0.5
   }, {
     "type" : "randomCue",
-    "id" : "*_girlhappy",
-    "name" : "girl - successful hit",
+    "id" : "*_randomCatch",
+    "name" : "random catch insect",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/girlhappy1",
-      "beat" : 1.4E-45,
-      "volume" : 50
+      "id" : "*/catchInsectA",
+      "beat" : 1.4E-45
     }, {
-      "id" : "*/girlhappy2",
-      "beat" : 1.4E-45,
-      "volume" : 50
+      "id" : "*/catchInsectB",
+      "beat" : 1.4E-45
     }, {
-      "id" : "*/girlhappy3",
-      "beat" : 1.4E-45,
-      "volume" : 50
+      "id" : "*/catchInsectC",
+      "beat" : 1.4E-45
     } ],
     "subtext" : ""
   } ]
