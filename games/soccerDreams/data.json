@@ -3,258 +3,274 @@
   "name" : "Soccer Dreams",
   "series" : "groove",
   "objects" : [ {
+    "type" : "pattern",
+    "id" : "*_white",
+    "name" : "basic kick",
+    "deprecatedIDs" : [ "soccerDreams_kick" ],
+    "cues" : [ {
+      "id" : "*/whiteShoot1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/whiteShoot2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/whiteKick",
+      "beat" : 1.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_pink",
+    "name" : "trap and kick",
+    "deprecatedIDs" : [ "soccerDreams_trap" ],
+    "cues" : [ {
+      "id" : "*/pinkShoot1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/pinkShoot2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/pinkShoot3",
+      "beat" : 1.5
+    }, {
+      "id" : "*/pinkTrap",
+      "beat" : 2.5
+    }, {
+      "id" : "*/pinkKick",
+      "beat" : 3.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_yellow",
+    "name" : "bicycle kick",
+    "deprecatedIDs" : [ "soccerDreams_kickflip" ],
+    "cues" : [ {
+      "id" : "*/yellowShoot1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/yellowShoot2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/yellowShoot3",
+      "beat" : 1.5
+    }, {
+      "id" : "*/yellowTrap",
+      "beat" : 2.5
+    }, {
+      "id" : "*/yellowJump",
+      "beat" : 3.5
+    }, {
+      "id" : "*/yellowKick",
+      "beat" : 4.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_yellowThunder",
+    "name" : "bicycle kick - thunder",
+    "deprecatedIDs" : [ "soccerDreams_kickflipalt" ],
+    "cues" : [ {
+      "id" : "*/yellowShoot1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/yellowShoot2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/yellowShoot3",
+      "beat" : 1.5
+    }, {
+      "id" : "*/yellowTrap",
+      "beat" : 2.5
+    }, {
+      "id" : "*/yellowJump",
+      "beat" : 3.5
+    }, {
+      "id" : "*/yellowKickThunder",
+      "beat" : 4.5
+    }, {
+      "id" : "*/thunder",
+      "beat" : 4.5,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_birds",
+    "name" : "birds - raising flags",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/birdsFlag",
+      "beat" : 1.0
+    }, {
+      "id" : "*/birdsFlag",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
     "type" : "cue",
-    "id" : "*/kickv1",
-    "name" : "kickv1",
+    "id" : "*/ambienceStadium",
+    "name" : "ambience - stadium",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 8.0,
+    "stretchable" : true,
+    "loops" : true,
+    "loopStart" : 0.288,
+    "loopEnd" : 3.619
+  }, {
+    "type" : "cue",
+    "id" : "*/ambienceRain",
+    "name" : "ambience - rain",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 8.0,
+    "stretchable" : true,
+    "loops" : true,
+    "loopStart" : 7.0,
+    "loopEnd" : 9.839
+  }, {
+    "type" : "cue",
+    "id" : "*/birdsFly",
+    "name" : "birds - fly away",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/birdsLand",
+    "name" : "birds - land",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/kickv2",
-    "name" : "kickv2",
+    "id" : "*/birdsFlag",
+    "name" : "birds - raise flag",
     "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.021
+  }, {
+    "type" : "cue",
+    "id" : "*/whiteShoot1",
+    "name" : "basic kick - throw - 1",
+    "deprecatedIDs" : [ "soccerDreams/kickv1" ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.006
+  }, {
+    "type" : "cue",
+    "id" : "*/whiteShoot2",
+    "name" : "basic kick - throw - 2",
+    "deprecatedIDs" : [ "soccerDreams/kickv2" ],
     "subtext" : "",
     "duration" : 1.0,
-    "earliness" : 0.038
+    "earliness" : 0.081
   }, {
     "type" : "cue",
-    "id" : "*/ballspawn",
-    "name" : "ballspawn",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/kick",
-    "name" : "kick",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/trapv1",
-    "name" : "trapv1",
-    "deprecatedIDs" : [ ],
+    "id" : "*/whiteKick",
+    "name" : "basic kick - kick",
+    "deprecatedIDs" : [ "soccerDreams/kick" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/trapv2",
-    "name" : "trapv2",
-    "deprecatedIDs" : [ ],
+    "id" : "*/pinkShoot1",
+    "name" : "trap and kick - throw - 1",
+    "deprecatedIDs" : [ "soccerDreams/trapv1" ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.012
+  }, {
+    "type" : "cue",
+    "id" : "*/pinkShoot2",
+    "name" : "trap and kick - throw - 2",
+    "deprecatedIDs" : [ "soccerDreams/trapv2" ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.019
+  }, {
+    "type" : "cue",
+    "id" : "*/pinkShoot3",
+    "name" : "trap and kick - throw - 3",
+    "deprecatedIDs" : [ "soccerDreams/trapv3" ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.022
+  }, {
+    "type" : "cue",
+    "id" : "*/pinkTrap",
+    "name" : "trap and kick - trap",
+    "deprecatedIDs" : [ "soccerDreams/trap1" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/trapv3",
-    "name" : "trapv3",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/trapspawn",
-    "name" : "trapspawn",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/trap1",
-    "name" : "trap1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/trap2",
-    "name" : "trap2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/kickflipv1",
-    "name" : "kickflipv1",
-    "deprecatedIDs" : [ ],
+    "id" : "*/pinkKick",
+    "name" : "trap and kick - kick",
+    "deprecatedIDs" : [ "soccerDreams/trap2" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/kickflipv2",
-    "name" : "kickflipv2",
-    "deprecatedIDs" : [ ],
+    "id" : "*/yellowShoot1",
+    "name" : "bicycle kick - throw - 1",
+    "deprecatedIDs" : [ "soccerDreams/kickflipv1" ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.043
+  }, {
+    "type" : "cue",
+    "id" : "*/yellowShoot2",
+    "name" : "bicycle kick - throw - 2",
+    "deprecatedIDs" : [ "soccerDreams/kickflipv2" ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.035
+  }, {
+    "type" : "cue",
+    "id" : "*/yellowShoot3",
+    "name" : "bicycle kick - throw - 3",
+    "deprecatedIDs" : [ "soccerDreams/kickflipv3" ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.037
+  }, {
+    "type" : "cue",
+    "id" : "*/yellowTrap",
+    "name" : "bicycle kick - trap",
+    "deprecatedIDs" : [ "soccerDreams/kickflip1" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/kickflipv3",
-    "name" : "kickflipv3",
-    "deprecatedIDs" : [ ],
+    "id" : "*/yellowJump",
+    "name" : "bicycle kick - jump",
+    "deprecatedIDs" : [ "soccerDreams/kickflip2" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
-    "id" : "*/kickflipspawn",
-    "name" : "kickflipspawn",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/whistle",
-    "name" : "whistle",
-    "deprecatedIDs" : [ ],
+    "id" : "*/yellowKick",
+    "name" : "bicycle kick - kick",
+    "deprecatedIDs" : [ "soccerDreams/kickflip3" ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/kickflip1",
-    "name" : "kickflip1",
-    "deprecatedIDs" : [ ],
+    "id" : "*/yellowKickThunder",
+    "name" : "bicycle kick - kick (thunder)",
+    "deprecatedIDs" : [ "soccerDreams/kickflip3alt" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/kickflip2",
-    "name" : "kickflip2",
+    "id" : "*/thunder",
+    "name" : "bicycle kick - thunder",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/kickflip3",
-    "name" : "kickflip3",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/kickflip3alt",
-    "name" : "kickflip3alt",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "pattern",
-    "id" : "*_kick",
-    "name" : "and shoot",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/kickv1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/kickv2",
-      "beat" : 0.5
-    }, {
-      "id" : "*/ballspawn",
-      "beat" : 0.5,
-      "track" : 1
-    }, {
-      "id" : "*/kick",
-      "beat" : 1.5
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_trap",
-    "name" : "and hey ha",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/trapv1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/trapv2",
-      "beat" : 0.5
-    }, {
-      "id" : "*/trapv3",
-      "beat" : 1.5
-    }, {
-      "id" : "*/trapspawn",
-      "beat" : 1.5,
-      "track" : 1
-    }, {
-      "id" : "*/trap1",
-      "beat" : 2.5
-    }, {
-      "id" : "*/trap2",
-      "beat" : 3.5
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_kickflip",
-    "name" : "yes you can",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/kickflipv1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/kickflipv2",
-      "beat" : 0.5
-    }, {
-      "id" : "*/kickflipv3",
-      "beat" : 1.5
-    }, {
-      "id" : "*/kickflipspawn",
-      "beat" : 1.5,
-      "track" : 1
-    }, {
-      "id" : "*/kickflip1",
-      "beat" : 2.5
-    }, {
-      "id" : "*/whistle",
-      "beat" : 2.5,
-      "track" : 1
-    }, {
-      "id" : "*/kickflip2",
-      "beat" : 3.5
-    }, {
-      "id" : "*/whistle",
-      "beat" : 3.5,
-      "track" : 1
-    }, {
-      "id" : "*/kickflip3",
-      "beat" : 4.5
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_kickflipalt",
-    "name" : "yes you can - alt",
-    "deprecatedIDs" : [ ],
-    "cues" : [ {
-      "id" : "*/kickflipv1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/kickflipv2",
-      "beat" : 0.5
-    }, {
-      "id" : "*/kickflipv3",
-      "beat" : 1.5
-    }, {
-      "id" : "*/kickflipspawn",
-      "beat" : 1.5,
-      "track" : 1
-    }, {
-      "id" : "*/kickflip1",
-      "beat" : 2.5
-    }, {
-      "id" : "*/whistle",
-      "beat" : 2.5,
-      "track" : 1
-    }, {
-      "id" : "*/kickflip2",
-      "beat" : 3.5
-    }, {
-      "id" : "*/whistle",
-      "beat" : 3.5,
-      "track" : 1
-    }, {
-      "id" : "*/kickflip3alt",
-      "beat" : 4.5
-    } ],
-    "subtext" : ""
+    "duration" : 0.5
   } ]
 }
