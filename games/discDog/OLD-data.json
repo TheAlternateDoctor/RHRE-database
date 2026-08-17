@@ -6,7 +6,7 @@
     "type" : "pattern",
     "id" : "*_throw",
     "name" : "disc throw",
-    "deprecatedIDs" : [ "discDog_discThrow" ],
+    "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/whistle1",
       "beat" : 1.4E-45
@@ -34,7 +34,7 @@
     "type" : "pattern",
     "id" : "*_throwGrowl",
     "name" : "disc throw - growl",
-    "deprecatedIDs" : [ "discDog_discGrowl" ],
+    "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/whistle1",
       "beat" : 1.4E-45
@@ -62,7 +62,7 @@
     "type" : "pattern",
     "id" : "*_throwCounting",
     "name" : "disc throw - counting",
-    "deprecatedIDs" : [ "discDog_discThrowCount" ],
+    "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/whistle1",
       "beat" : 1.4E-45
@@ -118,7 +118,7 @@
     "type" : "pattern",
     "id" : "*_throwCountingGrowl",
     "name" : "disc throw - growl - counting",
-    "deprecatedIDs" : [ "discDog_discGrowlCount" ],
+    "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/whistle1",
       "beat" : 1.4E-45
@@ -516,6 +516,13 @@
     } ],
     "subtext" : ""
   }, {
+    "type" : "cue",
+    "id" : "*/discLand",
+    "name" : "disc - land",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
     "type" : "randomCue",
     "id" : "*_catch",
     "name" : "excited dog - random catch",
@@ -531,13 +538,6 @@
       "beat" : 1.4E-45
     } ],
     "subtext" : ""
-  }, {
-    "type" : "cue",
-    "id" : "*/discLand",
-    "name" : "disc - land",
-    "deprecatedIDs" : [ "discDog/discDrop" ],
-    "subtext" : "",
-    "duration" : 0.25
   }, {
     "type" : "cue",
     "id" : "*/discStackReset1",
@@ -556,7 +556,7 @@
     "type" : "cue",
     "id" : "*/throw",
     "name" : "disc - throw",
-    "deprecatedIDs" : [ "discDog/toss" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 6.0
   }, {
@@ -608,7 +608,7 @@
     "type" : "cue",
     "id" : "*/jump3",
     "name" : "excited dog - jump - growl",
-    "deprecatedIDs" : [ "discDog/growl" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
@@ -636,14 +636,14 @@
     "type" : "cue",
     "id" : "*/countBeep",
     "name" : "counting - beep",
-    "deprecatedIDs" : [ "discDog/count1" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/countFinal",
     "name" : "counting - final beep",
-    "deprecatedIDs" : [ "discDog/count2" ],
+    "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0
   }, {
