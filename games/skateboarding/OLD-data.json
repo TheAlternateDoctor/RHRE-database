@@ -1,0 +1,294 @@
+{
+  "id" : "skateboarding",
+  "name" : "Skateboarding",
+  "series" : "side",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/beep1",
+    "name" : "beep - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.16666667
+  }, {
+    "type" : "cue",
+    "id" : "*/beep2",
+    "name" : "beep - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/beepEgg",
+    "name" : "beep - big egg",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/beepLong",
+    "name" : "beep - cookie tower",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/jump",
+    "name" : "skater - jump",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/land",
+    "name" : "skater - land",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/egg",
+    "name" : "skater - big egg",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.6666667
+  }, {
+    "type" : "cue",
+    "id" : "*/tower",
+    "name" : "staker - cookie tower top",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.1666666
+  }, {
+    "type" : "cue",
+    "id" : "*/birdOnbeat",
+    "name" : "bird - caw",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/birdOffbeat",
+    "name" : "bird - caw - offbeat",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "pattern",
+    "id" : "*_sugar",
+    "name" : "sugar cubes",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/beep1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/beep2",
+      "beat" : 0.25
+    }, {
+      "id" : "*/jump",
+      "beat" : 1.25
+    }, {
+      "id" : "*/land",
+      "beat" : 2.25
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_sugarCrow1",
+    "name" : "sugar cubes - crow",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/beep1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/beep2",
+      "beat" : 0.25
+    }, {
+      "id" : "*/jump",
+      "beat" : 1.25
+    }, {
+      "id" : "*/birdOnbeat",
+      "beat" : 1.25,
+      "track" : 1
+    }, {
+      "id" : "*/land",
+      "beat" : 2.25
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_sugarCrow2",
+    "name" : "sugar cubes - crow - offbeat",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/beep1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/beep2",
+      "beat" : 0.25
+    }, {
+      "id" : "*/jump",
+      "beat" : 1.25
+    }, {
+      "id" : "*/birdOffbeat",
+      "beat" : 1.25,
+      "track" : 1
+    }, {
+      "id" : "*/land",
+      "beat" : 2.25
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_egg",
+    "name" : "big egg",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/beepEgg",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/beepEgg",
+      "beat" : 0.5
+    }, {
+      "id" : "*/jump",
+      "beat" : 1.5
+    }, {
+      "id" : "*/egg",
+      "beat" : 2.25
+    }, {
+      "id" : "*/land",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_cookies",
+    "name" : "cookie tower",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/beepEgg",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/beepLong",
+      "beat" : 0.5
+    }, {
+      "id" : "*/jump",
+      "beat" : 1.5
+    }, {
+      "id" : "*/tower",
+      "beat" : 2.25
+    }, {
+      "id" : "*/land",
+      "beat" : 3.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_sugarSwing",
+    "name" : "sugar cubes (pre-swung)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/beep1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/beep2",
+      "beat" : 0.16666667
+    }, {
+      "id" : "*/jump",
+      "beat" : 1.1666666
+    }, {
+      "id" : "*/land",
+      "beat" : 2.1666667
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_sugarSwingCrow1",
+    "name" : "sugar cubes (pre-swung) - crow",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/beep1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/beep2",
+      "beat" : 0.16666667
+    }, {
+      "id" : "*/jump",
+      "beat" : 1.1666666
+    }, {
+      "id" : "*/birdOnbeat",
+      "beat" : 1.1666666,
+      "track" : 1
+    }, {
+      "id" : "*/land",
+      "beat" : 2.1666667
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_sugarSwingCrow2",
+    "name" : "sugar cubes (pre-swung) - crow - offbeat",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/beep1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/beep2",
+      "beat" : 0.16666667
+    }, {
+      "id" : "*/jump",
+      "beat" : 1.1666666
+    }, {
+      "id" : "*/birdOffbeat",
+      "beat" : 1.1666666,
+      "track" : 1
+    }, {
+      "id" : "*/land",
+      "beat" : 2.1666667
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_eggSwing",
+    "name" : "big egg (pre-swung)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/beepEgg",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/beepEgg",
+      "beat" : 0.5
+    }, {
+      "id" : "*/jump",
+      "beat" : 1.5
+    }, {
+      "id" : "*/egg",
+      "beat" : 2.3333333
+    }, {
+      "id" : "*/land",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_cookiesSwing",
+    "name" : "cookie tower (pre-swung)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/beepEgg",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/beepLong",
+      "beat" : 0.5
+    }, {
+      "id" : "*/jump",
+      "beat" : 1.5
+    }, {
+      "id" : "*/tower",
+      "beat" : 2.3333333
+    }, {
+      "id" : "*/land",
+      "beat" : 3.5
+    } ],
+    "subtext" : ""
+  } ]
+}
