@@ -313,7 +313,7 @@
     "writtenPitch" : 9
   }, {
     "type" : "cue",
-    "id" : "*/puddingLand",
+    "id" : "*/pudding_land",
     "name" : "pudding - land",
     "deprecatedIDs" : [ "yumBotSimulator/puddingland" ],
     "subtext" : "",
