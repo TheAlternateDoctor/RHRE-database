@@ -117,7 +117,7 @@
       "id" : "*/armUp",
       "beat" : 1.0
     }, {
-      "id" : "*/puddingLand",
+      "id" : "*/pudding_land",
       "beat" : 1.5
     }, {
       "id" : "*/armLock",
