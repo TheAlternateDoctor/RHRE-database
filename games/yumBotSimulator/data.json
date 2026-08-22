@@ -12,13 +12,13 @@
       "beat" : 1.4E-45
     }, {
       "id" : "*/puddingCue2",
-      "beat" : 0.75
+      "beat" : 0.666
     }, {
       "id" : "*/puddingCue3",
-      "beat" : 1.5
+      "beat" : 1.333
     }, {
       "id" : "*_puddingCatch",
-      "beat" : 2.25
+      "beat" : 2.0
     } ],
     "subtext" : ""
   }, {
@@ -53,13 +53,13 @@
       "beat" : 1.0
     }, {
       "id" : "*/defectivePuddingCue2",
-      "beat" : 1.75
+      "beat" : 1.666
     }, {
       "id" : "*/defectivePuddingCue3",
-      "beat" : 2.5
+      "beat" : 2.333
     }, {
       "id" : "*_defectivePuddingDestroy",
-      "beat" : 3.25
+      "beat" : 3.0
     } ],
     "subtext" : ""
   }, {
@@ -89,7 +89,7 @@
     "id" : "*_puddingCueStretchable",
     "name" : "pudding - cue (stretchable)",
     "deprecatedIDs" : [ ],
-    "distance" : 0.75,
+    "distance" : 0.666,
     "stretchable" : true,
     "cues" : [ {
       "id" : "*/puddingCue1",
@@ -139,7 +139,7 @@
     "id" : "*_defectivePuddingCueStretchable",
     "name" : "defective pudding - cue (stretchable)",
     "deprecatedIDs" : [ ],
-    "distance" : 0.75,
+    "distance" : 0.666,
     "stretchable" : true,
     "cues" : [ {
       "id" : "*/defectivePuddingCue1",
@@ -162,7 +162,7 @@
       "beat" : 1.4E-45
     }, {
       "id" : "*/success",
-      "beat" : 0.75
+      "beat" : 0.666
     } ],
     "subtext" : ""
   }, {
@@ -175,16 +175,16 @@
       "beat" : 1.4E-45
     }, {
       "id" : "*/puddingCue2",
-      "beat" : 0.75
+      "beat" : 0.666
     }, {
       "id" : "*/puddingCue3",
-      "beat" : 1.5
+      "beat" : 1.333
     }, {
       "id" : "*_puddingCatch",
-      "beat" : 2.25
+      "beat" : 2.0
     }, {
       "id" : "*/down",
-      "beat" : 2.25,
+      "beat" : 2.0,
       "track" : 1
     } ],
     "subtext" : ""
@@ -224,16 +224,16 @@
       "beat" : 1.0
     }, {
       "id" : "*/defectivePuddingCue2",
-      "beat" : 1.75
+      "beat" : 1.666
     }, {
       "id" : "*/defectivePuddingCue3",
-      "beat" : 2.5
+      "beat" : 2.333
     }, {
       "id" : "*_defectivePuddingDestroy",
-      "beat" : 3.25
+      "beat" : 3.0
     }, {
       "id" : "*/down",
-      "beat" : 3.25,
+      "beat" : 3.0,
       "track" : 1
     } ],
     "subtext" : ""
