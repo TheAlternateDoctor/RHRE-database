@@ -1,125 +1,24 @@
 {
   "id" : "yumBotSimulator",
-  "name" : "Yum Bot Simulator",
+  "name" : "Yum-Bot Simulator",
   "series" : "groove",
   "objects" : [ {
-    "type" : "cue",
-    "id" : "*/down",
-    "name" : "down",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/catch",
-    "name" : "catch",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/handturn",
-    "name" : "hand turn",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.25
-  }, {
-    "type" : "cue",
-    "id" : "*/pudding1",
-    "name" : "pudding - 1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/pudding2",
-    "name" : "pudding - 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/pudding3",
-    "name" : "pudding - 3",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/puddingland",
-    "name" : "pudding - land",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/success",
-    "name" : "success",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/defect",
-    "name" : "defect - voice",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/defect1",
-    "name" : "defect - 1",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/defect2",
-    "name" : "defect - 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/defect3",
-    "name" : "defect - 3",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/laser",
-    "name" : "laser",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
     "type" : "pattern",
     "id" : "*_pudding",
     "name" : "pudding",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/pudding1",
+      "id" : "*/puddingCue1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/pudding2",
-      "beat" : 0.667
+      "id" : "*/puddingCue2",
+      "beat" : 0.75
     }, {
-      "id" : "*/pudding3",
-      "beat" : 1.333
+      "id" : "*/puddingCue3",
+      "beat" : 1.5
     }, {
-      "id" : "*/catch",
-      "beat" : 2.0
-    }, {
-      "id" : "*/success",
-      "beat" : 2.333,
-      "track" : 1
-    }, {
-      "id" : "*/handturn",
-      "beat" : 2.667
-    }, {
-      "id" : "*/puddingland",
-      "beat" : 3.0
+      "id" : "*_puddingCatch",
+      "beat" : 2.25
     } ],
     "subtext" : ""
   }, {
@@ -128,80 +27,372 @@
     "name" : "pudding - long",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/pudding1",
+      "id" : "*/puddingCue1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/pudding2",
+      "id" : "*/puddingCue2",
       "beat" : 1.0
     }, {
-      "id" : "*/pudding3",
+      "id" : "*/puddingCue3",
       "beat" : 2.0
     }, {
-      "id" : "*/catch",
+      "id" : "*_puddingCatch",
       "beat" : 3.0
-    }, {
-      "id" : "*/success",
-      "beat" : 3.333,
-      "track" : 1
-    }, {
-      "id" : "*/handturn",
-      "beat" : 3.667
-    }, {
-      "id" : "*/puddingland",
-      "beat" : 4.0
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_defect",
-    "name" : "defected pudding",
-    "deprecatedIDs" : [ ],
+    "id" : "*_defectivePudding",
+    "name" : "defective pudding",
+    "deprecatedIDs" : [ "yumBotSimulator/defect" ],
     "cues" : [ {
-      "id" : "*/defect",
+      "id" : "*/defectivePuddingWarning",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/defect1",
+      "id" : "*/defectivePuddingCue1",
       "beat" : 1.0
     }, {
-      "id" : "*/defect2",
-      "beat" : 1.667
+      "id" : "*/defectivePuddingCue2",
+      "beat" : 1.75
     }, {
-      "id" : "*/defect3",
-      "beat" : 2.333
+      "id" : "*/defectivePuddingCue3",
+      "beat" : 2.5
     }, {
-      "id" : "*/laser",
+      "id" : "*_defectivePuddingDestroy",
+      "beat" : 3.25
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_defectivePuddingLong",
+    "name" : "defective pudding - long",
+    "deprecatedIDs" : [ "yumBotSimulator/defectLong" ],
+    "cues" : [ {
+      "id" : "*/defectivePuddingWarning",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/defectivePuddingCue1",
+      "beat" : 1.0
+    }, {
+      "id" : "*/defectivePuddingCue2",
+      "beat" : 2.0
+    }, {
+      "id" : "*/defectivePuddingCue3",
       "beat" : 3.0
     }, {
+      "id" : "*_defectivePuddingDestroy",
+      "beat" : 4.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "equidistant",
+    "id" : "*_puddingCueStretchable",
+    "name" : "pudding - cue (stretchable)",
+    "deprecatedIDs" : [ ],
+    "distance" : 0.75,
+    "stretchable" : true,
+    "cues" : [ {
+      "id" : "*/puddingCue1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/puddingCue2",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/puddingCue3",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_puddingCatch",
+    "name" : "pudding - catch",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/armDown",
+      "beat" : 1.4E-45
+    }, {
       "id" : "*/success",
-      "beat" : 3.333,
+      "beat" : 0.5
+    }, {
+      "id" : "*/armUp",
+      "beat" : 1.0
+    }, {
+      "id" : "*/puddingLand",
+      "beat" : 1.5
+    }, {
+      "id" : "*/armLock",
+      "beat" : 1.75
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_defectivePuddingWarning",
+    "name" : "defective pudding - warning",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/defectivePuddingWarning",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "equidistant",
+    "id" : "*_defectivePuddingCueStretchable",
+    "name" : "defective pudding - cue (stretchable)",
+    "deprecatedIDs" : [ ],
+    "distance" : 0.75,
+    "stretchable" : true,
+    "cues" : [ {
+      "id" : "*/defectivePuddingCue1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/defectivePuddingCue2",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/defectivePuddingCue3",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_defectivePuddingDestroy",
+    "name" : "defective pudding - destroy",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/defectivePuddingDestroy",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/success",
+      "beat" : 0.75
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_puddingPractice",
+    "name" : "pudding (practice)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/puddingCue1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/puddingCue2",
+      "beat" : 0.75
+    }, {
+      "id" : "*/puddingCue3",
+      "beat" : 1.5
+    }, {
+      "id" : "*_puddingCatch",
+      "beat" : 2.25
+    }, {
+      "id" : "*/down",
+      "beat" : 2.25,
       "track" : 1
     } ],
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_defectLong",
-    "name" : "defected pudding - long",
+    "id" : "*_puddingLongPractice",
+    "name" : "pudding - long (practice)",
     "deprecatedIDs" : [ ],
     "cues" : [ {
-      "id" : "*/defect",
+      "id" : "*/puddingCue1",
       "beat" : 1.4E-45
     }, {
-      "id" : "*/defect1",
+      "id" : "*/puddingCue2",
       "beat" : 1.0
     }, {
-      "id" : "*/defect2",
+      "id" : "*/puddingCue3",
       "beat" : 2.0
     }, {
-      "id" : "*/defect3",
+      "id" : "*_puddingCatch",
       "beat" : 3.0
     }, {
-      "id" : "*/laser",
-      "beat" : 4.0
-    }, {
-      "id" : "*/success",
-      "beat" : 4.333,
+      "id" : "*/down",
+      "beat" : 3.0,
       "track" : 1
     } ],
     "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_defectivePuddingPractice",
+    "name" : "defective pudding (practice)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/defectivePuddingWarning",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/defectivePuddingCue1",
+      "beat" : 1.0
+    }, {
+      "id" : "*/defectivePuddingCue2",
+      "beat" : 1.75
+    }, {
+      "id" : "*/defectivePuddingCue3",
+      "beat" : 2.5
+    }, {
+      "id" : "*_defectivePuddingDestroy",
+      "beat" : 3.25
+    }, {
+      "id" : "*/down",
+      "beat" : 3.25,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_defectivePuddingLongPractice",
+    "name" : "defective pudding - long (practice)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/defectivePuddingWarning",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/defectivePuddingCue1",
+      "beat" : 1.0
+    }, {
+      "id" : "*/defectivePuddingCue2",
+      "beat" : 2.0
+    }, {
+      "id" : "*/defectivePuddingCue3",
+      "beat" : 3.0
+    }, {
+      "id" : "*_defectivePuddingDestroy",
+      "beat" : 4.0
+    }, {
+      "id" : "*/down",
+      "beat" : 4.0,
+      "track" : 1
+    } ],
+    "subtext" : "[#BFBFBF](unused)[]"
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_alarm",
+    "name" : "alarm",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/alarm",
+      "beat" : 0.0
+    }, {
+      "id" : "*/alarm",
+      "beat" : 0.25
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "cue",
+    "id" : "*/down",
+    "name" : "down!",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/puddingCue1",
+    "name" : "pudding - cue - 1",
+    "deprecatedIDs" : [ "yumBotSimulator/pudding1" ],
+    "subtext" : "",
+    "duration" : 0.25,
+    "repitchable" : true,
+    "writtenPitch" : 9
+  }, {
+    "type" : "cue",
+    "id" : "*/puddingCue2",
+    "name" : "pudding - cue - 2",
+    "deprecatedIDs" : [ "yumBotSimulator/pudding2" ],
+    "subtext" : "",
+    "duration" : 0.25,
+    "repitchable" : true,
+    "writtenPitch" : 4
+  }, {
+    "type" : "cue",
+    "id" : "*/puddingCue3",
+    "name" : "pudding - cue - 3",
+    "deprecatedIDs" : [ "yumBotSimulator/pudding3" ],
+    "subtext" : "",
+    "duration" : 0.25,
+    "repitchable" : true,
+    "writtenPitch" : 9
+  }, {
+    "type" : "cue",
+    "id" : "*/puddingLand",
+    "name" : "pudding - land",
+    "deprecatedIDs" : [ "yumBotSimulator/puddingland" ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/armDown",
+    "name" : "arm - down",
+    "deprecatedIDs" : [ "yumBotSimulator/catch" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/armUp",
+    "name" : "arm - up",
+    "deprecatedIDs" : [ "yumBotSimulator/handturn" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/armLock",
+    "name" : "arm - lock",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/defectivePuddingWarning",
+    "name" : "defective pudding - warning",
+    "deprecatedIDs" : [ "yumBotSimulator/defect" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/defectivePuddingCue1",
+    "name" : "defective pudding - cue - 1",
+    "deprecatedIDs" : [ "yumBotSimulator/defect1" ],
+    "subtext" : "",
+    "duration" : 0.25,
+    "repitchable" : true,
+    "writtenPitch" : 10
+  }, {
+    "type" : "cue",
+    "id" : "*/defectivePuddingCue2",
+    "name" : "defective pudding - cue - 2",
+    "deprecatedIDs" : [ "yumBotSimulator/defect2" ],
+    "subtext" : "",
+    "duration" : 0.25,
+    "repitchable" : true,
+    "writtenPitch" : 9
+  }, {
+    "type" : "cue",
+    "id" : "*/defectivePuddingCue3",
+    "name" : "defective pudding - cue - 3",
+    "deprecatedIDs" : [ "yumBotSimulator/defect3" ],
+    "subtext" : "",
+    "duration" : 0.25,
+    "repitchable" : true,
+    "writtenPitch" : 8
+  }, {
+    "type" : "cue",
+    "id" : "*/defectivePuddingDestroy",
+    "name" : "defective pudding - destroy",
+    "deprecatedIDs" : [ "yumBotSimulator/laser" ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/success",
+    "name" : "success",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
+  }, {
+    "type" : "cue",
+    "id" : "*/alarm",
+    "name" : "alarm",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.25
   } ]
 }
