@@ -457,7 +457,7 @@
     "name" : "red sneeze - fast - standalone - 2",
     "deprecatedIDs" : [ "sneezyMoon/fastchub" ],
     "subtext" : "",
-    "duration" : 1.0,
+    "duration" : 0.5,
     "earliness" : 0.031
   }, {
     "type" : "cue",
