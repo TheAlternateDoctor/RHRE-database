@@ -418,7 +418,7 @@
     "deprecatedIDs" : [ "sneezyMoon/fast3a" ],
     "subtext" : "",
     "duration" : 0.5,
-    "earliness" : 0.097
+    "earliness" : 0.058
   }, {
     "type" : "cue",
     "id" : "*/redSneezeStandalone2",
@@ -450,7 +450,7 @@
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
-    "earliness" : 0.097
+    "earliness" : 0.058
   }, {
     "type" : "cue",
     "id" : "*/redSneezeFastStandalone2",
