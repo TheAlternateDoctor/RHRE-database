@@ -18,7 +18,7 @@
       "beat" : 2.0
     }, {
       "id" : "*/greenSneezeStandalone2",
-      "beat" : 2.875
+      "beat" : 2.75
     }, {
       "id" : "*/greenSneezeStandalone3",
       "beat" : 3.0
@@ -47,7 +47,7 @@
       "beat" : 0.0
     }, {
       "id" : "*/greenSneezeStandalone2",
-      "beat" : 0.875
+      "beat" : 0.75
     }, {
       "id" : "*/greenSneezeStandalone3",
       "beat" : 1.0
@@ -69,7 +69,7 @@
       "beat" : 2.0
     }, {
       "id" : "*/greenSneezeStandalone2",
-      "beat" : 2.875
+      "beat" : 2.75
     }, {
       "id" : "*/greenSneezeStandalone3",
       "beat" : 3.0
@@ -98,7 +98,7 @@
       "beat" : 0.0
     }, {
       "id" : "*/greenSneezeStandalone2",
-      "beat" : 0.875
+      "beat" : 0.75
     }, {
       "id" : "*/greenSneezeStandalone3",
       "beat" : 1.0
@@ -242,7 +242,7 @@
       "track" : 1
     }, {
       "id" : "*/greenSneezeStandalone2",
-      "beat" : 2.875
+      "beat" : 2.75
     }, {
       "id" : "*/greenSneezeStandalone3",
       "beat" : 3.0
@@ -266,7 +266,7 @@
       "track" : 1
     }, {
       "id" : "*/greenSneezeStandalone2",
-      "beat" : 0.875
+      "beat" : 0.75
     }, {
       "id" : "*/greenSneezeStandalone3",
       "beat" : 1.0
@@ -338,112 +338,127 @@
     "name" : "green sneeze - prepare - 1",
     "deprecatedIDs" : [ "sneezyMoon/slow1a" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.07
   }, {
     "type" : "cue",
     "id" : "*/greenSneezePrepare2",
     "name" : "green sneeze - prepare - 2",
     "deprecatedIDs" : [ "sneezyMoon/slow2a" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.061
   }, {
     "type" : "cue",
     "id" : "*/greenSneezeStandalone1",
     "name" : "green sneeze - standalone - 1",
     "deprecatedIDs" : [ "sneezyMoon/slow3a" ],
     "subtext" : "",
-    "duration" : 0.875
+    "duration" : 0.75,
+    "earliness" : 0.067
   }, {
     "type" : "cue",
     "id" : "*/greenSneezeStandalone2",
     "name" : "green sneeze - standalone - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.125
+    "duration" : 0.25
   }, {
     "type" : "cue",
     "id" : "*/greenSneezeStandalone3",
     "name" : "green sneeze - standalone - 3",
     "deprecatedIDs" : [ "sneezyMoon/slowchu" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.065
   }, {
     "type" : "cue",
     "id" : "*/greenSneezeFastPrepare1",
     "name" : "green sneeze - fast - prepare - 1",
     "deprecatedIDs" : [ "sneezyMoon/slow1b" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.044
   }, {
     "type" : "cue",
     "id" : "*/greenSneezeFastPrepare2",
     "name" : "green sneeze - fast - prepare - 2",
     "deprecatedIDs" : [ "sneezyMoon/slow2b" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.067
   }, {
     "type" : "cue",
     "id" : "*/greenSneezeFastStandalone1",
     "name" : "green sneeze - fast - standalone - 1",
     "deprecatedIDs" : [ "sneezyMoon/slow3b" ],
     "subtext" : "",
-    "duration" : 0.875
+    "duration" : 0.75,
+    "earliness" : 0.043
   }, {
     "type" : "cue",
     "id" : "*/redSneezePrepare1",
     "name" : "red sneeze - prepare - 1",
     "deprecatedIDs" : [ "sneezyMoon/fast1" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.097
   }, {
     "type" : "cue",
     "id" : "*/redSneezePrepare2",
     "name" : "red sneeze - prepare - 2",
     "deprecatedIDs" : [ "sneezyMoon/fast2a" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.053
   }, {
     "type" : "cue",
     "id" : "*/redSneezeStandalone1",
     "name" : "red sneeze - standalone - 1",
     "deprecatedIDs" : [ "sneezyMoon/fast3a" ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.097
   }, {
     "type" : "cue",
     "id" : "*/redSneezeStandalone2",
     "name" : "red sneeze - standalone - 2",
     "deprecatedIDs" : [ "sneezyMoon/fastchua" ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.031
   }, {
     "type" : "cue",
     "id" : "*/redSneezeFastPrepare1",
     "name" : "red sneeze - fast - prepare - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.097
   }, {
     "type" : "cue",
     "id" : "*/redSneezeFastPrepare2",
     "name" : "red sneeze - fast - prepare - 2",
     "deprecatedIDs" : [ "sneezyMoon/fast2b" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.053
   }, {
     "type" : "cue",
     "id" : "*/redSneezeFastStandalone1",
     "name" : "red sneeze - fast - standalone - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.097
   }, {
     "type" : "cue",
     "id" : "*/redSneezeFastStandalone2",
     "name" : "red sneeze - fast - standalone - 2",
     "deprecatedIDs" : [ "sneezyMoon/fastchub" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.031
   }, {
     "type" : "cue",
     "id" : "*/railroadCrossing",
