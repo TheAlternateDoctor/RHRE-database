@@ -22,7 +22,8 @@
     "name" : "okay! - 1",
     "deprecatedIDs" : [ "germAerobics/start1" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.03
   }, {
     "type" : "cue",
     "id" : "*/countOkay2",
@@ -244,14 +245,22 @@
     "id" : "*_stretchNormalRev",
     "name" : "stretching - inverted",
     "deprecatedIDs" : [ "germAerobics_movinginvert" ],
-    "defaultDuration" : 2.0,
+    "defaultDuration" : 4.0,
     "cues" : [ {
       "id" : "*/stretchDown",
-      "beat" : 0.0,
+      "beat" : 1.4E-45,
       "duration" : 1.0
     }, {
       "id" : "*/stretchUp",
       "beat" : 1.0,
+      "duration" : 1.0
+    }, {
+      "id" : "*/stretchDown",
+      "beat" : 2.0,
+      "duration" : 1.0
+    }, {
+      "id" : "*/stretchUp",
+      "beat" : 3.0,
       "duration" : 1.0
     } ],
     "subtext" : ""

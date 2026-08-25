@@ -33,28 +33,28 @@
   }, {
     "type" : "cue",
     "id" : "*/beepBoth",
-    "name" : "both bosses - beep",
+    "name" : "both - beep",
     "deprecatedIDs" : [ "wiperBosses/bothsign" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/jumpBoth",
-    "name" : "both bosses - jump",
+    "name" : "both - jump",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/beepAlternate1",
-    "name" : "both bosses - alternating beep - 1",
+    "name" : "both - alternating beep - 1",
     "deprecatedIDs" : [ "wiperBosses/alternatesign1" ],
     "subtext" : "",
     "duration" : 1.0
   }, {
     "type" : "cue",
     "id" : "*/beepAlternate2",
-    "name" : "both bosses - alternating beep - 2",
+    "name" : "both - alternating beep - 2",
     "deprecatedIDs" : [ "wiperBosses/alternatesign2" ],
     "subtext" : "",
     "duration" : 1.0
@@ -137,7 +137,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_bothSlow",
-    "name" : "both bosses - slow jumps",
+    "name" : "both - slow jumps",
     "deprecatedIDs" : [ "wiperBosses_bothslow" ],
     "cues" : [ {
       "id" : "*/beepBoth",
@@ -156,7 +156,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_bothFast",
-    "name" : "both bosses - fast jumps",
+    "name" : "both - fast jumps",
     "deprecatedIDs" : [ "wiperBosses_bothfast" ],
     "cues" : [ {
       "id" : "*/beepBoth",
@@ -175,7 +175,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_bothAlternate",
-    "name" : "both bosses - alternating jumps",
+    "name" : "both - alternating jumps",
     "deprecatedIDs" : [ "wiperBosses_alternate" ],
     "cues" : [ {
       "id" : "*/beepAlternate1",

@@ -55,57 +55,6 @@
     "subtext" : ""
   }, {
     "type" : "pattern",
-    "id" : "*_greenSneezeFast",
-    "name" : "green sneeze - fast",
-    "deprecatedIDs" : [ "sneezyMoon_slowhigh" ],
-    "cues" : [ {
-      "id" : "*/greenSneezeFastPrepare1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/greenSneezeFastPrepare2",
-      "beat" : 1.0
-    }, {
-      "id" : "*/greenSneezeFastStandalone1",
-      "beat" : 2.0
-    }, {
-      "id" : "*/greenSneezeStandalone2",
-      "beat" : 2.75
-    }, {
-      "id" : "*/greenSneezeStandalone3",
-      "beat" : 3.0
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_greenSneezeFastPrepare",
-    "name" : "green sneeze - fast - prepare",
-    "deprecatedIDs" : [ "sneezyMoon_slowprephigh" ],
-    "cues" : [ {
-      "id" : "*/greenSneezeFastPrepare1",
-      "beat" : 1.4E-45
-    }, {
-      "id" : "*/greenSneezeFastPrepare2",
-      "beat" : 1.0
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
-    "id" : "*_greenSneezeFastStandalone",
-    "name" : "green sneeze - fast - standalone",
-    "deprecatedIDs" : [ "sneezyMoon_slowquickhigh" ],
-    "cues" : [ {
-      "id" : "*/greenSneezeFastStandalone1",
-      "beat" : 0.0
-    }, {
-      "id" : "*/greenSneezeStandalone2",
-      "beat" : 0.75
-    }, {
-      "id" : "*/greenSneezeStandalone3",
-      "beat" : 1.0
-    } ],
-    "subtext" : ""
-  }, {
-    "type" : "pattern",
     "id" : "*_redSneeze",
     "name" : "red sneeze",
     "deprecatedIDs" : [ "sneezyMoon_fast" ],
@@ -151,8 +100,59 @@
     "subtext" : ""
   }, {
     "type" : "pattern",
+    "id" : "*_greenSneezeFast",
+    "name" : "green sneeze - high tempo",
+    "deprecatedIDs" : [ "sneezyMoon_slowhigh" ],
+    "cues" : [ {
+      "id" : "*/greenSneezeFastPrepare1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/greenSneezeFastPrepare2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/greenSneezeFastStandalone1",
+      "beat" : 2.0
+    }, {
+      "id" : "*/greenSneezeStandalone2",
+      "beat" : 2.75
+    }, {
+      "id" : "*/greenSneezeStandalone3",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_greenSneezeFastPrepare",
+    "name" : "green sneeze - high tempo - prepare",
+    "deprecatedIDs" : [ "sneezyMoon_slowprephigh" ],
+    "cues" : [ {
+      "id" : "*/greenSneezeFastPrepare1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/greenSneezeFastPrepare2",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_greenSneezeFastStandalone",
+    "name" : "green sneeze - high tempo - standalone",
+    "deprecatedIDs" : [ "sneezyMoon_slowquickhigh" ],
+    "cues" : [ {
+      "id" : "*/greenSneezeFastStandalone1",
+      "beat" : 0.0
+    }, {
+      "id" : "*/greenSneezeStandalone2",
+      "beat" : 0.75
+    }, {
+      "id" : "*/greenSneezeStandalone3",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
     "id" : "*_redSneezeFast",
-    "name" : "red sneeze - fast",
+    "name" : "red sneeze - high tempo",
     "deprecatedIDs" : [ "sneezyMoon_fasthigh" ],
     "cues" : [ {
       "id" : "*/redSneezeFastPrepare1",
@@ -171,7 +171,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_redSneezeFastPrepare",
-    "name" : "red sneeze - fast - prepare",
+    "name" : "red sneeze - high tempo - prepare",
     "deprecatedIDs" : [ "sneezyMoon_fastprephigh" ],
     "cues" : [ {
       "id" : "*/redSneezeFastPrepare1",
@@ -184,7 +184,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_redSneezeFastStandalone",
-    "name" : "red sneeze - fast - standalone",
+    "name" : "red sneeze - high tempo - standalone",
     "deprecatedIDs" : [ "sneezyMoon_fastquickhigh" ],
     "cues" : [ {
       "id" : "*/redSneezeFastStandalone1",
@@ -374,7 +374,7 @@
   }, {
     "type" : "cue",
     "id" : "*/greenSneezeFastPrepare1",
-    "name" : "green sneeze - fast - prepare - 1",
+    "name" : "green sneeze - high tempo - prepare - 1",
     "deprecatedIDs" : [ "sneezyMoon/slow1b" ],
     "subtext" : "",
     "duration" : 1.0,
@@ -382,7 +382,7 @@
   }, {
     "type" : "cue",
     "id" : "*/greenSneezeFastPrepare2",
-    "name" : "green sneeze - fast - prepare - 2",
+    "name" : "green sneeze - high tempo - prepare - 2",
     "deprecatedIDs" : [ "sneezyMoon/slow2b" ],
     "subtext" : "",
     "duration" : 1.0,
@@ -390,7 +390,7 @@
   }, {
     "type" : "cue",
     "id" : "*/greenSneezeFastStandalone1",
-    "name" : "green sneeze - fast - standalone - 1",
+    "name" : "green sneeze - high tempo - standalone - 1",
     "deprecatedIDs" : [ "sneezyMoon/slow3b" ],
     "subtext" : "",
     "duration" : 0.75,
@@ -430,7 +430,7 @@
   }, {
     "type" : "cue",
     "id" : "*/redSneezeFastPrepare1",
-    "name" : "red sneeze - fast - prepare - 1",
+    "name" : "red sneeze - high tempo - prepare - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
@@ -438,7 +438,7 @@
   }, {
     "type" : "cue",
     "id" : "*/redSneezeFastPrepare2",
-    "name" : "red sneeze - fast - prepare - 2",
+    "name" : "red sneeze - high tempo - prepare - 2",
     "deprecatedIDs" : [ "sneezyMoon/fast2b" ],
     "subtext" : "",
     "duration" : 1.0,
@@ -446,7 +446,7 @@
   }, {
     "type" : "cue",
     "id" : "*/redSneezeFastStandalone1",
-    "name" : "red sneeze - fast - standalone - 1",
+    "name" : "red sneeze - high tempo - standalone - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
@@ -454,7 +454,7 @@
   }, {
     "type" : "cue",
     "id" : "*/redSneezeFastStandalone2",
-    "name" : "red sneeze - fast - standalone - 2",
+    "name" : "red sneeze - high tempo - standalone - 2",
     "deprecatedIDs" : [ "sneezyMoon/fastchub" ],
     "subtext" : "",
     "duration" : 0.5,

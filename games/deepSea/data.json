@@ -69,12 +69,10 @@
       "beat" : 0.5
     }, {
       "id" : "*/row",
-      "beat" : 1.5,
-      "duration" : 1.0
+      "beat" : 1.5
     }, {
       "id" : "*/row",
-      "beat" : 2.5,
-      "duration" : 1.0
+      "beat" : 2.5
     }, {
       "id" : "*/row",
       "beat" : 3.5

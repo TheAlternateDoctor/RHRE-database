@@ -43,7 +43,8 @@
     "name" : "skater - land",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.024
   }, {
     "type" : "cue",
     "id" : "*/egg",

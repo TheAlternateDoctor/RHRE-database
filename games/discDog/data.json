@@ -283,7 +283,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_throwCountingOffbeat",
-    "name" : "disc throw - growl - counting - offbeat",
+    "name" : "disc throw - counting - offbeat",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/whistle1",
@@ -621,14 +621,14 @@
   }, {
     "type" : "cue",
     "id" : "*/catch2",
-    "name" : "excited dog - catch - 1",
+    "name" : "excited dog - catch - 2",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/catch3",
-    "name" : "excited dog - catch - 1",
+    "name" : "excited dog - catch - 3",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
