@@ -3,41 +3,6 @@
   "name" : "Lightning Bolting",
   "series" : "groove",
   "objects" : [ {
-    "type" : "cue",
-    "id" : "*/cloudYellow1",
-    "name" : "[#F4C00A]yellow cloud[] - wind-up - 1",
-    "deprecatedIDs" : [ "lightningBolting/yellow1" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/cloudYellow2",
-    "name" : "[#F4C00A]yellow cloud[] - wind-up - 2",
-    "deprecatedIDs" : [ "lightningBolting/yellow2" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/warpYellow",
-    "name" : "[#F4C00A]yellow cloud[] - warp",
-    "deprecatedIDs" : [ "lightningBolting/yellow3" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
-    "type" : "cue",
-    "id" : "*/cloudMagenta",
-    "name" : "[#BF0060]magenta cloud[] - wind-up",
-    "deprecatedIDs" : [ "lightningBolting/magenta1" ],
-    "subtext" : "",
-    "duration" : 0.5
-  }, {
-    "type" : "cue",
-    "id" : "*/warpMagenta",
-    "name" : "[#BF0060]magenta cloud[] - warp",
-    "deprecatedIDs" : [ "lightningBolting/magenta2" ],
-    "subtext" : "",
-    "duration" : 1.0
-  }, {
     "type" : "pattern",
     "id" : "*_cloudYellow",
     "name" : "[#F4C00A]yellow cloud[]",
@@ -110,5 +75,107 @@
       "beat" : 1.0
     } ],
     "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_cloudYellowSwing",
+    "name" : "[#F4C00A]yellow cloud[] (pre-swung)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/cloudYellow1",
+      "beat" : 1.4E-45,
+      "duration" : 0.6666667
+    }, {
+      "id" : "*/cloudYellow2",
+      "beat" : 0.6666667,
+      "duration" : 0.33333334
+    }, {
+      "id" : "*/cloudYellow1",
+      "beat" : 1.0,
+      "duration" : 0.6666667
+    }, {
+      "id" : "*/cloudYellow2",
+      "beat" : 1.6666666,
+      "duration" : 0.33333334
+    }, {
+      "id" : "*/warpYellow",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_cloudMagentaSwing",
+    "name" : "[#BF0060]magenta cloud[] (pre-swung)",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/cloudMagenta",
+      "beat" : 1.4E-45,
+      "duration" : 0.6666667
+    }, {
+      "id" : "*/cloudMagenta",
+      "beat" : 0.6666667,
+      "duration" : 0.33333334
+    }, {
+      "id" : "*/cloudMagenta",
+      "beat" : 1.0,
+      "duration" : 0.6666667
+    }, {
+      "id" : "*/warpMagenta",
+      "beat" : 1.6666666
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_chainMagentaSwing",
+    "name" : "[#BF0060]magenta cloud[] (pre-swung) - consecutive",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 2.0,
+    "cues" : [ {
+      "id" : "*/cloudMagenta",
+      "beat" : 1.4E-45,
+      "duration" : 0.33333334
+    }, {
+      "id" : "*/cloudMagenta",
+      "beat" : 0.33333334,
+      "duration" : 0.6666667
+    }, {
+      "id" : "*/warpMagenta",
+      "beat" : 1.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "cue",
+    "id" : "*/cloudYellow1",
+    "name" : "[#F4C00A]yellow cloud[] - wind-up - 1",
+    "deprecatedIDs" : [ "lightningBolting/yellow1" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/cloudYellow2",
+    "name" : "[#F4C00A]yellow cloud[] - wind-up - 2",
+    "deprecatedIDs" : [ "lightningBolting/yellow2" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/warpYellow",
+    "name" : "[#F4C00A]yellow cloud[] - warp",
+    "deprecatedIDs" : [ "lightningBolting/yellow3" ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/cloudMagenta",
+    "name" : "[#BF0060]magenta cloud[] - wind-up",
+    "deprecatedIDs" : [ "lightningBolting/magenta1" ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/warpMagenta",
+    "name" : "[#BF0060]magenta cloud[] - warp",
+    "deprecatedIDs" : [ "lightningBolting/magenta2" ],
+    "subtext" : "",
+    "duration" : 1.0
   } ]
 }
