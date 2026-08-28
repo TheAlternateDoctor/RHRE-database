@@ -215,10 +215,10 @@
       "id" : "*/speedyVoice4",
       "beat" : 1.0
     }, {
-      "id" : "*/doubleCatch",
+      "id" : "*/stickCatch",
       "beat" : 1.75
     }, {
-      "id" : "*/doubleCatch",
+      "id" : "*/stickCatch",
       "beat" : 2.25
     } ],
     "subtext" : ""
