@@ -9,7 +9,8 @@
     "deprecatedIDs" : [ "syncroWings/wingdownleader" ],
     "subtext" : "",
     "duration" : 0.5,
-    "responseIDs" : [ "*/flockdown" ]
+    "responseIDs" : [ "*/flockdown" ],
+    "earliness" : 0.065
   }, {
     "type" : "cue",
     "id" : "*/leaderup",
