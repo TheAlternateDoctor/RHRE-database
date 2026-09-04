@@ -7,7 +7,8 @@
     "id" : "*_softGrow",
     "name" : "soft bubble - appear",
     "deprecatedIDs" : [ "popDontDrop_randomsoftspawn" ],
-    "responseIDs" : [ "*/softPop" ],
+    "responseIDs" : [ "*_softPop" ],
+    "stretchable" : false,
     "cues" : [ {
       "id" : "*/softGrow1",
       "beat" : 1.4E-45
@@ -23,15 +24,74 @@
     } ],
     "subtext" : ""
   }, {
-    "type" : "cue",
-    "id" : "*/hardGrow",
+    "type" : "randomCue",
+    "id" : "*_hardGrow",
     "name" : "hard bubble - appear",
     "deprecatedIDs" : [ "popDontDrop/hardbubble", "popDontDrop/hardbubblealt" ],
-    "subtext" : "",
-    "duration" : 1.0,
+    "responseIDs" : [ "*_hardPop" ],
     "stretchable" : true,
-    "responseIDs" : [ "*/hardCatch1", "*/hardCatch2", "*/hardCatch3", "*/hardCatch4", "*/hardCatch5", "*/hardCatch6", "*/hardCatch7", "*/hardCatch8", "*/hardCatch9", "*/hardCatch10", "*/hardCatch11", "*/hardCatch12", "*/hardCatch13", "*/hardCatch14" ],
-    "earliness" : 0.08
+    "cues" : [ {
+      "id" : "*/hardGrow",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_softPop",
+    "name" : "soft bubble - pop",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/softPop",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "randomCue",
+    "id" : "*_hardPop",
+    "name" : "hard bubble - pop - random",
+    "deprecatedIDs" : [ ],
+    "stretchable" : true,
+    "cues" : [ {
+      "id" : "*/hardCatch1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hardCatch2",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hardCatch3",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hardCatch4",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hardCatch5",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hardCatch6",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hardCatch7",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hardCatch8",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hardCatch9",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hardCatch10",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hardCatch11",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hardCatch12",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hardCatch13",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
   }, {
     "type" : "cue",
     "id" : "*/softGrow1",
@@ -73,6 +133,16 @@
     "duration" : 0.25,
     "randomPitchLowCents" : -75,
     "randomPitchHighCents" : 75
+  }, {
+    "type" : "cue",
+    "id" : "*/hardGrow",
+    "name" : "hard bubble - appear",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "stretchable" : true,
+    "responseIDs" : [ "*/hardCatch1", "*/hardCatch2", "*/hardCatch3", "*/hardCatch4", "*/hardCatch5", "*/hardCatch6", "*/hardCatch7", "*/hardCatch8", "*/hardCatch9", "*/hardCatch10", "*/hardCatch11", "*/hardCatch12", "*/hardCatch13" ],
+    "earliness" : 0.08
   }, {
     "type" : "cue",
     "id" : "*/hardCatch1",
