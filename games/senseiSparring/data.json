@@ -8,28 +8,32 @@
     "name" : "one - voice",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.078
   }, {
     "type" : "cue",
     "id" : "*/1voiceFast",
     "name" : "one - voice - fast",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.049
   }, {
     "type" : "cue",
     "id" : "*/1dodge",
     "name" : "one - dodge",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.074
   }, {
     "type" : "cue",
     "id" : "*/2voice",
     "name" : "two - voice",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.024
   }, {
     "type" : "cue",
     "id" : "*/2voiceFast",
@@ -43,14 +47,16 @@
     "name" : "two - dodge",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.07
   }, {
     "type" : "cue",
     "id" : "*/kickVoice",
     "name" : "kick - voice",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 1.0,
+    "earliness" : 0.021
   }, {
     "type" : "cue",
     "id" : "*/kickVoiceFast",
@@ -64,7 +70,8 @@
     "name" : "kick - dodge",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "earliness" : 0.072
   }, {
     "type" : "pattern",
     "id" : "*_one",
