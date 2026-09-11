@@ -2,6 +2,7 @@
   "id": "countInJa",
   "name": "Count-Ins",
   "series": "other",
+  "gameOrder" : -2,
   "language": "ja",
   "group": "Count-Ins",
   "priority": 1,

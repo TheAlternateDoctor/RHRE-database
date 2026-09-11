@@ -2,6 +2,7 @@
   "id": "countInEn",
   "name": "Count-Ins",
   "series": "other",
+  "gameOrder" : -2,
   "language": "en",
   "group": "Count-Ins",
   "groupDefault": true,

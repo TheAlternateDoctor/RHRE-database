@@ -2,6 +2,7 @@
   "id": "countInKo",
   "name": "Count-Ins",
   "series": "other",
+  "gameOrder" : -2,
   "language": "ko",
   "group": "Count-Ins",
   "priority": 1,

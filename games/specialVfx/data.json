@@ -4,10 +4,8 @@
   "series": "other",
   "id": "specialVfx",
   "name": "Visual Effects",
-  "group": "Special Entities",
-  "groupDefault": false,
-  "priority": 2,
-  "noDisplay": true,
+  "gameOrder" : -5,
+  "priority": -1,
   "objects": [
     {
       "type": "subtitleEntity",

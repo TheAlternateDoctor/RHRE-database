@@ -2,7 +2,7 @@
   "id": "extraSFX",
   "name": "Extra Sound Effects",
   "series": "other",
-  "noDisplay": true,
+  "gameOrder" : -3,
   "objects": [
     {
       // WARNING: This cue is used internally by the editor for Playalong

@@ -4,9 +4,8 @@
   "series": "other",
   "id": "special",
   "name": "Special Entities",
-  "group": "Special Entities",
-  "groupDefault": true,
-  "priority": 2,
+  "gameOrder" : -6,
+  "priority": -1,
   "noDisplay": true,
   "objects": [
     {
