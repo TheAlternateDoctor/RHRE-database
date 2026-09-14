@@ -566,7 +566,10 @@
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 1.0,
-    "earliness" : 0.007
+    "loops" : true,
+    "earliness" : 0.007,
+    "loopStart" : 1.8,
+    "loopEnd" : 1.9
   }, {
     "type" : "cue",
     "id" : "*/whistle2",
