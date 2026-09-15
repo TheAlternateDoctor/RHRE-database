@@ -2,6 +2,7 @@
   "id": "karateManDSDe",
   "name": "Karate Man (DS)",
   "series": "ds",
+  "gameOrder" : 223,
   "language": "de",
   "group": "Karate Man (DS)",
   "objects": [

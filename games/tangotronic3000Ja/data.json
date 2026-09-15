@@ -2,6 +2,7 @@
   "id": "tangotronic3000Ja",
   "name": "Tangotronic 3000",
   "series": "megamix",
+  "gameOrder" : 408,
   "language": "ja",
   "priority": 1,
   "objects": [

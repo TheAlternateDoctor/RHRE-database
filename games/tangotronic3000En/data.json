@@ -2,6 +2,7 @@
   "id": "tangotronic3000En",
   "name": "Tangotronic 3000",
   "series": "megamix",
+  "gameOrder" : 408,
   "language": "en",
   "groupDefault": true,
   "priority": 1,

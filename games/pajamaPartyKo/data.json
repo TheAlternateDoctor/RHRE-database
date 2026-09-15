@@ -2,6 +2,7 @@
   "id": "pajamaPartyKo",
   "name": "Pajama Party",
   "series": "megamix",
+  "gameOrder" : 409,
   "language": "ko",
   "group": "Pajama Party",
   "priority": 1,

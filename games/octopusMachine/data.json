@@ -2,6 +2,7 @@
   "series": "side",
   "id": "octopusMachine",
   "name": "Octopus Machine",
+  "gameOrder" : 234,
   "objects": [
     {
       "type": "cue",

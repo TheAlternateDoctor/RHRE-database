@@ -1,9 +1,10 @@
 {
   "id": "karateManMegamixJa",
-  "name": "Karate Man (Megamix)",
+  "name": "Karate Man (3DS)",
   "series": "megamix",
+  "gameOrder" : 412,
   "language": "ja",
-  "group": "Karate Man (Megamix)",
+  "group": "Karate Man (3DS)",
   "priority": 1,
   "objects": [
     {

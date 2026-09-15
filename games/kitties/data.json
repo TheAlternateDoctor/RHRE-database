@@ -2,6 +2,7 @@
   "id": "kitties",
   "name": "Kitties!",
   "series": "megamix",
+  "gameOrder" : 411,
   "priority": 1,
   "objects": [
     {

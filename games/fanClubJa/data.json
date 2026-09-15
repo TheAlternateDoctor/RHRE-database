@@ -2,6 +2,7 @@
   "series": "ds",
   "id": "fanClubJa",
   "name": "Fan Club (DS)",
+  "gameOrder" : 203,
   "language": "ja",
   "group": "Fan Club (DS)",
   "objects": [

@@ -2,6 +2,7 @@
   "id": "manzaiBirds",
   "name": "Manzai Birds",
   "series": "side",
+  "gameOrder" : 338,
   "searchHints": [
     "comedians"
   ],
