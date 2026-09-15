@@ -16,42 +16,42 @@
     "name" : "stick - catch",
     "deprecatedIDs" : [ "quickHands/stick" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/lollipopCatch",
     "name" : "lollipop - catch",
     "deprecatedIDs" : [ "quickHands/lollipop" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/shovelCatch",
     "name" : "shovel - catch",
     "deprecatedIDs" : [ "quickHands/shovel" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/pickaxeCatch",
     "name" : "pickaxe - catch",
     "deprecatedIDs" : [ "quickHands/pickaxe" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/hammerCatch",
     "name" : "toy hammer - catch",
     "deprecatedIDs" : [ "quickHands/hammer" ],
     "subtext" : "",
-    "duration" : 1.0
+    "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/doubleCatch",
     "name" : "double-catch - catch",
     "deprecatedIDs" : [ "quickHands/quick" ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.25
   }, {
     "type" : "cue",
     "id" : "*/doubleVoice1",
