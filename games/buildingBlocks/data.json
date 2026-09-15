@@ -2,6 +2,7 @@
   "id" : "buildingBlocks",
   "name" : "Building Blocks",
   "series" : "side",
+  "gameOrder" : 553,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/tadcopterAppear",

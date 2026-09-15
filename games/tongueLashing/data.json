@@ -2,6 +2,7 @@
   "id": "tongueLashing",
   "name": "Tongue Lashing",
   "series": "megamix",
+  "gameOrder" : 403,
   "priority": 1,
   "objects": [
     {

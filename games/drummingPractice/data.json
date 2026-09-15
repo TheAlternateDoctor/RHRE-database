@@ -2,6 +2,7 @@
   "series": "side",
   "id": "drummingPractice",
   "name": "Drumming Practice",
+  "gameOrder" : 464,
   "objects": [
     {
       "type": "cue",
