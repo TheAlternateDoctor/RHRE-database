@@ -1,10 +1,11 @@
 {
   "id": "karateManFeverEn",
-  "name": "Karate Man (Fever)",
+  "name": "Karate Man (Wii)",
   "series": "fever",
   "language": "en",
-  "group": "Karate Man (Fever)",
+  "group": "Karate Man (Wii)",
   "groupDefault": true,
+  "gameOrder" : 327,
   "objects": [
     {
       "type": "cue",

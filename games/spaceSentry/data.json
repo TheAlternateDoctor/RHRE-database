@@ -2,6 +2,7 @@
   "id" : "spaceSentry",
   "name" : "Space Sentry",
   "series" : "groove",
+  "gameOrder" : 526,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/normal1",

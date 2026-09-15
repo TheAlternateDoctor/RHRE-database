@@ -2,6 +2,7 @@
   "id" : "lightningBolting",
   "name" : "Lightning Bolting",
   "series" : "groove",
+  "gameOrder" : 517,
   "objects" : [ {
     "type" : "pattern",
     "id" : "*_cloudYellow",

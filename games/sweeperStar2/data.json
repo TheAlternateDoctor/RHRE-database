@@ -3,6 +3,7 @@
   "name" : "Sweeper Star 2",
   "series" : "groove",
   "group" : "Sweeper Star",
+  "gameOrder" : 521,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/and",

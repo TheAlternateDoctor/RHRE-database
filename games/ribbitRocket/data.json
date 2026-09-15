@@ -2,6 +2,7 @@
   "id" : "ribbitRocket",
   "name" : "Ribbit Rocket",
   "series" : "groove",
+  "gameOrder" : 504,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/bgFrogAppear",

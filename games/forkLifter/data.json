@@ -3,6 +3,7 @@
   "name": "Fork Lifter",
   "series": "fever",
   "group": "Fork Lifter",
+  "gameOrder" : 304,
   "objects": [
     {
       "type": "cue",

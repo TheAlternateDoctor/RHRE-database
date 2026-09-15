@@ -1,8 +1,9 @@
 {
   "id": "forkLifterRemix2",
-  "name": "Fork Lifter (Fever Remix 2)",
+  "name": "Fork Lifter (Remix 2)",
   "series": "fever",
   "group": "Fork Lifter",
+  "gameOrder" : 304,
   "objects": [
     {
       "type": "cue",

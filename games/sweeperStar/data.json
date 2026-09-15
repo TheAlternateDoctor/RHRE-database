@@ -4,6 +4,7 @@
   "series" : "groove",
   "group" : "Sweeper Star",
   "groupDefault" : true,
+  "gameOrder" : 521,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/and",

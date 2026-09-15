@@ -2,6 +2,7 @@
   "id": "clappyTrioGba",
   "name": "Clappy Trio (GBA)",
   "series": "tengoku",
+  "gameOrder" : 104,
   "objects": [
     {
       "type": "cue",

@@ -2,6 +2,7 @@
   "id" : "highFiveFever",
   "name" : "High-Five Fever",
   "series" : "groove",
+  "gameOrder" : 527,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/one",

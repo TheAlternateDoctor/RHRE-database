@@ -2,6 +2,7 @@
   "id" : "discDog",
   "name" : "Disc Dog",
   "series" : "groove",
+  "gameOrder" : 502,
   "objects" : [ {
     "type" : "pattern",
     "id" : "*_throw",

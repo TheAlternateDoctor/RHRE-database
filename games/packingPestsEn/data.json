@@ -5,6 +5,7 @@
   "language": "en",
   "group": "Packing Pests",
   "groupDefault": true,
+  "gameOrder" : 313,
   "objects": [
     {
       "type": "cue",

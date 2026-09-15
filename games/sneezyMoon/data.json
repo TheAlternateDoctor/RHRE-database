@@ -2,6 +2,7 @@
   "id" : "sneezyMoon",
   "name" : "Sneezy Moon",
   "series" : "groove",
+  "gameOrder" : 509,
   "objects" : [ {
     "type" : "pattern",
     "id" : "*_greenSneeze",

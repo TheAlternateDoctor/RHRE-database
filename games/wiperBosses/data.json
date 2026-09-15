@@ -2,6 +2,7 @@
   "id" : "wiperBosses",
   "name" : "Wiper Bosses",
   "series" : "groove",
+  "gameOrder" : 519,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/beepPink",

@@ -2,6 +2,7 @@
   "id" : "quickHands",
   "name" : "Quick Hands",
   "series" : "groove",
+  "gameOrder" : 524,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/objectOut",

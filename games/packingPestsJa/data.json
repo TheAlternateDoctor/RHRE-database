@@ -4,6 +4,7 @@
   "series": "fever",
   "language": "ja",
   "group": "Packing Pests",
+  "gameOrder" : 313,
   "objects": [
     {
       "type": "cue",

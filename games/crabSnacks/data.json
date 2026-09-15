@@ -2,6 +2,7 @@
   "id" : "crabSnacks",
   "name" : "Crab Snacks",
   "series" : "groove",
+  "gameOrder" : 510,
   "objects" : [ {
     "type" : "cue",
     "id" : "*/macaronhit",

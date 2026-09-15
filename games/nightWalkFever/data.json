@@ -2,6 +2,7 @@
   "id": "nightWalkFever",
   "name": "Night Walk (Fever)",
   "series": "fever",
+  "gameOrder" : 328,
   "objects": [
     {
       "type": "keepTheBeat",

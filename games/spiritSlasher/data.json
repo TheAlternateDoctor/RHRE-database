@@ -2,6 +2,7 @@
   "id" : "spiritSlasher",
   "name" : "Spirit Slasher",
   "series" : "groove",
+  "gameOrder" : 523,
   "objects" : [ {
     "type" : "pattern",
     "id" : "*_singleSlash",
