@@ -168,7 +168,7 @@
   }, {
     "type" : "pattern",
     "id" : "*_tadpole3",
-    "name" : "tadpole - 3 hops (unused)",
+    "name" : "tadpole - 3 hops",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/early",
@@ -183,7 +183,7 @@
       "id" : "*/tadpoleRocket",
       "beat" : 2.0
     } ],
-    "subtext" : ""
+    "subtext" : "[#BFBFBF](unused)[]"
   }, {
     "type" : "pattern",
     "id" : "*_tadpole4",
