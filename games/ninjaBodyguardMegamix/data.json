@@ -17,7 +17,9 @@
       "duration": 0.25,
       "responseIDs": [
         "*/cut"
-      ]
+      ],
+      "randomPitchLowCents" : -100,
+      "randomPitchHighCents" : 0
     },
     {
       "type": "cue",
