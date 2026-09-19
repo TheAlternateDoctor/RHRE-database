@@ -103,7 +103,9 @@
       "name": "player 1 - pea - stab",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 0.5
+      "duration": 0.5,
+      "randomPitchLowCents" : -100,
+      "randomPitchHighCents" : 100
     },
     {
       "type": "cue",
@@ -111,7 +113,9 @@
       "name": "player 2 - pea - stab",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 0.5
+      "duration": 0.5,
+      "randomPitchLowCents" : -100,
+      "randomPitchHighCents" : 100
     },
     {
       "type": "pattern",
