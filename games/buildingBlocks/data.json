@@ -12,20 +12,11 @@
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/whistle1",
-    "name" : "whistle - 1",
+    "id" : "*/tadcopterVisorOn",
+    "name" : "tadcopter - visor on",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5,
-    "responseIDs" : [ "*/tadcopterPrepare" ]
-  }, {
-    "type" : "cue",
-    "id" : "*/whistle2",
-    "name" : "whistle - 2",
-    "deprecatedIDs" : [ ],
-    "subtext" : "",
-    "duration" : 0.5,
-    "responseIDs" : [ "*/tadcopterDrop" ]
+    "duration" : 0.5
   }, {
     "type" : "cue",
     "id" : "*/tadcopterPrepare",
@@ -42,15 +33,24 @@
     "duration" : 0.5
   }, {
     "type" : "cue",
-    "id" : "*/tadcopterFly",
-    "name" : "tadcopter - fly",
+    "id" : "*/whistle1",
+    "name" : "whistle - 1",
     "deprecatedIDs" : [ ],
     "subtext" : "",
-    "duration" : 0.5
+    "duration" : 0.5,
+    "responseIDs" : [ "*/tadcopterPrepare" ]
   }, {
     "type" : "cue",
-    "id" : "*/tadcopterVisorOn",
-    "name" : "tadcopter - visor on",
+    "id" : "*/whistle2",
+    "name" : "whistle - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "responseIDs" : [ "*/tadcopterDrop" ]
+  }, {
+    "type" : "cue",
+    "id" : "*/tadcopterFly",
+    "name" : "tadcopter - fly",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5
@@ -70,8 +70,18 @@
     "duration" : 0.5
   }, {
     "type" : "pattern",
-    "id" : "*_whistle2WithFlyingSfx",
-    "name" : "whistle - 2 (w/ flying sfx)",
+    "id" : "*_whistle1",
+    "name" : "whistle - 1",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/whistle1",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_whistle2",
+    "name" : "whistle - 2",
     "deprecatedIDs" : [ ],
     "cues" : [ {
       "id" : "*/whistle2",
