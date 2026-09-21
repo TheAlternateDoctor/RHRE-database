@@ -34,7 +34,7 @@
         "karateManDSKo/pothit"
       ],
       "subtext": "",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -54,7 +54,7 @@
         "karateManDSKo/bulbHit"
       ],
       "subtext": "",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",

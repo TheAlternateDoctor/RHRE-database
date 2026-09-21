@@ -28,7 +28,7 @@
       "name": "pot - hit",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -44,7 +44,7 @@
       "name": "lightbulb - hit",
       "deprecatedIDs": [],
       "subtext": "",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",

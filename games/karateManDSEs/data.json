@@ -34,7 +34,7 @@
         "karateManDSEs/pothit"
       ],
       "subtext": "",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
@@ -54,7 +54,7 @@
         "karateManDSEs/bulbhit"
       ],
       "subtext": "",
-      "duration": 1.0
+      "duration": 0.5
     },
     {
       "type": "cue",
