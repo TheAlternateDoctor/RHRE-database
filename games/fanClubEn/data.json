@@ -14,7 +14,8 @@
         "fanClub/singerYeah1"
       ],
       "name": "singer - yeah - 1",
-      "duration": 1.0
+      "duration": 1.0,
+      "earliness": 0.031
     },
     {
       "type": "cue",
@@ -23,7 +24,8 @@
         "fanClub/singerYeah2"
       ],
       "name": "singer - yeah - 2",
-      "duration": 1.0
+      "duration": 1.0,
+      "earliness": 0.031
     },
     {
       "type": "cue",
@@ -32,7 +34,8 @@
         "fanClub/singerYeah3"
       ],
       "name": "singer - yeah - 3",
-      "duration": 1.0
+      "duration": 1.0,
+      "earliness": 0.031
     },
     {
       "type": "cue",
@@ -50,7 +53,8 @@
         "fanClub/singerISuppose1"
       ],
       "name": "singer - I suppose - 1",
-      "duration": 0.5
+      "duration": 0.5,
+      "earliness": 0.012
     },
     {
       "type": "cue",
@@ -59,7 +63,8 @@
         "fanClub/singerISuppose2"
       ],
       "name": "singer - I suppose - 2",
-      "duration": 0.5
+      "duration": 0.5,
+      "earliness": 0.098
     },
     {
       "type": "cue",
@@ -68,7 +73,8 @@
         "fanClub/singerISuppose3"
       ],
       "name": "singer - I suppose - 3",
-      "duration": 1.0
+      "duration": 1.0,
+      "earliness": 0.028
     },
     {
       "type": "cue",
@@ -77,7 +83,8 @@
         "fanClub/audienceISuppose1"
       ],
       "name": "audience - I suppose - 1",
-      "duration": 1.25
+      "duration": 1.5,
+      "earliness": 0.026
     },
     {
       "type": "cue",
@@ -86,7 +93,8 @@
         "fanClub/audienceISuppose2"
       ],
       "name": "audience - I suppose - 2",
-      "duration": 0.75
+      "duration": 0.5,
+      "earliness": 0.108
     },
     {
       "type": "cue",
@@ -95,7 +103,8 @@
         "fanClub/audienceISuppose3"
       ],
       "name": "audience - I suppose - 3",
-      "duration": 1.0
+      "duration": 1.0,
+      "earliness": 0.023
     },
     {
       "type": "cue",
@@ -186,7 +195,7 @@
       "deprecatedIDs": [
         "fanClub_iSuppose"
       ],
-      "name": "I suppose!",
+      "name": "i suppose!",
       "cues": [
         {
           "id": "*/singerISuppose1",
@@ -206,7 +215,7 @@
         },
         {
           "id": "*/audienceISuppose2",
-          "beat": 3.25
+          "beat": 3.5
         },
         {
           "id": "*/audienceISuppose3",
@@ -222,7 +231,7 @@
       "type": "pattern",
       "id": "*_iSupposeLanding",
       "deprecatedIDs": [],
-      "name": "I suppose! - with landing",
+      "name": "i suppose! - with landing",
       "cues": [
         {
           "id": "*/singerISuppose1",
