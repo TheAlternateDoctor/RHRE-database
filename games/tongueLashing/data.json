@@ -238,7 +238,7 @@
     {
       "type": "pattern",
       "id": "*_redBugShortTeehee",
-      "name": "short [#FF1A01]red bug[] teehee",
+      "name": "short [#FF1A01]red bug[] - teehee",
       "deprecatedIDs": [
         "tongueLashing_redbugshortteehee"
       ],
