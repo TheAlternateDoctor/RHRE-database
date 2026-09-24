@@ -33,7 +33,7 @@
     "type" : "pattern",
     "id" : "*_hitDrums",
     "name" : "hit drums",
-    "deprecatedIDs" : [ ],
+    "deprecatedIDs" : [ "drummingPractice_hitdrum" ],
     "cues" : [ {
       "id" : "*/raiseArms",
       "beat" : 0.0
