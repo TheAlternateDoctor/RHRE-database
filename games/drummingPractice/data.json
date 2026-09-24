@@ -25,7 +25,7 @@
     "id" : "*/hitDrumsNoApplause",
     "name" : "hit drums (no applause)",
     "deprecatedIDs" : [ ],
-    "subtext" : "",
+    "subtext" : "[#BFBFBF](not in-game)[]",
     "duration" : 1.0,
     "randomPitchLowCents" : -25,
     "randomPitchHighCents" : 25
@@ -54,7 +54,7 @@
       "id" : "*/hitDrumsNoApplause",
       "beat" : 1.0
     } ],
-    "subtext" : ""
+    "subtext" : "[#BFBFBF](not in-game)[]"
   }, {
     "type" : "cue",
     "id" : "*/hitDrumsIntro",
