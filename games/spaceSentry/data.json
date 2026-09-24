@@ -122,10 +122,12 @@
       "beat" : 1.0
     }, {
       "id" : "*/normal3",
-      "beat" : 2.0
+      "beat" : 2.0,
+      "volume" : 70
     }, {
       "id" : "*/normal4",
-      "beat" : 3.0
+      "beat" : 3.0,
+      "volume" : 70
     } ],
     "subtext" : ""
   }, {
@@ -144,10 +146,12 @@
       "beat" : 1.0
     }, {
       "id" : "*/near4",
-      "beat" : 2.5
+      "beat" : 2.5,
+      "volume" : 70
     }, {
       "id" : "*/near5",
-      "beat" : 3.0
+      "beat" : 3.0,
+      "volume" : 70
     } ],
     "subtext" : ""
   }, {
@@ -169,10 +173,12 @@
       "beat" : 1.0
     }, {
       "id" : "*/far5",
-      "beat" : 1.5
+      "beat" : 1.5,
+      "volume" : 70
     }, {
       "id" : "*/far6",
-      "beat" : 3.0
+      "beat" : 3.0,
+      "volume" : 70
     } ],
     "subtext" : ""
   } ]
