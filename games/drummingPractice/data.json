@@ -57,8 +57,8 @@
     "subtext" : "[#BFBFBF](not in-game)[]"
   }, {
     "type" : "cue",
-    "id" : "*/hitDrumsIntro",
-    "name" : "hit drums (intro)",
+    "id" : "*/hitDrumIntro",
+    "name" : "hit drum (intro)",
     "deprecatedIDs" : [ ],
     "subtext" : "",
     "duration" : 0.5,
