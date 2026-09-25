@@ -163,6 +163,7 @@
     }, {
       "id" : "*/playerKnockNoAccent",
       "beat" : 1.4E-45,
+      "volume" : 115,
       "track" : 4
     } ],
     "subtext" : ""
